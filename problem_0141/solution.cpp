@@ -1,0 +1,52 @@
+/*
+141. Linked List Cycle
+
+Given a linked list, determine if it has a cycle in it.
+*/
+
+#include <algorithm>
+#include <cassert>
+#include <cstdlib>
+#include <ctime>
+#include <climits>
+#include <iostream>
+#include <sstream>
+#include <iterator>
+#include <limits>
+#include <list>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <vector>
+
+#include <string.h>
+
+using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        ListNode* fast = head, *slow = head;
+
+        while (fast && fast->next) {
+            fast = fast->next->next;
+            slow = slow->next;
+            if (fast == slow)
+                return true;
+        }
+        return false; 
+    }
+};
+
+int main()
+{
+    return 0;
+}
