@@ -60,7 +60,6 @@ public:
 
     int maxProfit(vector<int>& prices) {
         int nsize = prices.size();
-        int res = 0;
         if (nsize <= 1)
             return 0;
         profits.clear();
@@ -72,7 +71,6 @@ public:
                                  (i > j+1 ? prices[i] - prices[j+1] : 0));
             }
             profits[i] = temp;
-            if (res < temp) res = temp;
         }
 
         for (int i = 1; i < nsize; ++i) {
@@ -82,10 +80,9 @@ public:
                                  (i > j+1 ? prices[i] - prices[j+1] : 0));
             }
             profits[i] = temp;
-            if (res < temp) res = temp;
         }
 
-        return res;
+        return profits[nsize-1];
     }
 };
 
