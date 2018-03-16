@@ -61,14 +61,15 @@ public:
         }
  
         if (plen > 1 && p[1] == '*') {
-        if (isMatch(s, p.substr(2)))
-            return true;
-        if (s[0] == p[0] || p[0] == '.')
-            for (int i = 0; i < slen; ++i) {
-                if (s[i] != s[0] && p[0] != '.')
-                    break;
-                if (isMatch(s.substr(i+1), p.substr(2)))
-                    return true;
+            if (isMatch(s, p.substr(2)))
+                return true;
+            if (s[0] == p[0] || p[0] == '.') {
+                for (int i = 0; i < slen; ++i) {
+                    if (s[i] != s[0] && p[0] != '.')
+                        break;
+                    if (isMatch(s.substr(i+1), p.substr(2)))
+                        return true;
+                }
             }
         }
 
