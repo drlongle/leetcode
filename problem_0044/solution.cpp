@@ -22,6 +22,7 @@ isMatch("ab", "?*") -> true
 isMatch("aab", "c*a*b") -> false
 
 https://leetcode.com/problems/wildcard-matching/
+https://www.geeksforgeeks.org/wildcard-pattern-matching/
 */
 
 #include <algorithm>
