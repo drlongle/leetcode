@@ -49,13 +49,35 @@ using namespace std;
 class Solution {
 public:
     string addStrings(string num1, string num2) {
+        reverse(num1.begin(), num1.end());
+        reverse(num2.begin(), num2.end());
+        ostringstream oss;
+        int carry = 0;
+        for (size_t i = 0; i < num1.size() || i < num2.size() || carry; ++i) {
+            int sum = carry;
+            if (i < num1.size()) sum += (num1[i] - '0');
+            if (i < num2.size()) sum += (num2[i] - '0');
+            if (sum >= 10) {
+                sum -= 10;
+                carry = 1;
+            } else
+                carry = 0;
+            oss << sum;
+        }
+        string ret = oss.str();
+        reverse(ret.begin(), ret.end());
 
+        return ret;
     }
 };
 
 int main()
 {
     Solution sol;
+    string num1, num2;
+    num1 = "123";
+    num2 = "45";
+    cout << "Result: " << sol.addStrings(num1, num2) << endl;
 
     return 0;
 }
