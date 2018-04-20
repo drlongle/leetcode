@@ -62,13 +62,32 @@ using namespace std;
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        if (sum & 1) return false;
+        sum >>= 1;
+        vector<int> dp(sum+1, 0);
+        dp[0] = 1;
+        for (auto& n: nums) {
+            for (int i = sum; i >= n; --i)
+                dp [i] += dp[i-n];
+        }
+        return dp[sum] != 0;
     }
 };
 
 int main()
 {
     Solution sol;
+    vector<int> nums;
+
+    // Expected: true
+    nums = {1, 5, 11, 5};
+
+    // 97 / 104 test cases passed.
+    // Expected: false
+    nums = {1,2,5};
+
+    cout << "Result: " << sol.canPartition(nums) << endl;
 
     return 0;
 }
