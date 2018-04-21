@@ -74,8 +74,33 @@ struct TreeNode {
 
 class Solution {
 public:
-    int pathSum(TreeNode* root, int sum) {
+    unordered_map<int, int> explore(TreeNode* root, int sum, int& count)
+    {
+        unordered_map<int, int> res;
+        res[root->val] = 1;
+        if (root->left) {
+            unordered_map<int, int> lres = explore(root->left, sum, count);
+            for (auto& lr: lres)
+                res[lr.first + root->val] += lr.second;
+        }
+        if (root->right) {
+            unordered_map<int, int> rres = explore(root->right, sum, count);
+            for (auto& rr: rres)
+                res[rr.first + root->val] += rr.second;
+        }
+        auto it = res.find(sum);
+        if (it != res.end())
+            count += it->second;
 
+        return res;
+    }
+
+    int pathSum(TreeNode* root, int sum) {
+        int res = 0;
+        if (!root) return 0;
+        explore(root, sum, res);
+
+        return res;
     }
 };
 

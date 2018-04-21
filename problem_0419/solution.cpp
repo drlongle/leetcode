@@ -56,13 +56,54 @@ using namespace std;
 class Solution {
 public:
     int countBattleships(vector<vector<char>>& board) {
-        
+        int res = 0;
+        vector<vector<char>> b;
+        b = board;
+        int rows = b.size();
+        if (!rows) return 0;
+        int columns = b[0].size();
+        for (int i = 0; i < rows; ++i) {
+            for (int j = 0; j < columns; ++j) {
+                if (b[i][j] != 'X')
+                    continue;
+                ++res;
+                int len = 1;
+                for (int k = j+1; k < columns && b[i][k] == 'X'; ++k)
+                    ++len;
+                bool bflag = true;
+                for (int k = i+1; k < rows; ++k) {
+                    for (int l = 0; l < len && bflag; ++l) {
+                        if (b[k][j+l] != 'X')
+                            bflag = false;
+                    }
+                    for (int l = 0; l < len && bflag; ++l)
+                        b[k][j+l] = '.';
+                }
+                for (int l = 0; l < len; ++l)
+                    b[i][j+l] = '.';
+            }
+        }
+
+        return res;
     }
 };
 
 int main(int argc, const char* argv[])
 {
     Solution sol;
+    vector<vector<char>> board;
+
+    vector<string> input;
+    input = {"X..X", "...X", "...X"};
+    input = {"X", "X", "X"};
+    input = {"XXX"};
+
+    board.resize(input.size());
+    for (size_t i = 0; i < input.size(); ++i) {
+        for (char c: input[i])
+            board[i].emplace_back(c);
+    }
+    cout << "Result: " << sol.countBattleships(board) << endl;
 
     return 0;
 }

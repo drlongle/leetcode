@@ -70,13 +70,55 @@ using namespace std;
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
+        vector<int> res;
+        unordered_map<char, int> expected, running;
 
+        for (char c: p)
+            ++expected[c];
+
+        int psize = static_cast<int>(p.size());
+        int ssize = static_cast<int>(s.size());
+        int count = 0;
+        for (int i = 0; i < ssize; ++i) {
+            char c = s[i];
+            if (expected.find(c) == expected.end()) {
+                running.clear();
+                count = 0;
+                continue;
+            }
+            if (++running[c] == expected[c]) {
+                if (++count == static_cast<int>(expected.size()))
+                    res.emplace_back(i-psize+1);
+            }
+            if (i >= psize-1) {
+                c = s[i-psize+1];
+                if (expected.find(c) != expected.end() &&
+                    running.find(c) != running.end() && count > 0) {
+                    if (running[c]-- == expected[c])
+                        --count;
+                }
+            }
+        }
+        return res;
     }
 };
 
 int main(int argc, const char* argv[])
 {
     Solution sol;
+    vector<int> res;
+    string s, p;
+
+    // Expected: [0, 6]
+    s = "cbaebabacd";
+    p = "abc";
+
+    // Expected: [0, 1, 2]
+    s = "abab";
+    p = "ab";
+
+    res = sol.findAnagrams(s, p);
+    copy(res.begin(), res.end(), ostream_iterator<int>(cout, ", "));
 
     return 0;
 }
