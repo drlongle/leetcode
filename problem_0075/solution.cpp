@@ -43,18 +43,16 @@ class Solution {
 public:
     void sortColors(vector<int>& nums) {
         int lower = 0, equal = 0, upper = nums.size()-1;
-        int index = 0;
-        while (index <= upper) {
-            if (nums[index] == 0) {
-                swap(nums[index++], nums[lower]);
+        while (equal <= upper) {
+            if (nums[equal] == 0) {
+                swap(nums[equal++], nums[lower]);
                 ++lower;
-                ++equal;
-            } else if (nums[index] == 1)
-                swap(nums[index++], nums[equal++]);
+            } else if (nums[equal] == 1)
+                equal++;
             else
-                swap(nums[index], nums[upper--]);
+                swap(nums[equal], nums[upper--]);
         }
-    }
+    } 
 };
 
 int main()
