@@ -262,6 +262,7 @@
 331. Verify Preorder Serialization of a Binary Tree
 332. Reconstruct Itinerary
 334. Increasing Triplet Subsequence
+335. Self Crossing
 337. House Robber III
 338. Counting Bits
 341. Flatten Nested List Iterator
@@ -327,7 +328,6 @@
 494. Target Sum
 
 TODO:
-335. Self Crossing
 411. Minimum Unique Word Abbreviation
 418. Sentence Screen Fitting
 425. Word Squares

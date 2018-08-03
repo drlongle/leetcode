@@ -49,36 +49,71 @@ using namespace std;
 
 class Solution {
 public:
-  bool isSelfCrossing(vector<int>& x) {
-    int prev = 0;
-    int xmin = 0, xmax = 0;
-    int ymin = 0, ymax = 0;
-    for (size_t i = 0; i < x.size(); ++i) {
-      int curr = x[i];
+    bool isSelfCrossing(vector<int>& x) {
+        for (size_t i = 3; i < x.size(); ++i) {
+            if ((x[i] >= x[i-2] && x[i-1] <= x[i-3]) ||
+                (i >= 4 && x[i] + x[i-4] >= x[i-2] && x[i-1] == x[i-3]) ||
+                (i >= 5 && x[i] + x[i-4] >= x[i-2] && x[i-2] > max(x[i-4], x[i])
+	             && x[i-1] + x[i-5] >= x[i-3] && x[i-3] > max(x[i-5], x[i-1]))
+	    )
+                return true;
+        }
 
-      prev = curr;
+        return false;
     }
-
-    return false;
-  }
 };
 
 int main()
 {
-  Solution sol;
-  vector<int> x;
+    Solution sol;
+    vector<int> x;
+    vector<pair<vector<int>, bool>> params { { {2, 1, 1, 2}, true} , 
+	{ {1, 2, 3, 4}, false }, { {1, 1, 1, 1}, true },
+	{ {1,1,2,1,1}, true }, { {1,1,2,2,1,1}, true },
+        { {2,2,3,3,2,2}, true}, { {3,3,3,2,1,1}, false },
+        { {1,1,2,2,3,3,4,4,10,4,4,3,3,2,2,1,1}, false }
+    };
 
-  //Expected: true
-  x = {2, 1, 1, 2};
+    //Expected: true
+    x = {2, 1, 1, 2};
 
-  //Expected: false
-  x = {1, 2, 3, 4};
+    //Expected: false
+    x = {1, 2, 3, 4};
 
-  //Expected: true
-  x = {1, 1, 1, 1};
+    //Expected: true
+    x = {1, 1, 1, 1};
 
-  cout << "Result: " << sol.isSelfCrossing(x) << endl;
+    // 19 / 29 test cases passed
+    // Expected: true
+    x = {3,3,4,2,2};
 
-  return 0;
+    // 22 / 29 test cases passed
+    // Expected: false
+    x = {3,3,3,2,1,1};
+
+    // 24 / 29 test cases passed
+    // Expected: true
+    // x = {1,1,2,1,1};
+
+    // 25 / 29 test cases passed
+    // Expected: true
+    //x = {1,1,2,2,1,1};
+
+    // 25 / 29 test cases passed
+    // Expected: false
+    x = {1,1,2,2,3,3,4,4,10,4,4,3,3,2,2,1,1};
+
+    // 28 / 29 test cases passed
+    // Expected: true
+    //x = {2,2,3,3,2,2};
+
+    cout << boolalpha << "Result: " << sol.isSelfCrossing(x) << endl;
+
+    for (auto& param: params)
+	if (sol.isSelfCrossing(param.first) != param.second) {
+	    copy(begin(param.first), end(param.first), ostream_iterator<int>(cout, ", "));
+	    cout << endl;
+        }
+    return 0;
 }
 
