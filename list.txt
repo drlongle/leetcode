@@ -263,6 +263,7 @@
 332. Reconstruct Itinerary
 334. Increasing Triplet Subsequence
 335. Self Crossing
+336. Palindrome Pairs
 337. House Robber III
 338. Counting Bits
 341. Flatten Nested List Iterator
@@ -273,7 +274,10 @@
 347. Top K Frequent Elements
 349. Intersection of Two Arrays
 350. Intersection of Two Arrays II
+352. Data Stream as Disjoint Intervals
+354. Russian Doll Envelopes
 355. Design Twitter
+357. Count Numbers with Unique Digits
 367. Valid Perfect Square
 371. Sum of Two Integers
 372. Super Pow
