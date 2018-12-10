@@ -279,6 +279,7 @@
 355. Design Twitter
 357. Count Numbers with Unique Digits
 363. Max Sum of Rectangle No Larger Than K
+365. Water and Jug Problem
 367. Valid Perfect Square
 371. Sum of Two Integers
 372. Super Pow
