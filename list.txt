@@ -294,6 +294,7 @@
 381. Insert Delete GetRandom O(1) - Duplicates allowed
 382. Linked List Random Node
 383. Ransom Note
+384. Shuffle an Array
 385. Mini Parser
 386. Lexicographical Numbers
 387. First Unique Character in a String
