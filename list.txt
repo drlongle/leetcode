@@ -301,6 +301,7 @@
 388. Longest Absolute File Path
 389. Find the Difference
 390. Elimination Game
+391. Perfect Rectangle
 400. Nth Digit
 401. Binary Watch
 404. Sum of Left Leaves
