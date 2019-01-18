@@ -303,6 +303,7 @@
 390. Elimination Game
 391. Perfect Rectangle
 392. Is Subsequence
+393. UTF-8 Validation
 400. Nth Digit
 401. Binary Watch
 404. Sum of Left Leaves
