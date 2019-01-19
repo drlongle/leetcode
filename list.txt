@@ -307,6 +307,7 @@
 394. Decode String
 395. Longest Substring with At Least K Repeating Characters
 396. Rotate Function
+397. Integer Replacement
 400. Nth Digit
 401. Binary Watch
 404. Sum of Left Leaves
