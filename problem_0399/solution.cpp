@@ -55,9 +55,7 @@ public:
         nodes.push({query.first, 1.0});
         while (nodes.size() > 0) {
             const pair<string, double>& node = nodes.front();
-            //cout << "Visiting: " << node.first << ", " << node.second << endl;
             if (node.first == query.second) {
-                //cout << "Match! Return " << node.second << endl;
                 return node.second;
             }
             for (auto& neigh: rel[node.first]) {

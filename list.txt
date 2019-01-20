@@ -309,8 +309,10 @@
 396. Rotate Function
 397. Integer Replacement
 398. Random Pick Index
+399. Evaluate Division
 400. Nth Digit
 401. Binary Watch
+402. Remove K Digits
 404. Sum of Left Leaves
 408. Valid Word Abbreviation (locked but solved)
 409. Longest Palindrome
