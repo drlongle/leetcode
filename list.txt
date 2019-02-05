@@ -349,8 +349,10 @@
 459. Repeated Substring Pattern
 494. Target Sum
 981. Time Based Key-Value Store
+982. Triples with Bitwise AND Equal To Zero
 983. Minimum Cost For Tickets
 984. String Without AAA or BBB
+985. Sum of Even Numbers After Queries
 
 TODO:
 411. Minimum Unique Word Abbreviation
