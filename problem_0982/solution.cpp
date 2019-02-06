@@ -54,8 +54,6 @@ using namespace std;
 
 class Solution {
 public:
-class Solution {
-public:
     int countTriplets(vector<int>& A) {
         int n = A.size(), ans = 0;
         vector<int> f(1 << 16, -1);
@@ -74,8 +72,6 @@ public:
 
         return ans;
     }
-};
-
 };
 
 int main(int argc, char** argv) {
