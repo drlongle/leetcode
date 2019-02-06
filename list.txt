@@ -354,6 +354,7 @@
 984. String Without AAA or BBB
 985. Sum of Even Numbers After Queries
 986. Interval List Intersections
+987. Vertical Order Traversal of a Binary Tree
 
 TODO:
 411. Minimum Unique Word Abbreviation
