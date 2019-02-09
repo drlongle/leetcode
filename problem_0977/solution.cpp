@@ -44,17 +44,5 @@ public:
 };
 
 int main(int argc, char** argv) {
-    Solution sol;
-    vector<int> nums;
-    
-    // Expected: 5
-    nums = {9,4,2,10,7,8,8,1,9};
-    
-    // Expected: 2
-    //nums = {4,8,12,16};
-    
-    // Expected: 1
-    //nums = {100};0
-
     return 0;
 }
