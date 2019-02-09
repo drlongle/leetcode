@@ -348,6 +348,7 @@
 456. 132 Pattern
 459. Repeated Substring Pattern
 494. Target Sum
+978. Longest Turbulent Subarray
 979. Distribute Coins in Binary Tree
 980. Unique Paths III
 981. Time Based Key-Value Store
