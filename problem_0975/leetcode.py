@@ -3,6 +3,7 @@ class Solution(object):
     def oddEvenJumps(self, A):
         N = len(A)
 
+        # B contains indices of A but B is sorted by increasing values of A.
         def make(B):
             ans = [None] * N
             stack = []  # invariant: stack is decreasing
