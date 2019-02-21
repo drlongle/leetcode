@@ -363,6 +363,7 @@
 987. Vertical Order Traversal of a Binary Tree
 988. Smallest String Starting From Leaf
 989. Add to Array-Form of Integer
+990. Satisfiability of Equality Equations
 
 TODO:
 411. Minimum Unique Word Abbreviation
