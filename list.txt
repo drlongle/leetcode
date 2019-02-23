@@ -364,6 +364,7 @@
 988. Smallest String Starting From Leaf
 989. Add to Array-Form of Integer
 990. Satisfiability of Equality Equations
+991. Broken Calculator
 
 TODO:
 411. Minimum Unique Word Abbreviation
