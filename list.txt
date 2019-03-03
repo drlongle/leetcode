@@ -367,6 +367,7 @@
 991. Broken Calculator
 992. Subarrays with K Different Integers
 993. Cousins in Binary Tree
+994. Rotting Oranges
 
 TODO:
 411. Minimum Unique Word Abbreviation
