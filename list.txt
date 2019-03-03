@@ -365,6 +365,7 @@
 989. Add to Array-Form of Integer
 990. Satisfiability of Equality Equations
 991. Broken Calculator
+992. Subarrays with K Different Integers
 
 TODO:
 411. Minimum Unique Word Abbreviation
