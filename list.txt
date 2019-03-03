@@ -366,6 +366,7 @@
 990. Satisfiability of Equality Equations
 991. Broken Calculator
 992. Subarrays with K Different Integers
+993. Cousins in Binary Tree
 
 TODO:
 411. Minimum Unique Word Abbreviation
