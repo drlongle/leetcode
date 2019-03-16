@@ -368,6 +368,7 @@
 992. Subarrays with K Different Integers
 993. Cousins in Binary Tree
 994. Rotting Oranges
+995. Minimum Number of K Consecutive Bit Flips
 
 TODO:
 411. Minimum Unique Word Abbreviation
