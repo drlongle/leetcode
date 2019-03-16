@@ -369,6 +369,7 @@
 993. Cousins in Binary Tree
 994. Rotting Oranges
 995. Minimum Number of K Consecutive Bit Flips
+996. Number of Squareful Arrays
 
 TODO:
 411. Minimum Unique Word Abbreviation
