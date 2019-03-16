@@ -370,6 +370,7 @@
 994. Rotting Oranges
 995. Minimum Number of K Consecutive Bit Flips
 996. Number of Squareful Arrays
+997. Find the Town Judg
 
 TODO:
 411. Minimum Unique Word Abbreviation
