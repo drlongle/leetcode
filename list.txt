@@ -372,6 +372,7 @@
 996. Number of Squareful Arrays
 997. Find the Town Judg
 998. Maximum Binary Tree II
+999. Available Captures for Rook
 
 TODO:
 411. Minimum Unique Word Abbreviation
