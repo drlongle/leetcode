@@ -59,46 +59,61 @@ using namespace std;
 
 class Solution {
 public:
-    int merge_helper(list<int>& stones, int K) {
-        int ssize = static_cast<int>(stones.size());
-        if (ssize == 1)
-            return *(stones.begin());
-        if (ssize < K)
+    int merge_helper(list<int>& stones, int left, int right, int k, int K) {
+        if (left == right)
+            return (k == 1) ? 0 : -1;
+        int best = -1;
+        int sum_lr = sum[right] - ((left > 0) ? sum[left-1] : 0);
+        int nums = right - left + 1;
+        if (nums == K)
+            return sum_lr;
+
+        // Don't add the cost for adding subsum
+        if (nums == k)
+            return 0;
+        if (k <= 0)
             return -1;
-
-        int sum = 0;
-        queue<int> elems;
-        auto it = stones.begin();
-        for (int i = 0; i < K; ++i) {
-            sum += *it;
-            elems.push(*it);
-            it = stones.erase(it);
+        if (k == 1) {
+            if (K > 2 && nums % (K-1) != 1)
+                return -1;
+            return (nums < K) ? -1 : merge_helper(stones, left, right, K, K);
         }
 
-        int res = numeric_limits<int>::max();
-        while (it != stones.end()) {
-            sum = sum + *it - (static_cast<int>(elems.size()) == K  ? elems.front() : 0);
-            auto it2 = stones.insert(it, sum);
-            res = min(res, merge_helper(stones, K));
-            stones.erase(it2);
-            elems.push(*it);
-            elems.pop();
-            it = stones.erase(it);
+        if (memo[k][left][right] != 0)
+            return memo[k][left][right];
+
+        for (int i = left; i < right; ++i) {
+            int x = merge_helper(stones, left, i, k-1, K);
+            int y = merge_helper(stones, i+1, right, 1, K);
+            if (x >= 0 && y >= 0 && (best < 0 || (best >= 0 && best > x + y)))
+                best = x + y;
         }
 
-        while (!elems.empty()) {
-            stones.push_back(elems.front());
-            elems.pop();
-        }
+        int res = (best < 0) ? -1 : (best + ((k == K) ? sum_lr : 0));
+        memo[k][left][right] = res;
 
         return res;
     }
 
     int mergeStones(vector<int>& stones, int K) {
         list<int> s{begin(stones), end(stones)};
+        ssize = static_cast<int>(stones.size());
+        if (K > 2 && ssize % (K-1) != 1)
+            return -1;
+        if (ssize == 1)
+            return 0;
 
-        return merge_helper(s, K);
+        memo.resize(K+1, vector<vector<int>>(ssize, vector<int>(ssize, 0)));
+        sum.resize(ssize);
+        partial_sum(begin(stones), end(stones), begin(sum));
+
+        return merge_helper(s, 0, ssize-1, K, K);
     }
+
+    vector<vector<vector<int>>> memo;
+    vector<int> sum;
+    int ssize;
+
 };
 
 int main() {
@@ -110,7 +125,7 @@ int main() {
     stones = {6, 9}, K = 2;
 
     // Expected: 13?
-    stones = {1, 4, 3}, K = 2;
+    //stones = {1, 4, 3}, K = 2;
 
     // Expected: 20
     //stones = {3,2,4,1}, K = 2;
@@ -131,13 +146,24 @@ int main() {
     // 49 / 83 test cases passed.
     // Expected: 1930
     //stones = {26,88,89,24,74,73,69,2,59,58,89,75,94}, K = 3;
-    
+
+
+    // 51 / 83 test cases passed
+    // Expected: 25
+    //stones = {3,5,1,2,6}, K = 3;
+
     // 61 / 83 test cases passed.
     // Expected: 40
     //stones = {6,4,4,6};
     //K = 2;
 
+    // 71 / 83 test cases passed.
+    //stones = {1}, K = 2;
+
+    //stones = {1,2}, K = 2;
+
     cout << "Result: " << sol.mergeStones(stones, K) << endl;
 
     return 0;
 }
+
