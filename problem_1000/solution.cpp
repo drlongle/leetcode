@@ -57,6 +57,21 @@ using namespace std;
 #define ll long long
 #define ull unsigned long long
 
+/*
+We keep merging K piles of stones until there is only one pile. For the last step,
+stones[i .. j] are divided into K piles, and we merge them into one pile, which costs
+sum(nums[i .. j]) + cost to make stones[i .. j] form K piles.
+
+The problem get the minimum cost to make stones[i .. j] form 1 pile equals to
+	the minimum cost to make stones[i .. j] form K piles
+	+ sum(nums[i .. j])
+
+The subproblem the minimum cost to make stones[i .. j] form K piles equals to
+	the minimum cost to make stones[i .. k] form K - 1 piles
+	+ the minimum cost to make stones[k + 1 .. j] form 1 pile 
+	+ sum(nums[i .. j])
+*/
+
 class Solution {
 public:
     int merge_helper(list<int>& stones, int left, int right, int k, int K) {
@@ -93,8 +108,9 @@ public:
         memo[k][left][right] = res;
 
         return res;
-    }
 
+    }
+    
     int mergeStones(vector<int>& stones, int K) {
         list<int> s{begin(stones), end(stones)};
         ssize = static_cast<int>(stones.size());
@@ -113,7 +129,6 @@ public:
     vector<vector<vector<int>>> memo;
     vector<int> sum;
     int ssize;
-
 };
 
 int main() {
@@ -124,18 +139,22 @@ int main() {
     // Expected: 15
     stones = {6, 9}, K = 2;
 
-    // Expected: 13?
-    //stones = {1, 4, 3}, K = 2;
+    // Expected: 13
+    stones = {1, 4, 3}, K = 2;
 
     // Expected: 20
-    //stones = {3,2,4,1}, K = 2;
+    stones = {3,2,4,1}, K = 2;
 
+    // Expected: 15
+    //stones = {5,4,1}, K = 2;
+
+    // 23 / 83 test cases passed.
     // Expected: -1
     //stones = {3,2,4,1}, K = 3;
 
     // 25 / 83 test cases passed
     // Expected: 25
-    //stones = {3,5,1,2,6}, K = 3;
+    stones = {3,5,1,2,6}, K = 3;
 
     //stones = {69,39,79,78,16,6,36,97,79,27,14,31,4}, K = 2;
 
