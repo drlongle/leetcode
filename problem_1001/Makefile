@@ -1,10 +1,10 @@
 CXX     := g++
-CXXFLAGS := -Wall -Wextra -Wno-unused-parameter -fno-strict-aliasing -std=c++14 -g -fsanitize=address
+CXXFLAGS := -Wall -Wextra -Wno-unused-parameter -fno-strict-aliasing -std=c++14 -g
 
 all: solution
 
 solution: solution.o
-	$(CXX) -o $@ solution.o -ldl -pthread -lasan
+	$(CXX) -o $@ solution.o -ldl -pthread
 
 .cpp.o:
 	${CXX} -c ${CXXFLAGS} $<
