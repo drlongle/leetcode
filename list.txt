@@ -377,6 +377,7 @@
 1001. Grid Illumination
 1002. Find Common Characters
 1003. Check If Word Is Valid After Substitutions
+1089. Duplicate Zeros
 
 TODO:
 411. Minimum Unique Word Abbreviation
