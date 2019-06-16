@@ -374,6 +374,8 @@
 998. Maximum Binary Tree II
 999. Available Captures for Rook
 1000. Minimum Cost to Merge Stones
+1001. Grid Illumination
+1002. Find Common Characters
 
 TODO:
 411. Minimum Unique Word Abbreviation
