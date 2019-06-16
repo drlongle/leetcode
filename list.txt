@@ -379,6 +379,7 @@
 1003. Check If Word Is Valid After Substitutions
 1089. Duplicate Zeros
 1090. Largest Values From Labels
+1091. Shortest Path in Binary Matrix
 
 TODO:
 411. Minimum Unique Word Abbreviation
