@@ -376,6 +376,7 @@
 1000. Minimum Cost to Merge Stones
 1001. Grid Illumination
 1002. Find Common Characters
+1003. Check If Word Is Valid After Substitutions
 
 TODO:
 411. Minimum Unique Word Abbreviation
