@@ -73,6 +73,22 @@ public:
         oss << str1.substr(i);
         oss << str2.substr(j);
         return oss.str();
+
+        //return superSequence(str1, 0, str2, 0);
+    }
+
+    // Naive solution without DP
+     string superSequence(const string& s1, int index1, const string& s2, int index2) {
+        if (index1 == static_cast<int>(s1.size()))
+            return s2.substr(index2);
+        if (index2 == static_cast<int>(s2.size()))
+            return s1.substr(index1);
+        if (s1[index1] == s2[index2])
+            return string(1, s1[index1]) + superSequence(s1, index1+1, s2, index2+1);
+        string super1 = string(1, s1[index1]) + superSequence(s1, index1+1, s2, index2);
+        string super2 = string(1, s2[index2]) + superSequence(s1, index1, s2, index2+1);
+
+        return (super1.size() < super2.size()) ? super1 : super2;
     }
 };
 
