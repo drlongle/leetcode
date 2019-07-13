@@ -386,6 +386,10 @@
 1115. Print FooBar Alternately
 1116. Print Zero Even Odd
 1117. Building H2O
+1118. Number of Days in a Month
+1119. Remove Vowels from a String
+1120. Maximum Average Subtree
+1121. Divide Array Into Increasing Sequences
 
 TODO:
 411. Minimum Unique Word Abbreviation
