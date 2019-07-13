@@ -381,6 +381,10 @@
 1090. Largest Values From Labels
 1091. Shortest Path in Binary Matrix
 1092. Shortest Common Supersequence
+1114. Print in Order
+1115. Print FooBar Alternately
+1116. Print Zero Even Odd
+1117. Building H2O
 
 TODO:
 411. Minimum Unique Word Abbreviation
