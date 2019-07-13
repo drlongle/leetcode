@@ -1,5 +1,6 @@
 /*
 1004. Max Consecutive Ones III
+Difficulty> Medium
 
 Given an array A of 0s and 1s, we may change up to K values from 0 to 1.
 
@@ -51,7 +52,33 @@ using namespace std;
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int K) {
-        
+        int length= 0, nsize = nums.size();
+        int fast = 0, slow=0, changes = K;
+
+        while ( fast < nsize) {
+            while (fast < nsize && (nums[fast] || (!nums[fast] && changes > 0))) {
+                if (!nums[fast])
+                    --changes;
+                ++fast;
+            }
+
+            int newlength = fast - slow;
+            if (newlength > length) {
+                length = newlength;
+            }
+
+            while (slow < fast && !changes) {
+                if (!nums[slow])
+                    ++changes;
+                ++slow;
+            }
+            if (slow == fast && !K) {
+                ++fast;
+                ++slow;
+            }
+        }
+
+        return length;
     }
 };
 
@@ -60,7 +87,9 @@ int main() {
     vector<int> nums;
     int K;
 
-    nums = [1,1,1,0,0,0,1,1,1,1,0], K = 2;
+    nums = {1,1,1,0,0,0,1,1,1,1,0}, K = 2;
+
+    cout << "Result: " << sol.longestOnes(nums, K) << endl;
 
     return 0;
 }
