@@ -45,7 +45,6 @@ class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
         list<Interval> intervals;
-        //intervals.push_back({1, n, 0});
         
         for (const auto& booking: bookings) {
             Interval intval{booking[0], booking[1], booking[2]};
@@ -61,11 +60,9 @@ public:
                     continue;
                 if (it->begin < intval.begin) {
                     intervals.insert(it, {it->begin, intval.begin-1, it->seats});
-                    //cout << "a. " << it->begin << ", " << intval.begin-1 << ", " << it->seats << endl;
                     it->begin = intval.begin;
                 } else if (intval.begin < it->begin) {
                     intervals.insert(it, {intval.begin, it->begin-1, intval.seats});
-                    //cout << "b. " << intval.begin << ", " << it->begin-1 << ", " << intval.seats << endl;
                     intval.begin = it->begin;
                 }
 
@@ -78,10 +75,9 @@ public:
                     break;
                 } else {
                     intervals.insert(it, {intval.begin, intval.end, it->seats + intval.seats});
-                    //cout << "c. " << intval.begin << ", " << intval.end << ", " << it->seats + intval.seats << endl;
                     it->begin = intval.end+1;
-                    break;
                     inserted = true;
+                    break;
                 }
             }
             if (!inserted)
@@ -91,7 +87,6 @@ public:
         vector<int> res;
         int expected = 1;
         for (const auto& intval: intervals) {
-            cout << intval.begin << ", " << intval.end << ", " << intval.seats << endl;
             while (expected < intval.begin) {
                 res.emplace_back(0);
                 ++expected;
@@ -129,7 +124,7 @@ int main() {
 
     // 27 / 63 test cases passed
     // Expected: [85,100,140,40]
-    // bookings = {{2,3,15},{1,3,50},{3,4,40},{1,3,35}}, n = 4;
+    bookings = {{2,3,15},{1,3,50},{3,4,40},{1,3,35}}, n = 4;
 
     res = sol.corpFlightBookings(bookings, n);
     copy(begin(res), end(res), ostream_iterator<int>(cout, ", "));
