@@ -37,68 +37,62 @@ using namespace std;
 #define ll long long
 #define ull unsigned long long
 
-struct Interval {
-    int begin, end, seats;
+class SegmentTree {
+public:
+    SegmentTree(int n_): n(n_) {
+        x = ceil(log2(n));
+        int max_size = 2*(int)pow(2, x) - 1;
+        x = pow(2, x);
+        data.resize(max_size, 0);
+    }
+
+    void add(int index, int low, int high, int begin, int end, int val) {
+        if (low > end || begin > high)
+            return;
+        if (begin <= low && high <= end) {
+            data[index] += val;
+            return;
+        }
+        int mid = (low + high) / 2;
+        add(2*index + 1, low, mid, begin, end, val);
+        add(2*index + 2, mid + 1, high, begin, end, val);
+    }
+
+    void add(int begin, int end, int val) {
+        add(0, 1, x, begin, end, val);
+    }
+
+    int get_data(int index, int low, int high, int begin, int end, int val) {
+        val += data[index];
+        if (begin <= low && high <= end)
+            return val;
+        if (low > end || begin > high)
+            return 0;
+        int mid = (low + high) / 2;
+        return get_data(2*index+1, low, mid, begin, end, val)
+            + get_data(2*index+2, mid+1, high, begin, end, val);
+    }
+
+    int get_data(int index) {
+        return get_data(0, 1, x, index, index, 0);
+    }
+
+    vector<int> data;
+    int x, n;
 };
+
 
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
-        list<Interval> intervals;
-        
-        for (const auto& booking: bookings) {
-            Interval intval{booking[0], booking[1], booking[2]};
-            auto it = intervals.begin();
-            bool inserted = false;
-            for (; it != intervals.end(); ++it) {
-                inserted = false;
-                if (it->begin > intval.end) {
-                    intervals.insert(it, intval);
-                    inserted = true;
-                    break;
-                } if (it->end < intval.begin)
-                    continue;
-                if (it->begin < intval.begin) {
-                    intervals.insert(it, {it->begin, intval.begin-1, it->seats});
-                    it->begin = intval.begin;
-                } else if (intval.begin < it->begin) {
-                    intervals.insert(it, {intval.begin, it->begin-1, intval.seats});
-                    intval.begin = it->begin;
-                }
 
-                if (it->end < intval.end) {
-                    it->seats += intval.seats;
-                    intval.begin = it->end+1;
-                } else if (it->end == intval.end) {
-                    it->seats += intval.seats;
-                    inserted = true;
-                    break;
-                } else {
-                    intervals.insert(it, {intval.begin, intval.end, it->seats + intval.seats});
-                    it->begin = intval.end+1;
-                    inserted = true;
-                    break;
-                }
-            }
-            if (!inserted)
-                intervals.emplace_back(intval);
+        SegmentTree seg(n);
+        for (auto& booking: bookings) {
+            seg.add(booking[0], booking[1], booking[2]);
         }
-
         vector<int> res;
-        int expected = 1;
-        for (const auto& intval: intervals) {
-            while (expected < intval.begin) {
-                res.emplace_back(0);
-                ++expected;
-            }
-            for (int i = intval.begin; i <= intval.end; ++i)
-                res.emplace_back(intval.seats);
-            expected = intval.end + 1;
-        }
-        while (expected++ <= n)
-            res.emplace_back(0);
-
-
+        for (int i = 1; i <= n; ++i)
+            res.emplace_back(seg.get_data(i));
         return res;
     }
 };
