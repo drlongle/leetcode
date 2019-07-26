@@ -332,6 +332,7 @@
 422. Valid Word Square
 423. Reconstruct Original Digits from English
 424. Longest Repeating Character Replacement
+429. N-ary Tree Level Order Traversal
 432. All O`one Data structure
 433. Minimum Genetic Mutation
 437. Path Sum III
