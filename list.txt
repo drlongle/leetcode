@@ -403,6 +403,10 @@
 1129. Shortest Path with Alternating Colors
 1130. Minimum Cost Tree From Leaf Values
 1131. Maximum of Absolute Value Expression
+1133. Largest Unique Number
+1134. Armstrong Number
+1135. Connecting Cities With Minimum Cost
+1136. Parallel Courses
 
 TODO:
 411. Minimum Unique Word Abbreviation
