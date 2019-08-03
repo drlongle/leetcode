@@ -411,6 +411,7 @@
 1138. Alphabet Board Path
 1139. Largest 1-Bordered Square
 1140. Stone Game II
+1143. Longest Common Subsequence
 
 TODO:
 411. Minimum Unique Word Abbreviation
