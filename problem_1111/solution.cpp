@@ -70,8 +70,8 @@ public:
         stack<int> s;
         for (auto ch : seq) {
             if (ch == '(') {
-                auto it = min_element(begin(runs), end(runs), []
-                        (const stack<int>& s1, const stack<int>& s2) { return s1.size() < s2.size(); });
+                auto it = min_element(begin(runs), end(runs),
+                        [](const stack<int>& s1, const stack<int>& s2) { return s1.size() < s2.size(); });
                 int index = distance(begin(runs), it);
                 runs[index].push(index);
                 s.emplace(index);
@@ -97,7 +97,7 @@ int main()
     seq = "(()())";
 
     // Expected: [0,0,0,1,1,0,1,1]
-    //seq = "()(())()";
+    // seq = "()(())()";
 
     vector<int> res = sol.maxDepthAfterSplit(seq);
 
