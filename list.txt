@@ -422,6 +422,7 @@
 1144. Decrease Elements To Make Array Zigzag
 1145. Binary Tree Coloring Game
 1146. Snapshot Array
+1147. Longest Chunked Palindrome Decomposition
 
 TODO:
 411. Minimum Unique Word Abbreviation
