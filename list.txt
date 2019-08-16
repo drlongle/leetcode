@@ -424,6 +424,10 @@
 1145. Binary Tree Coloring Game
 1146. Snapshot Array
 1147. Longest Chunked Palindrome Decomposition
+1150. Check If a Number Is Majority Element in a Sorted Array
+1151. Minimum Swaps to Group All 1's Together
+1152. Analyze User Website Visit Pattern
+1153. String Transforms Into Another String
 
 TODO:
 411. Minimum Unique Word Abbreviation
