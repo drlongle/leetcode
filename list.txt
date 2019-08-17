@@ -428,6 +428,9 @@
 1151. Minimum Swaps to Group All 1's Together
 1152. Analyze User Website Visit Pattern
 1153. String Transforms Into Another String
+1154. Day of the Year
+1155. Number of Dice Rolls With Target Sum
+1156. Swap For Longest Repeated Character Substring
 
 TODO:
 411. Minimum Unique Word Abbreviation
