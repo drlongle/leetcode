@@ -432,6 +432,8 @@
 1155. Number of Dice Rolls With Target Sum
 1156. Swap For Longest Repeated Character Substring
 
+1157. Online Majority Element In Subarray
+
 TODO:
 411. Minimum Unique Word Abbreviation
 418. Sentence Screen Fitting
