@@ -431,8 +431,11 @@
 1154. Day of the Year
 1155. Number of Dice Rolls With Target Sum
 1156. Swap For Longest Repeated Character Substring
-
 1157. Online Majority Element In Subarray
+1160. Find Words That Can Be Formed by Characters
+1161. Maximum Level Sum of a Binary Tree
+1162. As Far from Land as Possible
+1163. Last Substring in Lexicographical Order
 
 TODO:
 411. Minimum Unique Word Abbreviation
