@@ -335,8 +335,10 @@
 424. Longest Repeating Character Replacement
 427. Construct Quad Tree
 429. N-ary Tree Level Order Traversal
+430. Flatten a Multilevel Doubly Linked List
 432. All O`one Data structure
 433. Minimum Genetic Mutation
+434. Number of Segments in a String
 437. Path Sum III
 438. Find All Anagrams in a String
 440. K-th Smallest in Lexicographical Order
@@ -438,6 +440,11 @@
 1161. Maximum Level Sum of a Binary Tree
 1162. As Far from Land as Possible
 1163. Last Substring in Lexicographical Order
+1167. Minimum Cost to Connect Sticks
+1168. Optimize Water Distribution in a Village
+
+
+435. Non-overlapping Intervals
 
 TODO:
 411. Minimum Unique Word Abbreviation
