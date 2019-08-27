@@ -1,5 +1,6 @@
 /*
 1167. Minimum Cost to Connect Sticks
+Difficulty: Medium
 
 You have some sticks with positive integer lengths.
 
