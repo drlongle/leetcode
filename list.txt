@@ -444,6 +444,10 @@
 1166. Design File System
 1167. Minimum Cost to Connect Sticks
 1168. Optimize Water Distribution in a Village
+1169. Invalid Transactions
+1170. Compare Strings by Frequency of the Smallest Character
+1171. Remove Zero Sum Consecutive Nodes from Linked List
+1172. Dinner Plate Stacks
 
 435. Non-overlapping Intervals
 
