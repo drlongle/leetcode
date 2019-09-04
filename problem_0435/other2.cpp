@@ -59,13 +59,11 @@ public:
                            return a[1] <= b[1];
                        };
         sort(begin(intervals), end(intervals), compare);
-        if (intervals.empty())
-            return 0;
         int count = 0;
-        vector<int> prev = intervals[0];
-        for (size_t i = 1; i < intervals.size(); ++i) {
-            if (prev[1] <= intervals[i][0])
-                prev = intervals[i];
+        int prev = numeric_limits<int>::min();
+        for (auto& interval: intervals) {
+            if (prev <= interval[0])
+                prev = interval[1];
             else
                 ++count;
         }
@@ -90,7 +88,7 @@ int main() {
     //intervals = {};
 
     // Output: 4
-    intervals = {{0,2},{1,3},{1,3},{2,4},{3,5},{3,5},{4,6}};
+    //intervals = {{0,2},{1,3},{1,3},{2,4},{3,5},{3,5},{4,6}};
     
     cout << "Result: " << sol.eraseOverlapIntervals(intervals) << endl;
     

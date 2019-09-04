@@ -339,6 +339,7 @@
 432. All O`one Data structure
 433. Minimum Genetic Mutation
 434. Number of Segments in a String
+435. Non-overlapping Intervals
 437. Path Sum III
 438. Find All Anagrams in a String
 440. K-th Smallest in Lexicographical Order
@@ -454,8 +455,6 @@
 1176. Diet Plan Performance
 1177. Can Make Palindrome from Substring
 1178. Number of Valid Words for Each Puzzle
-
-435. Non-overlapping Intervals
 
 TODO:
 411. Minimum Unique Word Abbreviation
