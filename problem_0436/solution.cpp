@@ -43,24 +43,65 @@ For [2,3], the interval [3,4] has minimum-"right" start point.
 
  */
 
-import java.io.*;
-import java.util.*;
+#include <algorithm>
+#include <atomic>
+#include <bitset>
+#include <cassert>
+#include <cmath>
+#include <condition_variable>
+#include <functional>
+#include <future>
+#include <iostream>
+#include <iterator>
+#include <list>
+#include <map>
+#include <numeric>
+#include <queue>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <thread>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
 
-public class Solution {
+using namespace std;
 
-    public class Interval {
-        int start;
-        int end;
-        Interval() { start = 0; end = 0; }
-        Interval(int s, int e) { start = s; end = e; }
+#define ll long long
+#define ull unsigned long long
+
+class Solution {
+public:
+    vector<int> findRightInterval(vector<vector<int>>& intervals) {
+        map<int, int> lookup;
+        for (int i = 0; i < static_cast<int>(intervals.size()); ++i) {
+            lookup[intervals[i][0]] = i;
+        }
+        vector<int> res;
+        for (int i = 0; i < static_cast<int>(intervals.size()); ++i) {
+            auto it = lookup.lower_bound(intervals[i][1]);
+            if (it == end(lookup))
+                res.emplace_back(-1);
+            else
+                res.emplace_back(it->second);
+        }
+        return res;
     }
+};
 
-    public int[] findRightInterval(Interval[] intervals) {
-        
-    }
+int main() {
+    Solution sol;
+    vector<vector<int>> intervals;
+    
+    intervals = {{1,2}};
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-    }
+    intervals = { {3,4}, {2,3}, {1,2} };
+
+    intervals = { {1,4}, {2,3}, {3,4} };
+    
+    auto res = sol.findRightInterval(intervals);
+    copy(begin(res), end(res), ostream_iterator<int>(cout, ", "));
+
+    
+    return 0;
 }
-
