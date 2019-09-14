@@ -460,7 +460,8 @@
 1181. Before and After Puzzle
 1182. Shortest Distance to Target Color
 1183. Maximum Number of Ones
-
+1184. Distance Between Bus Stops
+1185. Day of the Week
 
 TODO:
 411. Minimum Unique Word Abbreviation
