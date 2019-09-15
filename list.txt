@@ -462,6 +462,8 @@
 1183. Maximum Number of Ones
 1184. Distance Between Bus Stops
 1185. Day of the Week
+1186. Maximum Subarray Sum with One Deletion
+1187. Make Array Strictly Increasing
 
 TODO:
 411. Minimum Unique Word Abbreviation
