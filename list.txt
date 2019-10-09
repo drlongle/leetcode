@@ -477,6 +477,9 @@
 1198. Find Smallest Common Element in All Rows
 1199. Minimum Time to Build Blocks
 1200. Minimum Absolute Difference
+1213. Intersection of Three Sorted Arrays
+1214. Two Sum BSTs
+1215. Stepping Numbers
 
 TODO:
 411. Minimum Unique Word Abbreviation
