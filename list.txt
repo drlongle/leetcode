@@ -481,6 +481,9 @@
 1214. Two Sum BSTs
 1215. Stepping Numbers
 1216. Valid Palindrome III
+1217. Play with Chips
+1218. Longest Arithmetic Subsequence of Given Difference
+1219. Path with Maximum Gold
 
 TODO:
 411. Minimum Unique Word Abbreviation
