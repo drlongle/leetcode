@@ -484,6 +484,9 @@
 1217. Play with Chips
 1218. Longest Arithmetic Subsequence of Given Difference
 1219. Path with Maximum Gold
+1220. Count Vowels Permutation
+1221. Split a String in Balanced Strings
+1222. Queens That Can Attack the King
 
 TODO:
 411. Minimum Unique Word Abbreviation
