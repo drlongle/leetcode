@@ -477,6 +477,7 @@
 1198. Find Smallest Common Element in All Rows
 1199. Minimum Time to Build Blocks
 1200. Minimum Absolute Difference
+1201. Ugly Number III
 1213. Intersection of Three Sorted Arrays
 1214. Two Sum BSTs
 1215. Stepping Numbers
@@ -487,6 +488,10 @@
 1220. Count Vowels Permutation
 1221. Split a String in Balanced Strings
 1222. Queens That Can Attack the King
+1223. Dice Roll Simulation
+1228. Missing Number In Arithmetic Progression
+1229. Meeting Scheduler
+1230. Toss Strange Coins
 
 TODO:
 411. Minimum Unique Word Abbreviation
