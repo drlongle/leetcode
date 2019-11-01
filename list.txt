@@ -494,6 +494,7 @@
 1229. Meeting Scheduler
 1230. Toss Strange Coins
 1231. Divide Chocolate
+1237. Find Positive Integer Solution for a Given Equation
 
 TODO:
 411. Minimum Unique Word Abbreviation
