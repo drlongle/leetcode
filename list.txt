@@ -499,6 +499,7 @@
 1244. Design A Leaderboard
 1245. Tree Diameter
 1246. Palindrome Removal
+1247. Minimum Swaps to Make Strings Equal
 
 TODO:
 411. Minimum Unique Word Abbreviation
