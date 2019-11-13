@@ -505,6 +505,7 @@
 1250. Check If It Is a Good Array
 1252. Cells with Odd Values in a Matrix
 1253. Reconstruct a 2-Row Binary Matrix
+1254. Number of Closed Islands
 
 TODO:
 411. Minimum Unique Word Abbreviation
