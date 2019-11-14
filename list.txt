@@ -506,6 +506,7 @@
 1252. Cells with Odd Values in a Matrix
 1253. Reconstruct a 2-Row Binary Matrix
 1254. Number of Closed Islands
+1255. Maximum Score Words Formed by Letters
 
 TODO:
 411. Minimum Unique Word Abbreviation
