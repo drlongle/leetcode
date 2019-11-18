@@ -513,6 +513,7 @@
 1254. Number of Closed Islands
 1255. Maximum Score Words Formed by Letters
 1256. Encode Number
+1257. Smallest Common Region
 
 TODO:
 411. Minimum Unique Word Abbreviation
