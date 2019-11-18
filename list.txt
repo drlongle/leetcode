@@ -490,6 +490,7 @@
 1221. Split a String in Balanced Strings
 1222. Queens That Can Attack the King
 1223. Dice Roll Simulation
+1226. The Dining Philosophers
 1228. Missing Number In Arithmetic Progression
 1229. Meeting Scheduler
 1230. Toss Strange Coins
@@ -511,6 +512,7 @@
 1253. Reconstruct a 2-Row Binary Matrix
 1254. Number of Closed Islands
 1255. Maximum Score Words Formed by Letters
+1256. Encode Number
 
 TODO:
 411. Minimum Unique Word Abbreviation
