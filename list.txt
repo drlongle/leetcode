@@ -515,6 +515,7 @@
 1256. Encode Number
 1257. Smallest Common Region
 1258. Synonymous Sentences
+1259. Handshakes That Don't Cross
 
 TODO:
 411. Minimum Unique Word Abbreviation
