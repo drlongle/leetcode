@@ -81,7 +81,6 @@ public:
     }
     
     TreeNode* root;
-    vector<int> vals;
 };
 
 void test_7()

@@ -518,6 +518,12 @@
 1259. Handshakes That Don't Cross
 1260. Shift 2D Grid
 1261. Find Elements in a Contaminated Binary Tree
+1262. Greatest Sum Divisible by Three
+1263. Minimum Moves to Move a Box to Their Target Location
+1271. Hexspeak
+1272. Remove Interval
+1273. Delete Tree Nodes
+1274. Number of Ships in a Rectangle
 
 TODO:
 411. Minimum Unique Word Abbreviation
