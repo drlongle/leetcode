@@ -524,6 +524,7 @@
 1272. Remove Interval
 1273. Delete Tree Nodes
 1274. Number of Ships in a Rectangle
+1287. Element Appearing More Than 25% In Sorted Array
 
 TODO:
 411. Minimum Unique Word Abbreviation
