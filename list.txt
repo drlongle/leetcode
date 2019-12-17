@@ -526,6 +526,7 @@
 1274. Number of Ships in a Rectangle
 1287. Element Appearing More Than 25% In Sorted Array
 1288. Remove Covered Intervals
+1289. Minimum Falling Path Sum II
 
 TODO:
 411. Minimum Unique Word Abbreviation
