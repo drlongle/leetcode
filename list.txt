@@ -527,6 +527,7 @@
 1287. Element Appearing More Than 25% In Sorted Array
 1288. Remove Covered Intervals
 1289. Minimum Falling Path Sum II
+1290. Convert Binary Number in a Linked List to Integer
 
 TODO:
 411. Minimum Unique Word Abbreviation
