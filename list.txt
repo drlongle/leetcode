@@ -528,6 +528,7 @@
 1288. Remove Covered Intervals
 1289. Minimum Falling Path Sum II
 1290. Convert Binary Number in a Linked List to Integer
+1291. Sequential Digits
 
 TODO:
 411. Minimum Unique Word Abbreviation
