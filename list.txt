@@ -530,6 +530,7 @@
 1290. Convert Binary Number in a Linked List to Integer
 1291. Sequential Digits
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+1293. Shortest Path in a Grid with Obstacles Elimination
 
 TODO:
 411. Minimum Unique Word Abbreviation
