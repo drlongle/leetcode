@@ -529,6 +529,7 @@
 1289. Minimum Falling Path Sum II
 1290. Convert Binary Number in a Linked List to Integer
 1291. Sequential Digits
+1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 
 TODO:
 411. Minimum Unique Word Abbreviation
