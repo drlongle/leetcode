@@ -524,6 +524,7 @@
 1272. Remove Interval
 1273. Delete Tree Nodes
 1274. Number of Ships in a Rectangle
+1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 1286. Iterator for Combination
 1287. Element Appearing More Than 25% In Sorted Array
 1288. Remove Covered Intervals
@@ -532,6 +533,7 @@
 1291. Sequential Digits
 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
 1293. Shortest Path in a Grid with Obstacles Elimination
+1295. Find Numbers with Even Number of Digits
 
 TODO:
 411. Minimum Unique Word Abbreviation
