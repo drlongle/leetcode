@@ -491,12 +491,14 @@
 1222. Queens That Can Attack the King
 1223. Dice Roll Simulation
 1226. The Dining Philosophers
+1227. Airplane Seat Assignment Probability
 1228. Missing Number In Arithmetic Progression
 1229. Meeting Scheduler
 1230. Toss Strange Coins
 1231. Divide Chocolate
 1232. Check If It Is a Straight Line
 1233. Remove Sub-Folders from the Filesystem
+1235. Maximum Profit in Job Scheduling
 1237. Find Positive Integer Solution for a Given Equation
 1238. Circular Permutation in Binary Representation
 1239. Maximum Length of a Concatenated String with Unique Characters
@@ -532,6 +534,9 @@
 1276. Number of Burgers with No Waste of Ingredients
 1277. Count Square Submatrices with All Ones
 1278. Palindrome Partitioning III
+1281. Subtract the Product and Sum of Digits of an Integer
+1282. Group the People Given the Group Size They Belong To
+1283. Find the Smallest Divisor Given a Threshold
 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 1286. Iterator for Combination
 1287. Element Appearing More Than 25% In Sorted Array
