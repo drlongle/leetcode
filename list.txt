@@ -528,6 +528,10 @@
 1272. Remove Interval
 1273. Delete Tree Nodes
 1274. Number of Ships in a Rectangle
+1275. Find Winner on a Tic Tac Toe Game
+1276. Number of Burgers with No Waste of Ingredients
+1277. Count Square Submatrices with All Ones
+1278. Palindrome Partitioning III
 1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix
 1286. Iterator for Combination
 1287. Element Appearing More Than 25% In Sorted Array
