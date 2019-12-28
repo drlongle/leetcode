@@ -550,6 +550,7 @@
 1296. Divide Array in Sets of K Consecutive Numbers
 1297. Maximum Number of Occurrences of a Substring
 1299. Replace Elements with Greatest Element on Right Side
+1300. Sum of Mutated Array Closest to Target
 
 TODO:
 411. Minimum Unique Word Abbreviation
