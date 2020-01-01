@@ -551,6 +551,7 @@
 1297. Maximum Number of Occurrences of a Substring
 1299. Replace Elements with Greatest Element on Right Side
 1300. Sum of Mutated Array Closest to Target
+1301. Number of Paths with Max Score
 1302. Deepest Leaves Sum
 1304. Find N Unique Integers Sum up to Zero
 1305. All Elements in Two Binary Search Trees
