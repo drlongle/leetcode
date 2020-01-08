@@ -7,13 +7,13 @@ class Solution {
     unordered_map<char, int> map;
     unordered_set<int> used;
     bool check(int level, int idx, int sum) {
-		// last check
+        // last check
         if (level >= rights.size()) {
-			// check left length is larger than right
+            // check left length is larger than right
             if (level < lefts.size()) {
                 return false;
             }
-			// check leading zeros
+            // check leading zeros
             for (char ch : lefts.back()) {
                 if (map[ch] == 0) {
                     return false;
@@ -29,7 +29,7 @@ class Solution {
             char ch = rights[level];
             bool add = false;
             if (map.find(ch) == map.end()) {
-				// try map right character
+                // try map right character
                 if (used.count(sum % 10) > 0) {
                     return false;
                 } else {
@@ -44,7 +44,7 @@ class Solution {
                 return true;
             } else {
                 if (add) {
-					// reset mapping
+                    // reset mapping
                     used.erase(sum % 10);
                     map.erase(ch);
                 }
@@ -53,11 +53,11 @@ class Solution {
         }
         char ch = lefts[level][idx];
         if (map.find(ch) != map.end()) {
-			// this left character is already mapped
+            // this left character is already mapped
             return check(level, idx + 1, sum + map[ch]);
         }
         for (int i = 0; i <= 9; i++) {
-			// enumerate to map left character
+            // enumerate to map left character
             if (used.count(i) > 0) {
                 continue;
             }
