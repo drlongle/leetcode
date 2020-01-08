@@ -103,7 +103,7 @@ public:
         for (int i = 0; i < M; i++)
             for (int j = 0; j < N; ++j) {
                 pair<int, int> newpos = {i, j};
-                if (visited.count(newpos) == 0) {
+                if (visited.count(newpos) == 0 && mat[i][j]) {
                     int temp = calc(mat, newpos, step, visited);
                     if (temp > 0)
                         return temp;
