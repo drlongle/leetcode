@@ -499,6 +499,7 @@
 1231. Divide Chocolate
 1232. Check If It Is a Straight Line
 1233. Remove Sub-Folders from the Filesystem
+1234. Replace the Substring for Balanced String
 1235. Maximum Profit in Job Scheduling
 1237. Find Positive Integer Solution for a Given Equation
 1238. Circular Permutation in Binary Representation
