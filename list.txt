@@ -550,6 +550,7 @@
 1295. Find Numbers with Even Number of Digits
 1296. Divide Array in Sets of K Consecutive Numbers
 1297. Maximum Number of Occurrences of a Substring
+1298. Maximum Candies You Can Get from Boxes
 1299. Replace Elements with Greatest Element on Right Side
 1300. Sum of Mutated Array Closest to Target
 1301. Number of Paths with Max Score
