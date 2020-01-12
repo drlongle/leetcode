@@ -565,6 +565,7 @@
 1310. XOR Queries of a Subarray
 1311. Get Watched Videos by Your Friends
 1312. Minimum Insertion Steps to Make a String Palindrome
+1313. Decompress Run-Length Encoded List
 
 TODO:
 411. Minimum Unique Word Abbreviation
