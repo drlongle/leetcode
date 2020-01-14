@@ -19,54 +19,6 @@ import java.util.*;
 
 public class Solution
 {
-    public void swap(int[] nums, int i, int j)
-    {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
-
-    public int split(int[] nums, int i, int j)
-    {
-        int pivot = nums[j];
-        int threshold = j;
-        int index = i;
-
-        if (i == j)
-            return i;
-
-        while (index <= threshold)
-        {
-            if (nums[index] >= pivot)
-            {
-                swap(nums, index, threshold);
-                if (index <= threshold)
-                    threshold--;
-            }
-            else
-                ++index;
-        }
-
-        return threshold;
-    }
-
-    public int median(int[] nums, int i, int j)
-    {
-        int mid = i + ((j-i) >> 1);
-        int m = i;
-        do {
-            m = split(nums, m, j);
-        } while (m < mid);
-
-        return nums[mid];
-    }
-
-    public int longestConsecutive(int[] nums, int i, int j)
-    {
-        System.out.println("Median: " + median(nums, i, j));
-        return 0;
-    }
-
     int[] longestConsecutive(List<Integer> nums)
     {
         int n = nums.get(0);
