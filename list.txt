@@ -482,6 +482,7 @@
 1199. Minimum Time to Build Blocks
 1200. Minimum Absolute Difference
 1201. Ugly Number III
+1202. Smallest String With Swaps
 1207. Unique Number of Occurrences
 1208. Get Equal Substrings Within Budget
 1213. Intersection of Three Sorted Arrays
