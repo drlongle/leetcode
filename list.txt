@@ -578,6 +578,10 @@
 1318. Minimum Flips to Make a OR b Equal to c
 1319. Number of Operations to Make Network Connected
 1320. Minimum Distance to Type a Word Using Two Fingers
+1323. Maximum 69 Number
+1324. Print Words Vertically
+1325. Delete Leaves With a Given Value
+1326. Minimum Number of Taps to Open to Water a Garden
 
 TODO:
 411. Minimum Unique Word Abbreviation
