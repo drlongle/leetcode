@@ -80,7 +80,9 @@ public:
                 continue;
             int key = i - ranges[i];
             int val = i + ranges[i];
-            coverage[key] = max(val, coverage[key]);
+            auto it = coverage.find(key);
+            if (it == coverage.end() || it->second < val)
+                coverage[key] = val;
         }
         if (coverage.empty())
             return -1;
