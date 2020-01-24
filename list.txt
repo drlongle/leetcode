@@ -365,6 +365,7 @@
 494. Target Sum
 567. Permutation in String
 628. Maximum Product of Three Numbers
+787. Cheapest Flights Within K Stops
 911. Online Election
 935. Knight Dialer
 975. Odd Even Jump
