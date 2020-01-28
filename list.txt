@@ -587,6 +587,7 @@
 1324. Print Words Vertically
 1325. Delete Leaves With a Given Value
 1326. Minimum Number of Taps to Open to Water a Garden
+1328. Break a Palindrome
 
 TODO:
 411. Minimum Unique Word Abbreviation
