@@ -589,6 +589,7 @@
 1326. Minimum Number of Taps to Open to Water a Garden
 1328. Break a Palindrome
 1331. Rank Transform of an Array
+1332. Remove Palindromic Subsequences
 
 TODO:
 411. Minimum Unique Word Abbreviation
