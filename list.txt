@@ -590,6 +590,7 @@
 1328. Break a Palindrome
 1331. Rank Transform of an Array
 1332. Remove Palindromic Subsequences
+1333. Filter Restaurants by Vegan-Friendly, Price and Distance
 
 TODO:
 411. Minimum Unique Word Abbreviation
