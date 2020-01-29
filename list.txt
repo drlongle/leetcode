@@ -588,6 +588,7 @@
 1325. Delete Leaves With a Given Value
 1326. Minimum Number of Taps to Open to Water a Garden
 1328. Break a Palindrome
+1331. Rank Transform of an Array
 
 TODO:
 411. Minimum Unique Word Abbreviation
