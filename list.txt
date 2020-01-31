@@ -588,6 +588,8 @@
 1325. Delete Leaves With a Given Value
 1326. Minimum Number of Taps to Open to Water a Garden
 1328. Break a Palindrome
+1329. Sort the Matrix Diagonally
+1330. Reverse Subarray To Maximize Array Value
 1331. Rank Transform of an Array
 1332. Remove Palindromic Subsequences
 1333. Filter Restaurants by Vegan-Friendly, Price and Distance
