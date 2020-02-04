@@ -598,6 +598,7 @@
 1335. Minimum Difficulty of a Job Schedule
 1337. The K Weakest Rows in a Matrix
 1338. Reduce Array Size to The Half
+1339. Maximum Product of Splitted Binary Tree
 
 TODO:
 411. Minimum Unique Word Abbreviation
