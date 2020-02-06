@@ -599,6 +599,7 @@
 1337. The K Weakest Rows in a Matrix
 1338. Reduce Array Size to The Half
 1339. Maximum Product of Splitted Binary Tree
+1340. Jump Game V
 
 TODO:
 411. Minimum Unique Word Abbreviation
