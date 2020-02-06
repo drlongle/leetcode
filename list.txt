@@ -402,6 +402,8 @@
 1024. Video Stitching
 1025. Divisor Game
 1051. Height Checker
+1078. Occurrences After Bigram
+1079. Letter Tile Possibilities
 1089. Duplicate Zeros
 1090. Largest Values From Labels
 1091. Shortest Path in Binary Matrix
