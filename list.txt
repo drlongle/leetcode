@@ -607,6 +607,7 @@
 1342. Number of Steps to Reduce a Number to Zero
 1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold
 1344. Angle Between Hands of a Clock
+1345. Jump Game IV
 1346. Check If N and Its Double Exist
 1347. Minimum Number of Steps to Make Two Strings Anagram
 1348. Tweet Counts Per Frequency
