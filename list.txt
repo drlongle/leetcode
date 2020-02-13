@@ -368,6 +368,8 @@
 680. Valid Palindrome II
 718. Maximum Length of Repeated Subarray
 787. Cheapest Flights Within K Stops
+837. New 21 Game
+841. Keys and Rooms
 911. Online Election
 935. Knight Dialer
 975. Odd Even Jump
