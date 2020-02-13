@@ -406,6 +406,7 @@
 1004. Max Consecutive Ones III
 1024. Video Stitching
 1025. Divisor Game
+1034. Coloring A Border
 1051. Height Checker
 1078. Occurrences After Bigram
 1079. Letter Tile Possibilities
