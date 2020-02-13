@@ -367,6 +367,7 @@
 513. Find Bottom Left Tree Value
 567. Permutation in String
 628. Maximum Product of Three Numbers
+669. Trim a Binary Search Tree
 680. Valid Palindrome II
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
