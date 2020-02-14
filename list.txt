@@ -375,6 +375,7 @@
 837. New 21 Game
 841. Keys and Rooms
 911. Online Election
+919. Complete Binary Tree Inserter
 935. Knight Dialer
 975. Odd Even Jump
 976. Largest Perimeter Triangle
