@@ -621,6 +621,7 @@
 1348. Tweet Counts Per Frequency
 1349. Maximum Students Taking Exam
 1351. Count Negative Numbers in a Sorted Matrix
+1352. Product of the Last K Numbers
 
 TODO:
 411. Minimum Unique Word Abbreviation
