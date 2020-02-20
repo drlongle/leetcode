@@ -622,6 +622,7 @@
 1349. Maximum Students Taking Exam
 1351. Count Negative Numbers in a Sorted Matrix
 1352. Product of the Last K Numbers
+1353. Maximum Number of Events That Can Be Attended
 
 TODO:
 411. Minimum Unique Word Abbreviation
