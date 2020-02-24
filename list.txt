@@ -628,6 +628,7 @@
 1357. Apply Discount Every n Orders
 1358. Number of Substrings Containing All Three Characters
 1361. Validate Binary Tree Nodes
+1362. Closest Divisors
 
 TODO:
 411. Minimum Unique Word Abbreviation
