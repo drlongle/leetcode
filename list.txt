@@ -627,6 +627,7 @@
 1356. Sort Integers by The Number of 1 Bits
 1357. Apply Discount Every n Orders
 1358. Number of Substrings Containing All Three Characters
+1361. Validate Binary Tree Nodes
 
 TODO:
 411. Minimum Unique Word Abbreviation
