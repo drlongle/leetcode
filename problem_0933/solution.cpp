@@ -53,10 +53,6 @@ using namespace std;
 
 class RecentCounter {
 public:
-    RecentCounter() {
-        
-    }
-    
     int ping(int t) {
         ts.push(t);
         int thres = t - 3000;

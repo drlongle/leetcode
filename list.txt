@@ -377,7 +377,9 @@
 841. Keys and Rooms
 911. Online Election
 919. Complete Binary Tree Inserter
+933. Number of Recent Calls
 935. Knight Dialer
+953. Verifying an Alien Dictionary
 975. Odd Even Jump
 976. Largest Perimeter Triangle
 977. Squares of a Sorted Array
