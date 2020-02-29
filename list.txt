@@ -372,6 +372,7 @@
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
 787. Cheapest Flights Within K Stops
+821. Shortest Distance to a Character
 837. New 21 Game
 841. Keys and Rooms
 911. Online Election
