@@ -636,6 +636,9 @@
 1361. Validate Binary Tree Nodes
 1362. Closest Divisors
 1363. Largest Multiple of Three
+1365. How Many Numbers Are Smaller Than the Current Number
+1366. Rank Teams by Votes
+1367. Linked List in Binary Tree
 
 TODO:
 411. Minimum Unique Word Abbreviation
