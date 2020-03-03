@@ -371,6 +371,7 @@
 680. Valid Palindrome II
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
+771. Jewels and Stones
 787. Cheapest Flights Within K Stops
 821. Shortest Distance to a Character
 837. New 21 Game

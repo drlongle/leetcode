@@ -1,4 +1,6 @@
 /*
+High-level explanation: Combination of BFS and DFS
+
 Intuition
 One observation is that, (not sure if it's obvious)
 we can greedily explore the grid.
