@@ -639,6 +639,7 @@
 1365. How Many Numbers Are Smaller Than the Current Number
 1366. Rank Teams by Votes
 1367. Linked List in Binary Tree
+1368. Minimum Cost to Make at Least One Valid Path in a Grid
 
 TODO:
 411. Minimum Unique Word Abbreviation
