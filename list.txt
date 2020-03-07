@@ -376,6 +376,7 @@
 654. Maximum Binary Tree
 669. Trim a Binary Search Tree
 680. Valid Palindrome II
+684. Redundant Connection
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
 771. Jewels and Stones
