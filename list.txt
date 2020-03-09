@@ -651,6 +651,9 @@
 1366. Rank Teams by Votes
 1367. Linked List in Binary Tree
 1368. Minimum Cost to Make at Least One Valid Path in a Grid
+1370. Increasing Decreasing String
+1371. Find the Longest Substring Containing Vowels in Even Counts
+1372. Longest ZigZag Path in a Binary Tree
 
 TODO:
 411. Minimum Unique Word Abbreviation
