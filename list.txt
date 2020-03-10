@@ -654,6 +654,11 @@
 1370. Increasing Decreasing String
 1371. Find the Longest Substring Containing Vowels in Even Counts
 1372. Longest ZigZag Path in a Binary Tree
+1373. Maximum Sum BST in Binary Tree
+1374. Generate a String With Characters That Have Odd Counts
+1375. Bulb Switcher III
+1376. Time Needed to Inform All Employees
+1377. Frog Position After T Seconds
 
 TODO:
 411. Minimum Unique Word Abbreviation
