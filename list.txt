@@ -366,6 +366,7 @@
 463. Island Perimeter
 464. Can I Win
 477. Total Hamming Distance
+486. Predict the Winner
 494. Target Sum
 503. Next Greater Element II
 508. Most Frequent Subtree Sum
