@@ -373,6 +373,7 @@
 515. Find Largest Value in Each Tree Row
 535. Encode and Decode TinyURL
 538. Convert BST to Greater Tree
+539. Minimum Time Difference
 567. Permutation in String
 628. Maximum Product of Three Numbers
 647. Palindromic Substrings
