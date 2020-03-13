@@ -367,6 +367,7 @@
 464. Can I Win
 477. Total Hamming Distance
 494. Target Sum
+503. Next Greater Element II
 513. Find Bottom Left Tree Value
 535. Encode and Decode TinyURL
 538. Convert BST to Greater Tree
