@@ -368,11 +368,13 @@
 477. Total Hamming Distance
 486. Predict the Winner
 494. Target Sum
+495. Teemo Attacking
 503. Next Greater Element II
 508. Most Frequent Subtree Sum
 513. Find Bottom Left Tree Value
 515. Find Largest Value in Each Tree Row
 516. Longest Palindromic Subsequence
+524. Longest Word in Dictionary through Deleting
 529. Minesweeper
 535. Encode and Decode TinyURL
 538. Convert BST to Greater Tree
