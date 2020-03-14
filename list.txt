@@ -376,6 +376,7 @@
 516. Longest Palindromic Subsequence
 524. Longest Word in Dictionary through Deleting
 529. Minesweeper
+530. Minimum Absolute Difference in BST
 535. Encode and Decode TinyURL
 538. Convert BST to Greater Tree
 539. Minimum Time Difference
@@ -392,6 +393,7 @@
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
 771. Jewels and Stones
+783. Minimum Distance Between BST Nodes
 787. Cheapest Flights Within K Stops
 797. All Paths From Source to Target
 821. Shortest Distance to a Character
