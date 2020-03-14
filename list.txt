@@ -373,9 +373,11 @@
 513. Find Bottom Left Tree Value
 515. Find Largest Value in Each Tree Row
 516. Longest Palindromic Subsequence
+529. Minesweeper
 535. Encode and Decode TinyURL
 538. Convert BST to Greater Tree
 539. Minimum Time Difference
+540. Single Element in a Sorted Array
 567. Permutation in String
 628. Maximum Product of Three Numbers
 647. Palindromic Substrings
