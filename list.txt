@@ -432,6 +432,7 @@
 1004. Max Consecutive Ones III
 1024. Video Stitching
 1025. Divisor Game
+1026. Maximum Difference Between Node and Ancestor
 1034. Coloring A Border
 1038. Binary Search Tree to Greater Sum Tree
 1051. Height Checker
