@@ -388,6 +388,7 @@
 648. Replace Words
 654. Maximum Binary Tree
 669. Trim a Binary Search Tree
+677. Map Sum Pairs
 680. Valid Palindrome II
 684. Redundant Connection
 701. Insert into a Binary Search Tree
