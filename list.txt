@@ -375,6 +375,7 @@
 515. Find Largest Value in Each Tree Row
 516. Longest Palindromic Subsequence
 524. Longest Word in Dictionary through Deleting
+525. Contiguous Array
 529. Minesweeper
 530. Minimum Absolute Difference in BST
 535. Encode and Decode TinyURL
