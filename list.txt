@@ -365,6 +365,7 @@
 462. Minimum Moves to Equal Array Elements II
 463. Island Perimeter
 464. Can I Win
+474. Ones and Zeroes
 477. Total Hamming Distance
 486. Predict the Winner
 494. Target Sum
@@ -678,6 +679,7 @@
 1376. Time Needed to Inform All Employees
 1377. Frog Position After T Seconds
 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+1380. Lucky Numbers in a Matrix
 
 TODO:
 411. Minimum Unique Word Abbreviation
