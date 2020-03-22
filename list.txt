@@ -686,6 +686,13 @@
 1382. Balance a Binary Search Tree
 1381. Design a Stack With Increment Operation
 1383. Maximum Performance of a Team
+1385. Find the Distance Value Between Two Arrays
+1386. Cinema Seat Allocation
+1387. Sort Integers by The Power Value
+1388. Pizza With 3n Slices
+1389. Create Target Array in the Given Order
+1390. Four Divisors
+1391. Check if There is a Valid Path in a Grid
 
 TODO:
 411. Minimum Unique Word Abbreviation
