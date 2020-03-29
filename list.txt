@@ -694,6 +694,9 @@
 1390. Four Divisors
 1391. Check if There is a Valid Path in a Grid
 1392. Longest Happy Prefix
+1394. Find Lucky Integer in an Array
+1395. Count Number of Teams
+1396. Design Underground System
 
 TODO:
 411. Minimum Unique Word Abbreviation
