@@ -700,6 +700,7 @@
 1395. Count Number of Teams
 1396. Design Underground System
 1397. Find All Good Strings
+1403. Minimum Subsequence in Non-Increasing Order
 
 TODO:
 411. Minimum Unique Word Abbreviation
