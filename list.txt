@@ -704,6 +704,7 @@
 1400. Construct K Palindrome Strings
 1403. Minimum Subsequence in Non-Increasing Order
 1404. Number of Steps to Reduce a Number in Binary Representation to One
+1405. Longest Happy String
 
 TODO:
 411. Minimum Unique Word Abbreviation
