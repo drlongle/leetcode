@@ -705,6 +705,7 @@
 1403. Minimum Subsequence in Non-Increasing Order
 1404. Number of Steps to Reduce a Number in Binary Representation to One
 1405. Longest Happy String
+1406. Stone Game III
 
 TODO:
 411. Minimum Unique Word Abbreviation
