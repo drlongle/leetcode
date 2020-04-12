@@ -452,6 +452,7 @@
 1026. Maximum Difference Between Node and Ancestor
 1034. Coloring A Border
 1038. Binary Search Tree to Greater Sum Tree
+1046. Last Stone Weight
 1051. Height Checker
 1078. Occurrences After Bigram
 1079. Letter Tile Possibilities
