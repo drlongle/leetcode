@@ -717,6 +717,8 @@
 1409. Queries on a Permutation With Key
 1410. HTML Entity Parser
 1411. Number of Ways to Paint N × 3 Grid
+1413. Minimum Value to Get Positive Step by Step Sum
+1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 
 TODO:
 411. Minimum Unique Word Abbreviation
