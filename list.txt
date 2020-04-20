@@ -448,6 +448,7 @@
 1002. Find Common Characters
 1003. Check If Word Is Valid After Substitutions
 1004. Max Consecutive Ones III
+1008. Construct Binary Search Tree from Preorder Traversal
 1024. Video Stitching
 1025. Divisor Game
 1026. Maximum Difference Between Node and Ancestor
@@ -719,6 +720,7 @@
 1411. Number of Ways to Paint N × 3 Grid
 1413. Minimum Value to Get Positive Step by Step Sum
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+1415. The k-th Lexicographical String of All Happy Strings of Length n
 
 TODO:
 411. Minimum Unique Word Abbreviation
