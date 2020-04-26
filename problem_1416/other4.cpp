@@ -1,3 +1,4 @@
+// We never go back more than k steps. So, we can use a rolling array technique to lower the memory complexity to O(k).
 
 class Solution {
 public:

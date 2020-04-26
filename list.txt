@@ -724,6 +724,9 @@
 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 1415. The k-th Lexicographical String of All Happy Strings of Length n
 1416. Restore The Array
+1417. Reformat The String
+1418. Display Table of Food Orders in a Restaurant
+1419. Minimum Number of Frogs Croaking
 
 TODO:
 411. Minimum Unique Word Abbreviation
