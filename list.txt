@@ -728,11 +728,17 @@
 1418. Display Table of Food Orders in a Restaurant
 1419. Minimum Number of Frogs Croaking
 1420. Build Array Where You Can Find The Maximum Exactly K Comparisons
+1422. Maximum Score After Splitting a String
+1423. Maximum Points You Can Obtain from Cards
+1424. Diagonal Traverse II
 1426. Counting Elements
 1427. Perform String Shifts
 1427. Leftmost Column with at Least a One
 1429. First Unique Number
 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
+1431. Kids With the Greatest Number of Candies
+1432. Max Difference You Can Get From Changing an Integer
+1433. Check If a String Can Break Another String
 
 TODO:
 411. Minimum Unique Word Abbreviation
