@@ -60,46 +60,44 @@ using namespace std;
 
 class Solution {
 public:
-
-  bool can_break(string& s, map<char, int>& cnt) {
-    
-    bool can_break = true;
-    for (char ch: s) {
-      auto it = cnt.lower_bound(ch);
-      if (it == cnt.end()) {
-	return false;
-      }
-      if (--(it->second) == 0)
-	cnt.erase(it);
+    bool can_break(string& s, map<char, int>& cnt) {
+        bool can_break = true;
+        for (char ch: s) {
+            auto it = cnt.lower_bound(ch);
+            if (it == cnt.end()) {
+                return false;
+            }
+            if (--(it->second) == 0)
+                cnt.erase(it);
+        }
+        return can_break;
     }
-    return can_break;
-  }
-  
-  bool checkIfCanBreak(string s1, string s2) {
-    map<char, int> cnt1, cnt2;
-    for (char ch: s1)
-      ++cnt1[ch];
-    for (char ch: s2)
-      ++cnt2[ch];
-    if (can_break(s1, cnt2))
-      return true;
- 
-    return can_break(s2, cnt1);
-  }
+
+    bool checkIfCanBreak(string s1, string s2) {
+        map<char, int> cnt1, cnt2;
+        for (char ch: s1)
+            ++cnt1[ch];
+        for (char ch: s2)
+            ++cnt2[ch];
+        if (can_break(s1, cnt2))
+            return true;
+
+        return can_break(s2, cnt1);
+    }
 };
 
 int main() {
-  Solution sol;
-  string s1, s2;
+    Solution sol;
+    string s1, s2;
 
-  s1 = "abc", s2 = "xya";
-  cout << boolalpha << sol.checkIfCanBreak(s1, s2) << endl;
+    s1 = "abc", s2 = "xya";
+    cout << boolalpha << sol.checkIfCanBreak(s1, s2) << endl;
 
-  s1 = "abe", s2 = "acd";
-  cout <<  boolalpha << sol.checkIfCanBreak(s1, s2) << endl;
+    s1 = "abe", s2 = "acd";
+    cout <<  boolalpha << sol.checkIfCanBreak(s1, s2) << endl;
 
-  s1 = "leetcodee", s2 = "interview";
-  cout <<  boolalpha << sol.checkIfCanBreak(s1, s2) << endl;
-  
-  return 0;
+    s1 = "leetcodee", s2 = "interview";
+    cout <<  boolalpha << sol.checkIfCanBreak(s1, s2) << endl;
+
+    return 0;
 }
