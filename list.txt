@@ -739,6 +739,9 @@
 1431. Kids With the Greatest Number of Candies
 1432. Max Difference You Can Get From Changing an Integer
 1433. Check If a String Can Break Another String
+1436. Destination City
+1437. Check If All 1's Are at Least Length K Places Away
+1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
 TODO:
 411. Minimum Unique Word Abbreviation
