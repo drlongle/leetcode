@@ -366,6 +366,7 @@
 463. Island Perimeter
 464. Can I Win
 474. Ones and Zeroes
+476. Number Complement
 477. Total Hamming Distance
 478. Generate Random Point in a Circle
 486. Predict the Winner
@@ -451,6 +452,7 @@
 1003. Check If Word Is Valid After Substitutions
 1004. Max Consecutive Ones III
 1008. Construct Binary Search Tree from Preorder Traversal
+1009. Complement of Base 10 Integer
 1024. Video Stitching
 1025. Divisor Game
 1026. Maximum Difference Between Node and Ancestor
