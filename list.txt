@@ -733,9 +733,10 @@
 1422. Maximum Score After Splitting a String
 1423. Maximum Points You Can Obtain from Cards
 1424. Diagonal Traverse II
+1425. Constrained Subsequence Sum
 1426. Counting Elements
 1427. Perform String Shifts
-1427. Leftmost Column with at Least a One
+1428. Leftmost Column with at Least a One
 1429. First Unique Number
 1430. Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree
 1431. Kids With the Greatest Number of Candies
