@@ -415,6 +415,7 @@
 857. Minimum Cost to Hire K Workers
 876. Middle of the Linked List
 911. Online Election
+918. Maximum Sum Circular Subarray
 919. Complete Binary Tree Inserter
 921. Minimum Add to Make Parentheses Valid
 922. Sort Array By Parity II
