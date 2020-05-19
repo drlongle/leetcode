@@ -414,6 +414,7 @@
 844. Backspace String Compare
 857. Minimum Cost to Hire K Workers
 876. Middle of the Linked List
+901. Online Stock Span
 911. Online Election
 918. Maximum Sum Circular Subarray
 919. Complete Binary Tree Inserter
@@ -756,6 +757,7 @@
 1450. Number of Students Doing Homework at a Given Time
 1451. Rearrange Words in a Sentence
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
+1453. Maximum Number of Darts Inside of a Circular Dartboard
 
 TODO:
 411. Minimum Unique Word Abbreviation
