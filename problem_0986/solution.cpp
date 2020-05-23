@@ -30,47 +30,40 @@ For example, the intersection of [1, 3] and [2, 4] is [2, 3].)
 
 using namespace std;
 
-struct Interval {
-    int start;
-    int end;
-    Interval() : start(0), end(0) {}
-    Interval(int s, int e) : start(s), end(e) {}
-};
-
 class Solution {
 public:
-    vector<Interval> intervalIntersection(vector<Interval>& A, vector<Interval>& B) {
-        vector<Interval> res;
+    vector<vector<int>> intervalIntersection(vector<vector<int>>& A, vector<vector<int>>& B) {
+        vector<vector<int>> res;
         for (int i = 0, j = 0; i < A.size() && j < B.size(); ) {
-            Interval& a = A[i];
-            Interval& b = B[j];
+            const auto& a = A[i];
+            const auto& b = B[j];
             if (intersect(a, b))
-                res.emplace_back(max(a.start, b.start), min(a.end, b.end));
-            if (a.end < b.end)
+                res.emplace_back(vector<int>{max(a[0], b[0]), min(a[1], b[1])});
+            if (a[1] < b[1])
                 ++i;
-            else if (a.end == b.end)
+            else if (a[1] == b[1])
                 ++i, ++j;
             else
                 ++j;
         }
-        
+
         return res;
     }
-    
-    bool intersect(const Interval& a, const Interval& b) {
-        return a.end >= b.start && b.end >= a.start;
+
+    bool intersect(const vector<int>& a, const vector<int>& b) {
+        return a[1] >= b[0] && b[1] >= a[0];
     }
 };
 
 int main(int argc, char** argv) {
     Solution sol;
-    vector<Interval> A, B, res;
+    vector<vector<int>> A, B, res;
 
     // Expected: [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
     A = {{0,2},{5,10},{13,23},{24,25}}, B = {{1,5},{8,12},{15,24},{25,26}};
     res = sol.intervalIntersection(A, B);
     for (auto& interval: res)
-        cout << "[" << interval.start << "," << interval.end << "}" << endl;
-    
+        cout << "[" << interval[0] << "," << interval[1] << "}" << endl;
+
     return 0;
 }
