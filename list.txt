@@ -426,6 +426,7 @@
 922. Sort Array By Parity II
 933. Number of Recent Calls
 935. Knight Dialer
+941. Valid Mountain Array
 953. Verifying an Alien Dictionary
 975. Odd Even Jump
 976. Largest Perimeter Triangle
