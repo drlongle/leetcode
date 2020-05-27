@@ -464,7 +464,9 @@
 1025. Divisor Game
 1026. Maximum Difference Between Node and Ancestor
 1034. Coloring A Border
+1035. Uncrossed Lines
 1038. Binary Search Tree to Greater Sum Tree
+1039. Minimum Score Triangulation of Polygon
 1046. Last Stone Weight
 1051. Height Checker
 1078. Occurrences After Bigram
@@ -764,6 +766,10 @@
 1451. Rearrange Words in a Sentence
 1452. People Whose List of Favorite Companies Is Not a Subset of Another List
 1453. Maximum Number of Darts Inside of a Circular Dartboard
+1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
+1456. Maximum Number of Vowels in a Substring of Given Length
+1457. Pseudo-Palindromic Paths in a Binary Tree
+1458. Max Dot Product of Two Subsequences
 
 TODO:
 411. Minimum Unique Word Abbreviation
