@@ -429,6 +429,7 @@
 935. Knight Dialer
 941. Valid Mountain Array
 953. Verifying an Alien Dictionary
+973. K Closest Points to Origin
 975. Odd Even Jump
 976. Largest Perimeter Triangle
 977. Squares of a Sorted Array
