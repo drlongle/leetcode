@@ -772,6 +772,7 @@
 1456. Maximum Number of Vowels in a Substring of Given Length
 1457. Pseudo-Palindromic Paths in a Binary Tree
 1458. Max Dot Product of Two Subsequences
+1460. Make Two Arrays Equal by Reversing Sub-arrays
 
 TODO:
 411. Minimum Unique Word Abbreviation
