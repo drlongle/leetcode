@@ -24,9 +24,9 @@ public:
             dfs(graph, vis, i, i);
             
         }
-        
+
         vector<bool> res(queries.size(), false);
-        for(i = 0; i < queries.size(); i++){    
+        for(i = 0; i < queries.size(); i++) {
             res[i] = graph[queries[i][0]][queries[i][1]];
         }
         return res;
