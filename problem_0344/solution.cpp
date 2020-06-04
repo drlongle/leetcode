@@ -38,17 +38,26 @@ using namespace std;
 
 class Solution {
 public:
-    string reverseString(string s) {
+    string reverseString(vector<char>& s) {
         int begin = 0, end = s.size()-1;
-        while (begin < end)
-            swap(s[begin++],s[end--]);
-        return s;
+        while (begin < end) {
+            swap(s[begin++], s[end--]);
+        }
+        string res(s.begin(), s.end());
+        return res;
     }
 };
 
 int main()
 {
     Solution sol;
+    vector<char> s;
+
+    s = {'h','e','l','l','o'};
+    cout << sol.reverseString(s) << endl;
+
+    s = {'a','b','c','d','e', 'f'};
+    cout << sol.reverseString(s) << endl;
 
     return 0;
 }

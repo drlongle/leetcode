@@ -51,6 +51,10 @@ It is guaranteed that costs.length is even.
 
 using namespace std;
 
+/*
+The idea here is to compue the difference between the costs of city A and city B. If the difference of costs[Ai] - costs[Bi] comes out to be negative, this means that it is profitable to go to city A and vice versa. Sorting it using comparator and sending the first n/2 people to city A and the next n/2 people to city B would minimise the total cost.
+ */
+
 class Solution {
 public:
     int twoCitySchedCost(vector<vector<int>>& costs) {
