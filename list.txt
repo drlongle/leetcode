@@ -403,6 +403,7 @@
 678. Valid Parenthesis String
 680. Valid Palindrome II
 684. Redundant Connection
+700. Search in a Binary Search Tree
 701. Insert into a Binary Search Tree
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
