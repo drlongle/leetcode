@@ -60,16 +60,15 @@ inserting them one by one as appropriate.
 
 class Solution {
 public:
-    vector<pair<int, int>> reconstructQueue(vector<pair<int, int>>& people) {
+    vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
         sort(begin(people), end(people),
-            [](const pair<int, int>& a, const pair<int, int>& b) {
-                return (a.first > b.first ||
-                        (a.first == b.first && a.second < b.second));
+            [] (const vector<int>& a, const vector<int>& b) {
+                return (a[0] > b[0] || (a[0] == b[0] && a[1] < b[1]));
         });
-        
-        vector<pair<int, int>> res;
+
+        vector<vector<int>> res;
         for (const auto& p: people) {
-                res.insert(res.begin() + p.second, p);
+            res.insert(res.begin() + p[1], p);
         }
         return res;
     }
@@ -77,17 +76,17 @@ public:
 
 int main(int argc, char** argv) {
     Solution sol;
-    vector<pair<int, int>> people;
-    
+    vector<vector<int>> people;
+
     people = {{7,0}, {4,4}, {7,1}, {5,0}, {6,1}, {5,2}};
-    
+
     people = {{8,2},{4,2},{4,5},{2,0},{7,2},{1,4},{9,1},{3,1},{9,0},{1,0}};
-    
+
     // Expected: [[3,0],[6,0],[7,0],[5,2],[3,4],[5,3],[6,2],[2,7],[9,0],[1,9]]
     people = {{9,0},{7,0},{1,9},{3,0},{2,7},{5,3},{6,0},{3,4},{6,2},{5,2}};
-    
+
     people = sol.reconstructQueue(people);
     for (const auto& p: people)
-        cout << p.first << ", " << p.second << endl;
+        cout << p[0] << ", " << p[1] << endl;
     return 0;
 }
