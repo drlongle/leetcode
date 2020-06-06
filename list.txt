@@ -416,6 +416,7 @@
 771. Jewels and Stones
 783. Minimum Distance Between BST Nodes
 787. Cheapest Flights Within K Stops
+794. Valid Tic-Tac-Toe State
 797. All Paths From Source to Target
 821. Shortest Distance to a Character
 837. New 21 Game
