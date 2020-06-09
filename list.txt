@@ -423,6 +423,7 @@
 837. New 21 Game
 841. Keys and Rooms
 844. Backspace String Compare
+846. Hand of Straights
 857. Minimum Cost to Hire K Workers
 876. Middle of the Linked List
 886. Possible Bipartition
