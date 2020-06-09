@@ -792,6 +792,7 @@
 1470. Shuffle the Array
 1471. The k Strongest Values in an Array
 1472. Design Browser History
+1473. Paint House III
 
 TODO:
 411. Minimum Unique Word Abbreviation
