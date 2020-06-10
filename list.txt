@@ -413,6 +413,7 @@
 733. Flood Fill
 739. Daily Temperatures
 743. Network Delay Time
+752. Open the Lock
 763. Partition Labels
 764. Largest Plus Sign
 767. Reorganize String
