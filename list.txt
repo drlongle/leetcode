@@ -804,6 +804,8 @@
 1471. The k Strongest Values in an Array
 1472. Design Browser History
 1473. Paint House III
+1475. Final Prices With a Special Discount in a Shop
+1476. Subrectangle Queries
 
 TODO:
 411. Minimum Unique Word Abbreviation
