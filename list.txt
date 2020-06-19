@@ -488,6 +488,7 @@
 1035. Uncrossed Lines
 1038. Binary Search Tree to Greater Sum Tree
 1039. Minimum Score Triangulation of Polygon
+1044. Longest Duplicate Substring
 1046. Last Stone Weight
 1048. Longest String Chain
 1051. Height Checker
