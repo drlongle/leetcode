@@ -478,6 +478,7 @@
 1002. Find Common Characters
 1003. Check If Word Is Valid After Substitutions
 1004. Max Consecutive Ones III
+1007. Minimum Domino Rotations For Equal Row
 1008. Construct Binary Search Tree from Preorder Traversal
 1009. Complement of Base 10 Integer
 1024. Video Stitching
