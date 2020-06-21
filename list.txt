@@ -443,6 +443,7 @@
 922. Sort Array By Parity II
 933. Number of Recent Calls
 935. Knight Dialer
+939. Minimum Area Rectangle
 941. Valid Mountain Array
 946. Validate Stack Sequences
 951. Flip Equivalent Binary Trees
