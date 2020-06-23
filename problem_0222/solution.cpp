@@ -45,13 +45,15 @@ struct TreeNode {
 
 int get_height(TreeNode* root)
 {
-    int res;
+    int res = 0;
+    if (!root)
+        return res;
     while(root)
     {
         ++res;
         root = root->left;
     }
-    return res;
+    return res-1;
 }
 
 TreeNode* find_node(TreeNode* root, int height, int step, int index)
