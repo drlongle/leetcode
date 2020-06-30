@@ -818,6 +818,10 @@
 1486. XOR Operation in an Array
 1487. Making File Names Unique
 1488. Avoid Flood in The City
+1491. Average Salary Excluding the Minimum and Maximum Salary
+1492. The kth Factor of n
+1493. Longest Subarray of 1's After Deleting One Element
+1494. Parallel Courses II
 
 TODO:
 411. Minimum Unique Word Abbreviation
