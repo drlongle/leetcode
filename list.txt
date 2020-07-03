@@ -822,6 +822,8 @@
 1492. The kth Factor of n
 1493. Longest Subarray of 1's After Deleting One Element
 1494. Parallel Courses II
+1496. Path Crossing
+1497. Check If Array Pairs Are Divisible by k
 
 TODO:
 411. Minimum Unique Word Abbreviation
