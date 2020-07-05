@@ -2,7 +2,6 @@ class Solution {
 public:
     // count all submatrices with top-left corner at mat[a][b]
     int helper(vector<vector<int>> & mat, int a, int b) {
-        
         int m = mat.size();
         int n = mat[0].size();
         int count = 0;
@@ -14,9 +13,8 @@ public:
                 else row_bound = j;
             }
         }
-        
-        return count;
 
+        return count;
     }
 
     int numSubmat(vector<vector<int>>& mat) {
@@ -32,6 +30,5 @@ public:
         }
         
         return count;
-
     }
 };

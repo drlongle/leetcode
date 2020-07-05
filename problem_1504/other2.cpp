@@ -43,7 +43,7 @@ class Solution
                 int minimum=dp[i][j];
                 for(int k=i;k>-1;k--) //from i to top (count the number of rectangles that can be made)
                 {
-                    minimum=min(minimum,dp[k][j]);//the number of rectangles that can be made with the right edge extended from mat[i][j] to mat[k][j]
+                    minimum=min(minimum,dp[k][j]); //the number of rectangles that can be made with the right edge extended from mat[i][j] to mat[k][j]
                     if(minimum==0)
                     {
                         break;
