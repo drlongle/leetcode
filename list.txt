@@ -831,6 +831,7 @@
 1502. Can Make Arithmetic Progression From Sequence
 1503. Last Moment Before All Ants Fall Out of a Plank
 1504. Count Submatrices With All Ones
+1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits
 
 TODO:
 411. Minimum Unique Word Abbreviation
