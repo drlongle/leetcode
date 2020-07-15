@@ -64,12 +64,12 @@ public:
         s.resize(windex);
     }
 
-    void reverseWords(string &s)
+    string reverseWords(string &s)
     {
         skip_space(s);
 
         int index = 0, size = s.size();
-        if (!size) return;
+        if (!size) return "";
         while (index < size)
         {
             int next_index = index;
@@ -79,6 +79,8 @@ public:
             index = next_index+1;
         }
         reverse(s.begin(), s.end());
+
+        return s;
     }
 };
 
