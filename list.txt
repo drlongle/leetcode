@@ -837,6 +837,8 @@
 1508. Range Sum of Sorted Subarray Sums
 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
 1510. Stone Game IV
+1512. Number of Good Pairs
+1513. Number of Substrings With Only 1s
 
 TODO:
 411. Minimum Unique Word Abbreviation
