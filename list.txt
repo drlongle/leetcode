@@ -839,6 +839,7 @@
 1510. Stone Game IV
 1512. Number of Good Pairs
 1513. Number of Substrings With Only 1s
+1514. Path with Maximum Probability
 
 TODO:
 411. Minimum Unique Word Abbreviation
