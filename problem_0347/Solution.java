@@ -39,8 +39,8 @@ public class Solution {
         }
     }
 
-    public List<Integer> topKFrequent(int[] nums, int k) {
-        ArrayList<Integer> res = new ArrayList<Integer>();
+    public int[] topKFrequent(int[] nums, int k) {
+        int[] res = new int[k];
         HashMap<Integer,Integer> counters = new HashMap<Integer,Integer>();
         for (int n: nums)
         {
@@ -62,9 +62,8 @@ public class Solution {
 
         Collections.sort(condensed, new CounterComparator());
         for (int i = 0; i < k; ++i)
-            res.add(new Integer(condensed.get(i).value));
+            res[i] = condensed.get(i).value;
 
         return res;
     }
 }
-
