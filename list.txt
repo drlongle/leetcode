@@ -416,6 +416,7 @@
 739. Daily Temperatures
 743. Network Delay Time
 752. Open the Lock
+762. Prime Number of Set Bits in Binary Representation
 763. Partition Labels
 764. Largest Plus Sign
 767. Reorganize String
