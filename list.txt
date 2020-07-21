@@ -392,6 +392,7 @@
 542. 01 Matrix
 543. Diameter of Binary Tree
 560. Subarray Sum Equals K
+561. Array Partition I
 567. Permutation in String
 581. Shortest Unsorted Continuous Subarray
 594. Longest Harmonious Subsequence
