@@ -5,7 +5,8 @@
     Total Submissions: 54690
     Difficulty: Hard
 
-Given a string that contains only digits 0-9 and a target value, return all possibilities to add binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.
+Given a string that contains only digits 0-9 and a target value, return all possibilities to add
+binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.
 
 Examples:
 
@@ -29,9 +30,9 @@ public class Solution {
     }
 
     public void dfs(List<String> res, StringBuilder sb, String num,
-        int pos, int target, long prev, long multi) { 
+        int pos, int target, long sum, long prev) {
         if(pos == num.length()) {
-            if(target == prev) res.add(sb.toString());
+            if(target == sum) res.add(sb.toString());
             return;
         }
 
@@ -41,16 +42,20 @@ public class Solution {
             int len = sb.length();
             if(pos == 0) {
                 dfs(res, sb.append(curr), num, i + 1, target, curr, curr); 
-                sb.setLength(len);
+                sb.setLength(len); // Ignore every in in sb that comes after len
             } else {
                 dfs(res, sb.append("+").append(curr), num, i + 1, target,
-                    prev + curr, curr); 
+                    sum + curr, curr);
                 sb.setLength(len);
                 dfs(res, sb.append("-").append(curr), num, i + 1, target,
-                    prev - curr, -curr); 
+                    sum - curr, -curr);
                 sb.setLength(len);
+
+                // we have previously add "prev" to "sum" but now we multiply "prev"
+                // by "curr". Thus, the sum so far is: sum - prev. We also pass on
+                // prev * curr as "prev" at the next level.
                 dfs(res, sb.append("*").append(curr), num, i + 1, target,
-                    prev - multi + multi * curr, multi * curr); // why is this? 
+                    sum - prev + prev * curr, prev * curr);
                 sb.setLength(len);
             }
         }
