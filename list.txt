@@ -441,6 +441,7 @@
 900. RLE Iterator
 901. Online Stock Span
 911. Online Election
+912. Sort an Array
 914. X of a Kind in a Deck of Cards
 918. Maximum Sum Circular Subarray
 919. Complete Binary Tree Inserter
