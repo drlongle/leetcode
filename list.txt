@@ -502,6 +502,7 @@
 1046. Last Stone Weight
 1048. Longest String Chain
 1051. Height Checker
+1072. Flip Columns For Maximum Number of Equal Rows
 1078. Occurrences After Bigram
 1079. Letter Tile Possibilities
 1080. Insufficient Nodes in Root to Leaf Paths
