@@ -381,6 +381,7 @@
 516. Longest Palindromic Subsequence
 518. Coin Change 2
 521. Longest Uncommon Subsequence I
+522. Longest Uncommon Subsequence II
 524. Longest Word in Dictionary through Deleting
 525. Contiguous Array
 528. Random Pick with Weight
