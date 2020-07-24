@@ -380,6 +380,7 @@
 515. Find Largest Value in Each Tree Row
 516. Longest Palindromic Subsequence
 518. Coin Change 2
+521. Longest Uncommon Subsequence I
 524. Longest Word in Dictionary through Deleting
 525. Contiguous Array
 528. Random Pick with Weight
