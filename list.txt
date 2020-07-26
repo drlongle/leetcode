@@ -860,6 +860,9 @@
 1524. Number of Sub-arrays With Odd Sum
 1525. Number of Good Ways to Split a String
 1526. Minimum Number of Increments on Subarrays to Form a Target Array
+1528. Shuffle String
+1529. Bulb Switcher IV
+1530. Number of Good Leaf Nodes Pairs
 
 TODO:
 411. Minimum Unique Word Abbreviation
