@@ -415,6 +415,7 @@
 684. Redundant Connection
 700. Search in a Binary Search Tree
 701. Insert into a Binary Search Tree
+705. Design HashSet
 712. Minimum ASCII Delete Sum for Two Strings
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
