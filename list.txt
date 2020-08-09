@@ -869,6 +869,7 @@
 1534. Count Good Triplets
 1535. Find the Winner of an Array Game
 1536. Minimum Swaps to Arrange a Binary Grid
+1539. Kth Missing Positive Number
 
 TODO:
 411. Minimum Unique Word Abbreviation
