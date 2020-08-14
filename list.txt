@@ -877,6 +877,7 @@
 1544. Make The String Great
 1545. Find Kth Bit in Nth Binary String
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
+1547. Minimum Cost to Cut a Stick
 
 TODO:
 411. Minimum Unique Word Abbreviation
