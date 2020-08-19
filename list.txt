@@ -436,6 +436,7 @@
 797. All Paths From Source to Target
 809. Expressive Words
 821. Shortest Distance to a Character
+824. Goat Latin
 837. New 21 Game
 833. Find And Replace in String
 841. Keys and Rooms
@@ -880,6 +881,8 @@
 1545. Find Kth Bit in Nth Binary String
 1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target
 1547. Minimum Cost to Cut a Stick
+1550. Three Consecutive Odds
+1551. Minimum Operations to Make Array Equal
 
 TODO:
 411. Minimum Unique Word Abbreviation
