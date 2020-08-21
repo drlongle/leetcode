@@ -884,6 +884,7 @@
 1547. Minimum Cost to Cut a Stick
 1550. Three Consecutive Odds
 1551. Minimum Operations to Make Array Equal
+1552. Magnetic Force Between Two Balls
 
 TODO:
 411. Minimum Unique Word Abbreviation
