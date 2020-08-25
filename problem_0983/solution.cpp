@@ -64,12 +64,11 @@ using namespace std;
 
 class Solution {
 public:
-
     int cost(vector<int>& days, int index, vector<int>& costs) {
         if (index >= days.size())
             return 0;
         if (index == days.size() - 1)
-            return costs[0];
+            return min_cost;
         auto it = cache.find(index);
         if (it != cache.cend())
             return it->second;
@@ -89,11 +88,13 @@ public:
         cache[index] = res;
         return res;
     }
-        
+
     int mincostTickets(vector<int>& days, vector<int>& costs) {
+        min_cost = *min_element(costs.begin(), costs.end());
         return cost(days, 0, costs);
     }
-    
+
+    int min_cost;
     unordered_map<int, int> cache;
 };
 
