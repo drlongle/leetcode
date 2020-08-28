@@ -898,6 +898,7 @@
 1560. Most Visited Sector in a Circular Track
 1561. Maximum Number of Coins You Can Get
 1562. Find Latest Group of Size M
+1563. Stone Game V
 
 TODO:
 411. Minimum Unique Word Abbreviation
