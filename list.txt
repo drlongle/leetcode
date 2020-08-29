@@ -469,6 +469,7 @@
 953. Verifying an Alien Dictionary
 957. Prison Cells After N Days
 967. Numbers With Same Consecutive Differences
+969. Pancake Sorting
 973. K Closest Points to Origin
 974. Subarray Sums Divisible by K
 975. Odd Even Jump
