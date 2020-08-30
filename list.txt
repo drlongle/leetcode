@@ -422,6 +422,7 @@
 705. Design HashSet
 706. Design HashMap
 712. Minimum ASCII Delete Sum for Two Strings
+714. Best Time to Buy and Sell Stock with Transaction Fee
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
 739. Daily Temperatures
