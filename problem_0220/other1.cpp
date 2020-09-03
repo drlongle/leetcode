@@ -1,3 +1,35 @@
+/*
+We use the concept of sliding window and buckets together to achieve an optimal solution with O(N) time complexity.
+
+Sliding window ensures only those indices are considered whose the absolute difference is at most k. We only
+consider k indices at a time. This fulfills the second condition.
+
+Buckets are used to ensure that the absolute difference between two numbers is at most t. Let's take a deeper look at them.
+We (floor) divide each number by t+1 and put it in a bucket with key as the quotient.
+For example,
+
+[1,5,2,4,3,9,1,5,9], k = 2, t = 3
+
+1 // (3+1) = 0
+5 // (3+1) = 1
+2 // (3+1) = 0
+4 // (3+1) = 1
+3 // (3+1) = 0
+9 // (3+1) = 2
+
+Here, Bucket[0] will contain numbers 0,1,2,3.
+Bucket[1] will contain numbers 4,5,6,7.
+Bucket[2] will contain numbers 8,9,10,11.
+
+On observing carefully, we can see that the absolute difference
+between any two numbers in any bucket is at most t, which is what we want.
+
+Also, there can be a case where the neighbouring bucket has some number
+whose absolute difference with a number in the current bucket is at most t.
+For instance, 2 lies in Bucket[0] and 4 lies in Bucket[1] and 4 - 2 = 2 < 3 (=t).
+This can only happen in neighbouring buckets. Therefore, we need to check for this too.
+ */
+
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
