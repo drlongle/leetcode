@@ -33,33 +33,26 @@ This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
 
 using namespace std;
 
-struct Interval {
-    int start;
-    int end;
-    Interval() : start(0), end(0) {}
-    Interval(int s, int e) : start(s), end(e) {}
-};
-
-bool overlap(const Interval& i1, const Interval& i2)
+bool overlap(vector<int>& i1, vector<int>& i2)
 {
-    if (i1.end < i2.start || i2.end < i1.start) return false;
+    if (i1[1] < i2[0] || i2[1] < i1[0]) return false;
     else return true;
 }
 
-bool is_inside(const Interval& i1, const Interval& i2)
+bool is_inside(const vector<int>& i1, const vector<int>& i2)
 {
-    return (i1.start >= i2.start && i1.end <= i2.end);
+    return (i1[0] >= i2[0] && i1[1] <= i2[1]);
 }
 
-Interval merge_intervals(const Interval& i1, const Interval& i2)
+vector<int> merge_intervals(const vector<int>& i1, const vector<int>& i2)
 {
-    Interval result(min(i1.start,i2.start), max(i1.end,i2.end));
+    vector<int> result{min(i1[0],i2[0]), max(i1[1],i2[1])};
     return result; 
 }
 
 class Solution {
 public:
-    vector<Interval> insert(vector<Interval>& intervals, Interval newInterval)
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval)
     {
         if (!intervals.empty())
         {
@@ -67,9 +60,9 @@ public:
                 is_inside(intervals.back(), newInterval))
                 return {newInterval};
         }
-        vector<Interval> result = intervals;
-        Interval interval = newInterval;
-        vector<Interval>::iterator it;
+        vector<vector<int>> result = intervals;
+        vector<int> interval = newInterval;
+        vector<vector<int>>::iterator it;
         it = result.begin();
         while (it != result.end()) {
             if (overlap(*it, interval)) {
@@ -79,29 +72,35 @@ public:
                 ++it;
         }
         result.emplace_back(interval);
-       sort(result.begin(), result.end(),
-          [](const Interval&i1, const Interval& i2)
-          { return i1.start < i2.start;});
+        sort(result.begin(), result.end(),
+          [](const vector<int>&i1, const vector<int>& i2)
+          { return i1[0] < i2[0];});
         return result;
     }
 };
 
-void printIntervals(const vector<Interval>& intervals)
+void printIntervals(const vector<vector<int>>& intervals)
 {
     for (const auto& r: intervals)
-        cout << "[" << r.start << "," << r.end << "]" << endl;
+        cout << "[" << r[0] << "," << r[1] << "]" << endl;
 }
 
 int main()
 {
     Solution sol;
-    vector<Interval> input, result;
-    Interval interval;
+    vector<vector<int>> input, result;
+    vector<int> interval;
 
     input = {{1,3},{2,6},{8,10},{15,18}};
     interval = {2,5};
 
     result = sol.insert(input, interval);
     printIntervals(result);
+
+    input = {{1,3},{6,9}};
+    interval = {2,5};
+    result = sol.insert(input, interval);
+    printIntervals(result);
+
     return 0;
 }
