@@ -906,6 +906,7 @@
 1562. Find Latest Group of Size M
 1563. Stone Game V
 1566. Detect Pattern of Length M Repeated K or More Times
+1567. Maximum Length of Subarray With Positive Product
 1572. Matrix Diagonal Sum
 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
 
