@@ -914,6 +914,7 @@
 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
 1578. Minimum Deletion Cost to Avoid Repeating Letters
 1582. Special Positions in a Binary Matrix
+1583. Count Unhappy Friends
 1588. Sum of All Odd Length Subarrays
 1589. Maximum Sum Obtained of Any Permutation
 1592. Rearrange Spaces Between Words
