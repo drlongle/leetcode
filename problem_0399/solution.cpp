@@ -47,15 +47,13 @@ using namespace std;
 
 class Solution {
 public:
-    
-    double query(const pair<string, string>& query) {
+    double query(const vector<string>& query) {
         queue<pair<string, double>> nodes;
         set<string> visited;
-        
-        nodes.push({query.first, 1.0});
+        nodes.push({query[0], 1.0});
         while (nodes.size() > 0) {
             const pair<string, double>& node = nodes.front();
-            if (node.first == query.second) {
+            if (node.first == query[1]) {
                 return node.second;
             }
             for (auto& neigh: rel[node.first]) {
@@ -70,19 +68,19 @@ public:
         return -1.0;
     }
     
-    vector<double> calcEquation(vector<pair<string, string>> equations,
-            vector<double>& values, vector<pair<string, string>> queries) {
+    vector<double> calcEquation(vector<vector<string>> equations,
+            vector<double>& values, vector<vector<string>>& queries) {
         for (size_t i = 0; i < equations.size(); ++i) {
-            const pair<string, string>& eq = equations[i];
-            rel[eq.first][eq.second] = values[i];
-            rel[eq.second][eq.first] = 1.0 / values[i];
+            const vector<string>& eq = equations[i];
+            rel[eq[0]][eq[1]] = values[i];
+            rel[eq[1]][eq[0]] = 1.0 / values[i];
         }
         
         vector<double> res;
         for (const auto& q : queries) {
-            if (!rel.count(q.first) || !rel.count(q.second))
+            if (!rel.count(q[0]) || !rel.count(q[1]))
                 res.emplace_back(-1.0);
-            else if (q.first == q.second)
+            else if (q[0] == q[1])
                 res.emplace_back(1.0);
             else
                 res.emplace_back(query(q));
@@ -96,9 +94,9 @@ public:
 
 int main(int argc, char** argv) {
     Solution sol;
-    vector<pair<string, string>> equations;
+    vector<vector<string>> equations;
     vector<double> values, res;
-    vector<pair<string, string>> queries;
+    vector<vector<string>> queries;
 
     // Expected: [6.0, 0.5, -1.0, 1.0, -1.0 ]
     equations = { {"a", "b"}, {"b", "c"} };
@@ -108,6 +106,7 @@ int main(int argc, char** argv) {
     queries = { {"x", "x"} };
     res = sol.calcEquation(equations, values, queries);
     copy(begin(res), end(res), ostream_iterator<double>(cout, ", "));
-    
+    cout << endl;
+
     return 0;
 }
