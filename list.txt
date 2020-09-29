@@ -921,6 +921,7 @@
 1584. Min Cost to Connect All Points
 1588. Sum of All Odd Length Subarrays
 1589. Maximum Sum Obtained of Any Permutation
+1591. Strange Printer II
 1592. Rearrange Spaces Between Words
 
 TODO:
