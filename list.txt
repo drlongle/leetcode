@@ -390,6 +390,7 @@
 528. Random Pick with Weight
 529. Minesweeper
 530. Minimum Absolute Difference in BST
+532. K-diff Pairs in an Array
 535. Encode and Decode TinyURL
 538. Convert BST to Greater Tree
 539. Minimum Time Difference
