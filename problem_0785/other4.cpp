@@ -21,7 +21,7 @@ class Solution {
         }
         return true;
     }
-    
+
 public:
     bool isBipartite(vector<vector<int>>& graph) {
         vector<int> colors(graph.size(), -1);
