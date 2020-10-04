@@ -458,6 +458,7 @@
 857. Minimum Cost to Hire K Workers
 876. Middle of the Linked List
 877. Stone Game
+880. Decoded String at Index
 886. Possible Bipartition
 900. RLE Iterator
 901. Online Stock Span
