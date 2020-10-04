@@ -414,6 +414,7 @@
 658. Find K Closest Elements
 659. Split Array into Consecutive Subsequences
 662. Maximum Width of Binary Tree
+664. Strange Printer
 669. Trim a Binary Search Tree
 677. Map Sum Pairs
 678. Valid Parenthesis String
