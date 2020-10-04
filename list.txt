@@ -439,6 +439,7 @@
 767. Reorganize String
 771. Jewels and Stones
 783. Minimum Distance Between BST Nodes
+785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
 794. Valid Tic-Tac-Toe State
 797. All Paths From Source to Target
