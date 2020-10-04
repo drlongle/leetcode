@@ -529,6 +529,7 @@
 1038. Binary Search Tree to Greater Sum Tree
 1039. Minimum Score Triangulation of Polygon
 1041. Robot Bounded In Circle
+1042. Flower Planting With No Adjacent
 1043. Partition Array for Maximum Sum
 1044. Longest Duplicate Substring
 1046. Last Stone Weight
