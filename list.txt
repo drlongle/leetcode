@@ -406,6 +406,7 @@
 617. Merge Two Binary Trees
 621. Task Scheduler
 628. Maximum Product of Three Numbers
+636. Exclusive Time of Functions
 639. Decode Ways II
 647. Palindromic Substrings
 648. Replace Words
@@ -441,6 +442,7 @@
 783. Minimum Distance Between BST Nodes
 785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
+791. Custom Sort String
 794. Valid Tic-Tac-Toe State
 797. All Paths From Source to Target
 809. Expressive Words
