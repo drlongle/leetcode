@@ -933,6 +933,7 @@
 1589. Maximum Sum Obtained of Any Permutation
 1591. Strange Printer II
 1592. Rearrange Spaces Between Words
+1593. Split a String Into the Max Number of Unique Substrings
 1600. Throne Inheritance
 1603. Design Parking System
 1604. Alert Using Same Key-Card Three or More Times in a One Hour Period
