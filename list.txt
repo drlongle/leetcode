@@ -937,6 +937,7 @@
 1591. Strange Printer II
 1592. Rearrange Spaces Between Words
 1593. Split a String Into the Max Number of Unique Substrings
+1594. Maximum Non Negative Product in a Matrix
 1599. Maximum Profit of Operating a Centennial Wheel
 1600. Throne Inheritance
 1603. Design Parking System
