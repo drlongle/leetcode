@@ -9,9 +9,9 @@ Given "bcabc"
 Return "abc"
 
 Given "cbacdcbc"
-Return "acdb" 
+Return "acdb"
 
-Algoritghm sketch.
+Algorithm sketch.
 Consider all characters within a certain range of the string. The range is
 chosen such that it's possible to pick any of these characters and we
 can still reproduce the rest of the string.
@@ -98,8 +98,8 @@ public:
             for (it2 = entry.cbegin(); it2 != entry.cend(); ++it2)
             {
                 // we copy it2->ch to the result string if this is its last
-                // occurance or it2->ch is the
-                // first character among all mising characters
+                // occurrence or it2->ch is the
+                // first character among all missing characters
                 if (((it2->occur == 1 && hash.find(it2->ch) != hash.end())
                     || (hash.size() && hash.begin()->first == it2->ch))
                     && (it2->position > last_push_pos))
