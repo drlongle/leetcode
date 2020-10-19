@@ -83,7 +83,7 @@ public:
             {
                 int p = prices[i];
                 profit_at_sell = max(profit_at_sell, p + profit_at_buy);
-                profit_at_buy = max(profit_at_buy, prev[i-1] - p);
+                profit_at_buy = max(profit_at_buy, (i > 0 ? prev[i-1] : 0) - p);
                 if (profit_at_sell > curr[i])
                 {
                     curr[i] = profit_at_sell;
@@ -105,6 +105,10 @@ int main()
     // Expected: 3
     k = 2;
     prices = {1,4,2};
+    cout << "Result: " << sol.maxProfit(k, prices) << endl;
+
+    k = 2;
+    prices = {2,4,1};
     cout << "Result: " << sol.maxProfit(k, prices) << endl;
 
     return 0;
