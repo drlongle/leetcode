@@ -35,15 +35,15 @@ public class Solution {
     {
 	lookup = new HashMap<>();
     }
-    Map<UndirectedGraphNode, UndirectedGraphNode> lookup;
+    Map<Node, Node> lookup;
 
-    public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+    public Node cloneGraph(Node node) {
 	if (node == null) return null;
 	if (lookup.containsKey(node))
 	    return lookup.get(node);
-	UndirectedGraphNode newNode = new UndirectedGraphNode(node.label);
+	Node newNode = new Node(node.val);
 	lookup.put(node, newNode);
-	for (UndirectedGraphNode neigh: node.neighbors)
+	for (Node neigh: node.neighbors)
 	    newNode.neighbors.add(cloneGraph(neigh));
 
         return newNode;
