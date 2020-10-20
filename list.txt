@@ -431,6 +431,7 @@
 714. Best Time to Buy and Sell Stock with Transaction Fee
 718. Maximum Length of Repeated Subarray
 733. Flood Fill
+738. Monotone Increasing Digits
 739. Daily Temperatures
 740. Delete and Earn
 743. Network Delay Time
@@ -948,6 +949,9 @@
 1609. Even Odd Tree
 1614. Maximum Nesting Depth of the Parentheses
 1615. Maximal Network Rank
+1619. Mean of Array After Removing Some Elements
+1620. Coordinate With Maximum Network Quality
+1624. Largest Substring Between Two Equal Characters
 
 TODO:
 411. Minimum Unique Word Abbreviation
