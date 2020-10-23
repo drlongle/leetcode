@@ -524,6 +524,7 @@
 1007. Minimum Domino Rotations For Equal Row
 1008. Construct Binary Search Tree from Preorder Traversal
 1009. Complement of Base 10 Integer
+1018. Binary Prefix Divisible By 5
 1022. Sum of Root To Leaf Binary Numbers
 1024. Video Stitching
 1025. Divisor Game
