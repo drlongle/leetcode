@@ -955,6 +955,7 @@
 1620. Coordinate With Maximum Network Quality
 1621. Number of Sets of K Non-Overlapping Line Segments
 1624. Largest Substring Between Two Equal Characters
+1625. Lexicographically Smallest String After Applying Operations
 
 TODO:
 411. Minimum Unique Word Abbreviation
