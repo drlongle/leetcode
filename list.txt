@@ -961,6 +961,7 @@
 1624. Largest Substring Between Two Equal Characters
 1625. Lexicographically Smallest String After Applying Operations
 1629. Slowest Key
+1630. Arithmetic Subarrays
 
 TODO:
 411. Minimum Unique Word Abbreviation
