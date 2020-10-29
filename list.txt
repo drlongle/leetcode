@@ -431,6 +431,7 @@
 714. Best Time to Buy and Sell Stock with Transaction Fee
 718. Maximum Length of Repeated Subarray
 729. My Calendar I
+731. My Calendar II
 733. Flood Fill
 735. Asteroid Collision
 738. Monotone Increasing Digits
@@ -460,6 +461,7 @@
 841. Keys and Rooms
 844. Backspace String Compare
 846. Hand of Straights
+849. Maximize Distance to Closest Person
 851. Loud and Rich
 856. Score of Parentheses
 857. Minimum Cost to Hire K Workers
