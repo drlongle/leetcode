@@ -479,6 +479,7 @@
 900. RLE Iterator
 901. Online Stock Span
 905. Sort Array By Parity
+907. Sum of Subarray Minimums
 911. Online Election
 912. Sort an Array
 914. X of a Kind in a Deck of Cards
