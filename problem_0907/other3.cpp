@@ -44,7 +44,7 @@ public:
                 }
             }
         }
-        
+
         return ans%mod;
     }
 
