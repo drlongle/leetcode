@@ -976,6 +976,7 @@
 1630. Arithmetic Subarrays
 1631. Path With Minimum Effort
 1636. Sort Array by Increasing Frequency
+1637. Widest Vertical Area Between Two Points Containing No Points
 1638. Count Substrings That Differ by One Character
 1641. Count Sorted Vowel Strings
 
