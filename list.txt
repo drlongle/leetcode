@@ -461,6 +461,7 @@
 794. Valid Tic-Tac-Toe State
 797. All Paths From Source to Target
 799. Champagne Tower
+806. Number of Lines To Write String
 809. Expressive Words
 821. Shortest Distance to a Character
 824. Goat Latin
