@@ -402,6 +402,7 @@
 560. Subarray Sum Equals K
 561. Array Partition I
 567. Permutation in String
+572. Subtree of Another Tree
 581. Shortest Unsorted Continuous Subarray
 594. Longest Harmonious Subsequence
 600. Non-negative Integers without Consecutive Ones
