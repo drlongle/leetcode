@@ -487,6 +487,7 @@
 901. Online Stock Span
 905. Sort Array By Parity
 907. Sum of Subarray Minimums
+908. Smallest Range I
 910. Smallest Range II
 911. Online Election
 912. Sort an Array
