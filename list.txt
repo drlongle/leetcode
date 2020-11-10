@@ -467,6 +467,7 @@
 821. Shortest Distance to a Character
 824. Goat Latin
 830. Positions of Large Groups
+832. Flipping an Image
 833. Find And Replace in String
 835. Image Overlap
 836. Rectangle Overlap
