@@ -993,6 +993,7 @@
 1638. Count Substrings That Differ by One Character
 1641. Count Sorted Vowel Strings
 1642. Furthest Building You Can Reach
+1647. Minimum Deletions to Make Character Frequencies Unique
 
 TODO:
 411. Minimum Unique Word Abbreviation
