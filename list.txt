@@ -994,6 +994,7 @@
 1641. Count Sorted Vowel Strings
 1642. Furthest Building You Can Reach
 1647. Minimum Deletions to Make Character Frequencies Unique
+1652. Defuse the Bomb
 
 TODO:
 411. Minimum Unique Word Abbreviation
