@@ -482,6 +482,7 @@
 851. Loud and Rich
 856. Score of Parentheses
 857. Minimum Cost to Hire K Workers
+858. Mirror Reflection
 859. Buddy Strings
 866. Prime Palindrome
 876. Middle of the Linked List
