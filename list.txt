@@ -477,6 +477,7 @@
 837. New 21 Game
 841. Keys and Rooms
 844. Backspace String Compare
+845. Longest Mountain in Array
 846. Hand of Straights
 849. Maximize Distance to Closest Person
 851. Loud and Rich
