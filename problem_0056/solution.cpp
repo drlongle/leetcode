@@ -29,30 +29,22 @@ return [1,6],[8,10],[15,18].
 
 using namespace std;
 
-struct Interval {
-    int start;
-    int end;
-    Interval() : start(0), end(0) {}
-    Interval(int s, int e) : start(s), end(e) {}
-};
-
-bool overlap(const Interval& i1, const Interval& i2)
+bool overlap(const vector<int>& i1, const vector<int>& i2)
 {
-    if (i1.end < i2.start || i2.end < i1.start) return false;
+    if (i1[1] < i2[0] || i2[1] < i1[0]) return false;
     else return true;
 }
 
-Interval merge_intervals(const Interval& i1, const Interval& i2)
+vector<int> merge_intervals(const vector<int>& i1, const vector<int>& i2)
 {
-    Interval result(min(i1.start,i2.start), max(i1.end,i2.end));
-    return result; 
+    return vector<int>{min(i1[0],i2[0]), max(i1[1],i2[1])};
 }
 
 class Solution {
 public:
-    vector<Interval> merge(vector<Interval>& intervals) {
-        vector<Interval> result;
-        vector<Interval>::iterator it;
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        vector<vector<int>> result;
+        vector<vector<int>>::iterator it;
         for(auto& interval : intervals) {
             it = result.begin();
             while (it != result.end()) {
@@ -65,37 +57,36 @@ public:
             result.emplace_back(interval);
         }
 
-        sort(result.begin(), result.end(),
-            [](const Interval& i1, const Interval& i2)
-            {return i1.start < i2.start;}); 
+        sort(result.begin(), result.end());
+
         return result;
     }
 };
 
-vector<Interval> generateIntervals()
+vector<vector<int>> generateIntervals()
 {
     std::srand(std::time(0));
-    vector<Interval> result;
+    vector<vector<int>> result;
     int size = rand() % 10; 
     for (int i = 0; i < size; ++i)
     {
         int i1 = rand() % 10000;
         int i2 = rand() % 100;
-        result.emplace_back(i1,i1+i2);
+        result.emplace_back(vector<int>{i1,i1+i2});
     }
     return result;
 }
 
-void printIntervals(const vector<Interval>& intervals)
+void printIntervals(const vector<vector<int>>& intervals)
 {
     for (const auto& r: intervals)
-        cout << "[" << r.start << "," << r.end << "]" << endl;
+        cout << "[" << r[0] << "," << r[1] << "]" << endl;
 }
 
 int main()
 {
     Solution sol;
-    vector<Interval> input, result;
+    vector<vector<int>> input, result;
     input = {{1,3},{2,6},{8,10},{15,18}};
     input = generateIntervals();
     printIntervals(input);
