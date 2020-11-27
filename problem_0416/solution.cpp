@@ -69,9 +69,9 @@ public:
         dp[0] = 1;
         for (auto& n: nums) {
             for (int i = sum; i >= n; --i)
-                dp [i] += dp[i-n];
+                dp [i] |= dp[i-n];
         }
-        return dp[sum] != 0;
+        return dp[sum];
     }
 };
 
