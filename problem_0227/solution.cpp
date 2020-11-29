@@ -39,7 +39,7 @@ using namespace std;
 
 class Solution {
 public:
-    int calc(char ch, int n1, int n2)
+    long long calc(char ch, int n1, int n2)
     {
         switch(ch) {
         case '+':
@@ -62,8 +62,8 @@ public:
         return -1;
     }
 
-    int string_to_int(string&s , int begin, int end) {
-        int result = 0;
+    long long string_to_int(string&s , int begin, int end) {
+        long long result = 0;
         while (begin <= end && s[begin] == ' ')
             ++begin;
         while (begin <= end && s[end] == ' ')
@@ -104,7 +104,7 @@ public:
 
     int calculate(string s) {
         //return calculate(s,0,s.size()-1);
-        vector<pair<int,char>> ops;
+        vector<pair<long long,char>> ops;
         ops.emplace_back(0, '+');
         int index = 0, end = s.size()-1;
         while (index <= end) {
