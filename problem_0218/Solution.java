@@ -72,9 +72,9 @@ public class Solution {
         int[] line;
     }
 
-    public List<int[]> getSkyline(int[][] buildings)
+    public List<List<Integer>> getSkyline(int[][] buildings)
     {
-        List<int[]> result = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         List<Point> points = new ArrayList<>();
         for (int i = 0; i < buildings.length; ++i)
         {
@@ -128,16 +128,15 @@ public class Solution {
             {
                 while (result.size() > 0)
                 {
-                    int[] lastPoint = result.get(result.size()-1);
-                    if (lastPoint[0] != coordinate)
+                    List<Integer> lastPoint = result.get(result.size()-1);
+                    if (lastPoint.get(0) != coordinate)
                         break;
-                        if ((p.isStart && lastPoint[1] <= currHigh) ||
-                            (!p.isStart && lastPoint[1] >= currHigh))
+                        if ((p.isStart && lastPoint.get(1) <= currHigh) ||
+                            (!p.isStart && lastPoint.get(1) >= currHigh))
                             result.remove(result.size()-1); 
                 }
-                if (result.isEmpty() ||
-                    result.get(result.size()-1)[1] != currHigh)
-                    result.add(new int[]{coordinate, currHigh});
+                if (result.isEmpty() || result.get(result.size()-1).get(1) != currHigh)
+                    result.add(Arrays.asList(new Integer[]{new Integer(coordinate), new Integer(currHigh)}));
             }
             prevHigh = currHigh;
         }
@@ -151,10 +150,7 @@ public class Solution {
 
         //Expected: [[0,3],[7,0]] 
         buildings = new int[][]{{0,3,3},{1,5,3},{2,4,3},{3,7,3}};
-                        
-        List<int[]> result = sol.getSkyline(buildings);
-        //result.forEach(i -> System.out.println(i[0] + " " + i[1]));
-        for (int[] r: result)
-            System.out.println(Arrays.toString(r));
+        List<List<Integer>> result = sol.getSkyline(buildings);
+        result.forEach(i -> System.out.println(i.get(0) + " " + i.get(1)));
     }
 }
