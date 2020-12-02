@@ -1,9 +1,27 @@
 /*
 408. Valid Word Abbreviation
 
-Given a string "word" and a string "abbr", check whether "abbr" is an
-abbreviation of "word". For example, valid abbreviations of "word" is
-{ "1ord", "2rd", "3d", "4", "w1rd", "w2d", "w3", "wr1d", "wro1", "wr2" }
+Given a non-empty string s and an abbreviation abbr, return whether the string matches
+with the given abbreviation.
+
+A string such as "word" contains only the following valid abbreviations:
+
+["word", "1ord", "w1rd", "wo1d", "wor1", "2rd", "w2d", "wo2", "1o1d", "1or1", "w1r1",
+ "1o2", "2r1", "3d", "w3", "4"]
+
+Notice that only the above abbreviations are valid abbreviations of the string "word".
+Any other string is not a valid abbreviation of "word".
+
+Note:
+Assume s contains only lowercase letters and abbr contains only lowercase letters and digits.
+
+Example 1:
+Given s = "internationalization", abbr = "i12iz4n":
+
+Return true.
+Example 2:
+Given s = "apple", abbr = "a2e":
+Return false.
 */
 
 #include <algorithm>
@@ -70,9 +88,20 @@ int main()
 {
     Solution sol;
     string s, abbr;
+
+    // true
     s = "internationalization", abbr = "i12iz4n";
+    cout << boolalpha << sol.validWordAbbreviation(s, abbr) << endl;
+
+    // false
     s = "apple", abbr = "a2e";
+    cout << boolalpha << sol.validWordAbbreviation(s, abbr) << endl;
+
+    // true
     s = "word", abbr ="1o1d";
+    cout << boolalpha << sol.validWordAbbreviation(s, abbr) << endl;
+
+    // false
     s = "a", abbr = "01";
     cout << boolalpha << sol.validWordAbbreviation(s, abbr) << endl;
 
