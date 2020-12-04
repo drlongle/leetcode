@@ -82,7 +82,7 @@ public:
             int temp = longestSubstring(s, prev, end, k);
             res = max(temp, res);
         }
-            
+
 
         return res;
     }
