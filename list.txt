@@ -322,6 +322,7 @@
 408. Valid Word Abbreviation
 409. Longest Palindrome
 410. Split Array Largest Sum
+411. Minimum Unique Word Abbreviation
 412. Fizz Buzz
 413. Arithmetic Slices
 414. Third Maximum Number
@@ -1007,7 +1008,6 @@
 1652. Defuse the Bomb
 
 TODO:
-411. Minimum Unique Word Abbreviation
 418. Sentence Screen Fitting
 425. Word Squares
 439. Ternary Expression Parser
