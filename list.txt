@@ -155,6 +155,7 @@
 155. Min Stack
 160. Intersection of Two Linked Lists
 162. Find Peak Element
+163. Missing Ranges
 164. Maximum Gap
 165. Compare Version Numbers
 166. Fraction to Recurring Decimal
