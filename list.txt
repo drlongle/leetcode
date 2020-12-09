@@ -346,6 +346,7 @@
 436. Find Right Interval
 437. Path Sum III
 438. Find All Anagrams in a String
+439. Ternary Expression Parser
 440. K-th Smallest in Lexicographical Order
 441. Arranging Coins
 442. Find All Duplicates in an Array
@@ -1013,6 +1014,5 @@
 TODO:
 418. Sentence Screen Fitting
 425. Word Squares
-439. Ternary Expression Parser
 444. Sequence Reconstruction
 
