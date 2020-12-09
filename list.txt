@@ -413,6 +413,7 @@
 593. Valid Square
 594. Longest Harmonious Subsequence
 600. Non-negative Integers without Consecutive Ones
+605. Can Place Flowers
 609. Find Duplicate File in System
 617. Merge Two Binary Trees
 621. Task Scheduler
