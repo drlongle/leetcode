@@ -43,8 +43,7 @@ public:
     int removeDuplicates(vector<int>& nums) {
         int pfast = 0, plow = 0, nsize = nums.size();
         for ( ; pfast < nsize; ++pfast) {
-            if (plow < 2 || nums[pfast] != nums[plow-1] ||
-                nums[pfast] != nums[plow-2])
+            if (plow < 2 || nums[pfast] != nums[plow-2])
                 nums[plow++] = nums[pfast];
         }
         return plow;
