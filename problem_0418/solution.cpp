@@ -96,27 +96,43 @@ public:
     int wordsTyping(vector<string>& sentence, int rows, int cols) {
         int res = 0;
         int blank = cols;
-        int index = 0;
+        int index = 0, cnt = 1;
         int sentence_size = sentence.size();
-        while (rows > 0)
+        vector<vector<pair<int, int>>> dp(sentence_size, vector<pair<int, int>>(cols+1));
+        while (rows >= cnt)
         {
             int word_size = sentence[index].size();
+            if (word_size > cols)
+                return 0;
+            auto& cell = dp[index][blank];
+            if (cell.second > 0) {
+                int diff = cnt - cell.second;
+                if (diff > 0) {
+                    int div = (rows - cnt - 1) / diff;
+                    res += (res - cell.first) * div;
+                    cnt += diff * div;
+                }
+            } else
+                cell = make_pair(res, cnt);
             if (blank >= word_size)
                 blank -= word_size;
-            else
-            {
-                if (rows == 1)
+            else {
+                if (rows == cnt)
                     break;
-                --rows;
+                ++cnt;
                 blank = cols - word_size;
             }
             if (blank > 0)
                 --blank;
-            //cout << sentence[index] << ", rows: " << rows << ", blank: " << blank << endl;
             if (index == sentence_size - 1)
             {
                 ++res;
                 index = 0;
+                if (blank == 0) {
+                    int div = rows / cnt;
+                    res *= div;
+                    cnt *= div;
+                }
             }
             else
                 ++index;
@@ -134,18 +150,31 @@ int main()
 
     // Expected: 1
     rows = 2, cols = 8, sentence = {"hello", "world"};
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
 
     // Expected: 2
     rows = 3, cols = 6, sentence = {"a", "bcd", "e"};
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
 
     // Expected: 1
-    //rows = 4, cols = 5, sentence = {"I", "had", "apple", "pie"};
+    rows = 4, cols = 5, sentence = {"I", "had", "apple", "pie"};
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
 
     // Expected: 10
     rows = 8, cols = 7, sentence = {"f","p","a"};
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
 
     res = sol.wordsTyping(sentence, rows, cols);
     cout << "Result: " << res << endl;
+
+    sentence = {"hello"}, rows = 10000, cols = 1;
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
+
+    sentence = {"a","b","e"}, rows = 20000, cols = 20000;
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
+
+    sentence = {"try","to","be","better"}, rows = 10000, cols = 9001;
+    cout << "Result: " << sol.wordsTyping(sentence, rows, cols) << endl;
 
     return 0;
 }

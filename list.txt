@@ -330,6 +330,7 @@
 415. Add Strings
 416. Partition Equal Subset Sum
 417. Pacific Atlantic Water Flow
+418. Sentence Screen Fitting
 419. Battleships in a Board
 420. Strong Password Checker
 421. Maximum XOR of Two Numbers in an Array
@@ -1012,7 +1013,6 @@
 1652. Defuse the Bomb
 
 TODO:
-418. Sentence Screen Fitting
 425. Word Squares
 444. Sequence Reconstruction
 
