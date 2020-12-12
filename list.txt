@@ -1012,6 +1012,8 @@
 1647. Minimum Deletions to Make Character Frequencies Unique
 1648. Sell Diminishing-Valued Colored Balls
 1652. Defuse the Bomb
+1684. Count the Number of Consistent Strings
+1685. Sum of Absolute Differences in a Sorted Array
 
 TODO:
 425. Word Squares
