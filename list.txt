@@ -1014,6 +1014,7 @@
 1652. Defuse the Bomb
 1684. Count the Number of Consistent Strings
 1685. Sum of Absolute Differences in a Sorted Array
+1686. Stone Game VI
 
 TODO:
 425. Word Squares
