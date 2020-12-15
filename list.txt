@@ -284,6 +284,7 @@
 365. Water and Jug Problem
 367. Valid Perfect Square
 368. Largest Divisible Subset
+369. Plus One Linked List
 371. Sum of Two Integers
 372. Super Pow
 373. Find K Pairs with Smallest Sums
