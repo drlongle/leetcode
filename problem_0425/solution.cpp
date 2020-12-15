@@ -92,44 +92,61 @@ using namespace std;
 class Solution {
 public:
 
-    vector<vector<string>> wordSquares(vector<string>& words) {
-        vector<vector<string>> res;
-        if (words.empty())
-            return res;
-        int wsize = words.begin()->size();
-        if (wsize == 1)
-        {
-            for (auto& w: words)
-                res.emplace_back(vector<string>(1, w));
-            return res;
+    struct Node {
+        vector<int> indices;
+        map<char, Node> children;
+    };
+
+    Node root;
+
+    void insert(string& word, int index) {
+        Node* n = &root;
+        n->indices.push_back(index);
+        for (char ch: word) {
+            n = &n->children[ch];
+            n->indices.push_back(index);
         }
+    }
 
-        unordered_map<char, vector<string*>> lookup;
-        for (auto& word: words)
-            lookup[word[0]].emplace_back(&word);
+    vector<int>& get(string& word) {
+        Node* n = &root;
+        for (char ch: word) {
+            n = &n->children[ch];
+        }
+        return n->indices;
+    }
 
-        for (auto& word: words)
-        {
-            vector<string> vs;
-            for (auto& ch: word)
-            {
-                unordered_map<char, vector<string*>>::iterator it;
-                if ((it = lookup.find(ch)) == lookup.end())
-                    continue;
-                for (auto& w: it->second)
-                    vs.emplace_back(w->substr(1));
-                vector<vector<string>> subres = wordSquares(vs);
-                if (subres.empty())
-                    continue;
-                for (auto& sub: subres)
-                {
-                    for (auto& s: sub)
-                        s.insert(0, 1, ch);
-                    sub.insert(sub.begin(), word);
-                    res.emplace_back(sub);
-                }
+    vector<vector<string>> res;
+    vector<string> matrix;
+    size_t wlen;
+
+    void dfs(vector<string>& words, string& path) {
+        auto& indices = get(path);
+        size_t msz = matrix.size();
+        for (int j: indices) {
+            matrix.emplace_back(words[j]);
+            string new_path;
+            for (size_t i = 0; i < msz + 1; ++i) {
+                if (msz + 1 < wlen)
+                    new_path.push_back(matrix[i][msz+1]);
             }
+            if (matrix.size() == wlen)
+                res.emplace_back(matrix);
+            else
+                dfs(words, new_path);
+            matrix.pop_back();
         }
+    }
+
+    vector<vector<string>> wordSquares(vector<string>& words) {
+        int wsz = words.size();
+        for (int i = 0; i < wsz; ++i)
+            insert(words[i], i);
+
+        wlen = words[0].size();
+        string path;
+
+        dfs(words, path);
 
         return res;
     }
@@ -137,16 +154,29 @@ public:
 
 int main(int argc, const char* argv[])
 {
-    Solution sol;
     vector<string> words;
     vector<vector<string>> result;
 
-    words = {"area","lead","wall","lady","ball"};
-    result = sol.wordSquares(words);
-    for (auto& res: result)
     {
-        copy(res.begin(), res.end(), ostream_iterator<string>(cout, ", "));
-        cout << endl;
+        Solution sol;
+        words = {"area","lead","wall","lady","ball"};
+        result = sol.wordSquares(words);
+        for (auto& res: result)
+        {
+            copy(res.begin(), res.end(), ostream_iterator<string>(cout, ", "));
+            cout << endl;
+        }
+    }
+
+    {
+        Solution sol;
+        words = {"abat","baba","atan","atal"};
+        result = sol.wordSquares(words);
+        for (auto& res: result)
+        {
+            copy(res.begin(), res.end(), ostream_iterator<string>(cout, ", "));
+            cout << endl;
+        }
     }
 
     return 0;

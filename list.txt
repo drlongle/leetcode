@@ -337,6 +337,7 @@
 422. Valid Word Square
 423. Reconstruct Original Digits from English
 424. Longest Repeating Character Replacement
+425. Word Squares
 427. Construct Quad Tree
 429. N-ary Tree Level Order Traversal
 430. Flatten a Multilevel Doubly Linked List
@@ -1017,6 +1018,5 @@
 1686. Stone Game VI
 
 TODO:
-425. Word Squares
 444. Sequence Reconstruction
 
