@@ -218,6 +218,7 @@
 241. Different Ways to Add Parentheses
 242. Valid Anagram
 243. Shortest Word Distance
+249. Group Shifted Strings
 252. Meeting Rooms
 257. Binary Tree Paths
 258. Add Digits
