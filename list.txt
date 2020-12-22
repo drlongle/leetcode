@@ -233,6 +233,7 @@
 273. Integer to English Words
 274. H-Index
 275. H-Index II
+277. Find the Celebrity
 278. First Bad Version
 279. Perfect Squares
 282. Expression Add Operators
@@ -1001,6 +1002,7 @@
 1594. Maximum Non Negative Product in a Matrix
 1599. Maximum Profit of Operating a Centennial Wheel
 1600. Throne Inheritance
+1602. Find Nearest Right Node in Binary Tree
 1603. Design Parking System
 1604. Alert Using Same Key-Card Three or More Times in a One Hour Period
 1605. Find Valid Matrix Given Row and Column Sums
