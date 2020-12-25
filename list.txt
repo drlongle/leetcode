@@ -394,6 +394,7 @@
 494. Target Sum
 495. Teemo Attacking
 497. Random Point in Non-overlapping Rectangles
+498. Diagonal Traverse
 500. Keyboard Row
 503. Next Greater Element II
 507. Perfect Number
