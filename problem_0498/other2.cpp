@@ -36,7 +36,7 @@ public:
                     break;
             }
         }
-        
+
         return rez;
     }
 };
