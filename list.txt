@@ -263,6 +263,7 @@
 319. Bulb Switcher
 321. Create Maximum Number
 322. Coin Change
+323. Number of Connected Components in an Undirected Graph
 324. Wiggle Sort II
 325. Maximum Size Subarray Sum Equals k
 326. Power of Three
