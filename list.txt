@@ -279,6 +279,7 @@
 336. Palindrome Pairs
 337. House Robber III
 338. Counting Bits
+340. Longest Substring with At Most K Distinct Characters
 341. Flatten Nested List Iterator
 342. Power of Four
 343. Integer Break
