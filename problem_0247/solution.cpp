@@ -108,5 +108,15 @@ int main() {
     copy(begin(res), end(res), ostream_iterator<string>(cout, ", "));
     cout << endl;
 
+    n = 3;
+    res = sol.findStrobogrammatic(n);
+    copy(begin(res), end(res), ostream_iterator<string>(cout, ", "));
+    cout << endl;
+
+    n = 4;
+    res = sol.findStrobogrammatic(n);
+    copy(begin(res), end(res), ostream_iterator<string>(cout, ", "));
+    cout << endl;
+
     return 0;
 }

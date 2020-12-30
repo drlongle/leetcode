@@ -223,6 +223,7 @@
 243. Shortest Word Distance
 246. Strobogrammatic Number
 247. Strobogrammatic Number II
+248. Strobogrammatic Number III
 249. Group Shifted Strings
 252. Meeting Rooms
 253. Meeting Rooms II
