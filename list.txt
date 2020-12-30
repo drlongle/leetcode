@@ -222,6 +222,7 @@
 242. Valid Anagram
 243. Shortest Word Distance
 246. Strobogrammatic Number
+247. Strobogrammatic Number II
 249. Group Shifted Strings
 252. Meeting Rooms
 253. Meeting Rooms II
