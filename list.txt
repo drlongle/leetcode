@@ -1034,6 +1034,7 @@
 1636. Sort Array by Increasing Frequency
 1637. Widest Vertical Area Between Two Points Containing No Points
 1638. Count Substrings That Differ by One Character
+1640. Check Array Formation Through Concatenation
 1641. Count Sorted Vowel Strings
 1642. Furthest Building You Can Reach
 1647. Minimum Deletions to Make Character Frequencies Unique
