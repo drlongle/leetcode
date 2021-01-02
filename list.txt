@@ -245,6 +245,7 @@
 283. Move Zeroes
 284. Peeking Iterator
 285. Inorder Successor in BST
+286. Walls and Gates
 287. Find the Duplicate Number
 289. Game of Life
 290. Word Pattern
