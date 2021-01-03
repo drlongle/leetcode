@@ -419,6 +419,7 @@
 522. Longest Uncommon Subsequence II
 524. Longest Word in Dictionary through Deleting
 525. Contiguous Array
+526. Beautiful Arrangement
 528. Random Pick with Weight
 529. Minesweeper
 530. Minimum Absolute Difference in BST
