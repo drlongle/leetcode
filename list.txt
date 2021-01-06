@@ -402,6 +402,7 @@
 477. Total Hamming Distance
 478. Generate Random Point in a Circle
 486. Predict the Winner
+489. Robot Room Cleaner
 494. Target Sum
 495. Teemo Attacking
 497. Random Point in Non-overlapping Rectangles
