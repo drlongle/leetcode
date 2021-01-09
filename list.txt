@@ -959,6 +959,7 @@
 1503. Last Moment Before All Ants Fall Out of a Plank
 1504. Count Submatrices With All Ones
 1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits
+1506. Find Root of N-Ary Tree
 1507. Reformat Date
 1508. Range Sum of Sorted Subarray Sums
 1509. Minimum Difference Between Largest and Smallest Value in Three Moves
