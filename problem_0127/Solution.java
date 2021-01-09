@@ -41,18 +41,16 @@ public class Solution {
     }
 
     public int ladderLength(String beginWord, String endWord,
-        Set<String> wordList)
+        List<String> wList)
     {
-	if (beginWord.equals(endWord))
-	    return 1;
-
+    Set<String> wordList = new HashSet<String>(wList);
 	Deque<QueueEntry> queue = new ArrayDeque<>();
 	queue.offer(new QueueEntry(beginWord,1));
-	if (wordList.contains(beginWord))
-	    wordList.remove(beginWord);
 	while (!queue.isEmpty())
 	{
 	    QueueEntry e = queue.poll();
+	    if (e.word.equals(endWord))
+          return e.hops;
   	    for (int i = 0; i < e.word.length(); ++i)
 	    {
 		char[] chars = e.word.toCharArray();
@@ -60,9 +58,7 @@ public class Solution {
 	        {
   	            chars[i] = ch;
   	            String word = new String(chars);
-	            if (word.equals(endWord))
-	    	        return e.hops+1;
-	            else if (wordList.contains(word))
+	            if (wordList.contains(word))
 	            {
 	                QueueEntry newEntry = new QueueEntry(word, e.hops+1);
 	                queue.offer(newEntry);
@@ -79,10 +75,8 @@ public class Solution {
 	Solution sol = new Solution();
 	String beginWord = "hit";
 	String endWord = "cog";
-	Set<String> wordList = new HashSet<String>(Arrays.asList(
-	    "hot","dot","dog","lot","log"));
+	List<String> wordList = Arrays.asList( "hot","dot","dog","lot","log");
 	int res = sol.ladderLength(beginWord, endWord, wordList);
 	Logger.getGlobal().info("Result: " + res);
     }
 }
-
