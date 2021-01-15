@@ -1051,6 +1051,7 @@
 1640. Check Array Formation Through Concatenation
 1641. Count Sorted Vowel Strings
 1642. Furthest Building You Can Reach
+1646. Get Maximum in Generated Array
 1647. Minimum Deletions to Make Character Frequencies Unique
 1648. Sell Diminishing-Valued Colored Balls
 1652. Defuse the Bomb
