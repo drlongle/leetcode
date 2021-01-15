@@ -424,6 +424,7 @@
 520. Detect Capital
 521. Longest Uncommon Subsequence I
 522. Longest Uncommon Subsequence II
+523. Continuous Subarray Sum
 524. Longest Word in Dictionary through Deleting
 525. Contiguous Array
 526. Beautiful Arrangement
