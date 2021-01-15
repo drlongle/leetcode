@@ -433,6 +433,7 @@
 530. Minimum Absolute Difference in BST
 532. K-diff Pairs in an Array
 535. Encode and Decode TinyURL
+536. Construct Binary Tree from String
 538. Convert BST to Greater Tree
 539. Minimum Time Difference
 540. Single Element in a Sorted Array
