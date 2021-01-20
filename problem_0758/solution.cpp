@@ -1,30 +1,22 @@
 /*
-616. Add Bold Tag in String
-Medium
+758. Bold Words in String
+Easy
 
-Given a string s and a list of strings dict, you need to add a closed pair of bold tag <b> and </b>
-to wrap the substrings in s that exist in dict. If two such substrings overlap, you need to wrap them
-together by only one pair of closed bold tag. Also, if two substrings wrapped by bold tags are
-consecutive, you need to combine them.
+Given a set of keywords words and a string S, make all appearances of all keywords in S bold.
+Any letters between <b> and </b> tags become bold.
 
-Example 1:
-Input:
-s = "abcxyz123"
-dict = ["abc","123"]
-Output:
-"<b>abc</b>xyz<b>123</b>"
+The returned string should use the least number of tags possible, and of course the tags
+should form a valid combination.
 
-Example 2:
-Input:
-s = "aaabbcc"
-dict = ["aaa","aab","bc"]
-Output:
-"<b>aaabbc</b>c"
+For example, given that words = ["ab", "bc"] and S = "aabcd", we should return "a<b>abc</b>d".
+Note that returning "a<b>a<b>b</b>c</b>d" would use more tags, so it is incorrect.
 
 Constraints:
-The given dict won't contain duplicates, and its length won't exceed 100.
-All the strings in input have length in range [1, 1000].
-Note: This question is the same as 758: https://leetcode.com/problems/bold-words-in-string/
+words has length in range [0, 50].
+words[i] has length in range [1, 10].
+S has length in range [0, 500].
+All characters in words[i] and S are lowercase letters.
+Note: This question is the same as 616: https://leetcode.com/problems/add-bold-tag-in-string/
 */
 
 #include <algorithm>
@@ -64,7 +56,7 @@ public:
     vector<pair<int, int>> occurs;
     static constexpr int hash = 997;
 
-    void find(string& needle, string& s) {
+    void find(const string& needle, const string& s) {
         int sz = needle.size();
         int n = s.size();
         int nsum = 0;
@@ -90,7 +82,7 @@ public:
         }
     }
 
-    string addBoldTag(string s, vector<string>& dict) {
+    string boldWords(vector<string>& dict, const string& s) {
         occurs.clear();
         for (auto& d: dict)
             find(d, s);
@@ -121,17 +113,5 @@ public:
 };
 
 int main() {
-    Solution sol;
-    string s;
-    vector<string> dict;
-
-    s = "abcxyz123";
-    dict = {"abc","123"};
-    cout << sol.addBoldTag(s, dict) << endl;
-
-    s = "aaabbcc";
-    dict = {"aaa","aab","bc"};
-    cout << sol.addBoldTag(s, dict) << endl;
-
     return 0;
 }
