@@ -1064,6 +1064,7 @@
 1652. Defuse the Bomb
 1658. Minimum Operations to Reduce X to Zero
 1662. Check If Two String Arrays are Equivalent
+1673. Find the Most Competitive Subsequence
 1679. Max Number of K-Sum Pairs
 1684. Count the Number of Consistent Strings
 1685. Sum of Absolute Differences in a Sorted Array
