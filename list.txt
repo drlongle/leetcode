@@ -749,6 +749,7 @@
 1237. Find Positive Integer Solution for a Given Equation
 1238. Circular Permutation in Binary Representation
 1239. Maximum Length of a Concatenated String with Unique Characters
+1242. Web Crawler Multithreaded
 1243. Array Transformation
 1244. Design A Leaderboard
 1245. Tree Diameter
