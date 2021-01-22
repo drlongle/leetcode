@@ -522,6 +522,7 @@
 809. Expressive Words
 821. Shortest Distance to a Character
 824. Goat Latin
+825. Friends Of Appropriate Ages
 830. Positions of Large Groups
 832. Flipping an Image
 833. Find And Replace in String
