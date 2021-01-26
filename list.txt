@@ -478,6 +478,7 @@
 678. Valid Parenthesis String
 680. Valid Palindrome II
 684. Redundant Connection
+695. Max Area of Island
 700. Search in a Binary Search Tree
 701. Insert into a Binary Search Tree
 704. Binary Search
