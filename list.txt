@@ -1078,6 +1078,7 @@
 1662. Check If Two String Arrays are Equivalent
 1673. Find the Most Competitive Subsequence
 1679. Max Number of K-Sum Pairs
+1680. Concatenation of Consecutive Binary Numbers
 1684. Count the Number of Consistent Strings
 1685. Sum of Absolute Differences in a Sorted Array
 1686. Stone Game VI
