@@ -633,6 +633,7 @@
 1043. Partition Array for Maximum Sum
 1044. Longest Duplicate Substring
 1046. Last Stone Weight
+1047. Remove All Adjacent Duplicates In String
 1048. Longest String Chain
 1051. Height Checker
 1060. Missing Element in Sorted Array
