@@ -251,6 +251,7 @@
 285. Inorder Successor in BST
 286. Walls and Gates
 287. Find the Duplicate Number
+288. Unique Word Abbreviation
 289. Game of Life
 290. Word Pattern
 292. Nim Game
