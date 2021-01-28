@@ -1078,6 +1078,7 @@
 1657. Determine if Two Strings Are Close
 1658. Minimum Operations to Reduce X to Zero
 1662. Check If Two String Arrays are Equivalent
+1663. Smallest String With A Given Numeric Value
 1673. Find the Most Competitive Subsequence
 1679. Max Number of K-Sum Pairs
 1680. Concatenation of Consecutive Binary Numbers
