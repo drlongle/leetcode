@@ -584,6 +584,7 @@
 952. Largest Component Size by Common Factor
 953. Verifying an Alien Dictionary
 957. Prison Cells After N Days
+958. Check Completeness of a Binary Tree
 967. Numbers With Same Consecutive Differences
 969. Pancake Sorting
 973. K Closest Points to Origin
