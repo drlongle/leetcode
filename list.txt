@@ -507,6 +507,7 @@
 740. Delete and Earn
 743. Network Delay Time
 745. Prefix and Suffix Search
+750. Number Of Corner Rectangles
 752. Open the Lock
 754. Reach a Number
 756. Pyramid Transition Matrix
