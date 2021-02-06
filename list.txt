@@ -1100,4 +1100,5 @@
 1716. Calculate Money in Leetcode Bank
 1720. Decode XORed Array
 1748. Sum of Unique Elements
+1749. Maximum Absolute Sum of Any Subarray
 
