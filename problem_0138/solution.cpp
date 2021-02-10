@@ -36,30 +36,30 @@ Return a deep copy of the list.
 
 using namespace std;
 
-struct RandomListNode {
-    int label;
-    RandomListNode *next, *random;
-    RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+struct Node {
+    int val;
+    Node *next, *random;
+    Node(int x) : val(x), next(NULL), random(NULL) {}
 };
 
 class Solution {
 public:
-    RandomListNode *copyRandomList(RandomListNode *head) {
+    Node *copyRandomList(Node *head) {
         if (!head) return NULL;
-        RandomListNode* curr = head;
+        Node* curr = head;
 
         while (curr) {
-            RandomListNode* newnode = new RandomListNode(curr->label);
+            Node* newnode = new Node(curr->val);
             newnode->next = curr->next;
             newnode->random = curr->random;
             curr->next = newnode;
             curr = newnode->next;
         }
 
-        RandomListNode* newhead = head->next;
+        Node* newhead = head->next;
         curr = head;
         while (curr) {
-            RandomListNode* newcurr = curr->next;
+            Node* newcurr = curr->next;
             if (curr->random)
                 newcurr->random = curr->random->next;
             curr = newcurr->next;
@@ -67,8 +67,8 @@ public:
 
         curr = head;
         while (curr) {
-            RandomListNode* newcurr = curr->next;
-            RandomListNode* nextcurr;
+            Node* newcurr = curr->next;
+            Node* nextcurr;
             if (newcurr->next) {
                 nextcurr = newcurr->next;
                 newcurr->next = nextcurr->next;
