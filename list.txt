@@ -511,6 +511,7 @@
 738. Monotone Increasing Digits
 739. Daily Temperatures
 740. Delete and Earn
+742. Closest Leaf in a Binary Tree
 743. Network Delay Time
 745. Prefix and Suffix Search
 750. Number Of Corner Rectangles
