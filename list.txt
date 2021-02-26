@@ -1113,4 +1113,5 @@
 1749. Maximum Absolute Sum of Any Subarray
 1763. Longest Nice Substring
 1764. Form Array by Concatenating Subarrays of Another Array
+1765. Map of Highest Peak
 
