@@ -43,33 +43,27 @@ public:
         if (divisor ==1) return dividend;
         if (divisor ==numeric_limits<int>::min()) return 0;
 
-        if (divisor ==numeric_limits<int>::max())
-        {
-            if (dividend ==numeric_limits<int>::min() ||
-                dividend ==numeric_limits<int>::min()+1)
+        if (divisor ==numeric_limits<int>::max()) {
+            if (dividend ==numeric_limits<int>::min() || dividend ==numeric_limits<int>::min()+1)
                 return -1;
             else
                 return 0;
         }
-
         bool negative = is_negative(dividend) != is_negative(divisor);
         dividend = abs(dividend);
         divisor = abs(divisor);
         int i = 31;
         int64_t result = 0;
-        while (dividend>= divisor)
-        {
-            int temp = divisor << i;
-            if (temp > 0 && dividend >= (divisor << i))
-            {
-                result += 1 << i;
+        while(dividend>= divisor && i >= 0) {
+            long long temp = divisor << i;
+            if (temp > 0 && dividend >= (divisor << i)) {
+                result += ((long long) 1) << i;
                 dividend -= divisor << i;
             }
             --i;
         }
 
-        if (negative)
-            result = -result;
+        if (negative) result = -result;
         result = min(result, static_cast<int64_t>(numeric_limits<int>::max()));
         result = max(result, static_cast<int64_t>(numeric_limits<int>::min()));
         return static_cast<int>(result);
