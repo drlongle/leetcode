@@ -564,6 +564,7 @@
 880. Decoded String at Index
 881. Boats to Save People
 886. Possible Bipartition
+895. Maximum Frequency Stack
 896. Monotonic Array
 897. Increasing Order Search Tree
 898. Bitwise ORs of Subarrays
