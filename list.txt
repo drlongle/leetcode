@@ -1121,4 +1121,4 @@
 1765. Map of Highest Peak
 1768. Merge Strings Alternately
 1769. Minimum Number of Operations to Move All Balls to Each Box
-
+1770. Maximum Score from Performing Multiplication Operations
