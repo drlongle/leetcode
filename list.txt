@@ -309,6 +309,7 @@
 354. Russian Doll Envelopes
 355. Design Twitter
 357. Count Numbers with Unique Digits
+362. Design Hit Counter
 363. Max Sum of Rectangle No Larger Than K
 365. Water and Jug Problem
 367. Valid Perfect Square
