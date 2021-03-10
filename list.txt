@@ -1121,6 +1121,7 @@
 1720. Decode XORed Array
 1748. Sum of Unique Elements
 1749. Maximum Absolute Sum of Any Subarray
+1762. Buildings With an Ocean View
 1763. Longest Nice Substring
 1764. Form Array by Concatenating Subarrays of Another Array
 1765. Map of Highest Peak
