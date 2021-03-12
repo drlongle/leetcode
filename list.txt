@@ -260,6 +260,7 @@
 292. Nim Game
 295. Find Median from Data Stream
 297. Serialize and Deserialize Binary Tree
+298. Binary Tree Longest Consecutive Sequence
 299. Bulls and Cows
 300. Longest Increasing Subsequence
 301. Remove Invalid Parentheses
