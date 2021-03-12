@@ -451,6 +451,7 @@
 543. Diameter of Binary Tree
 544. Output Contest Matches
 545. Boundary of Binary Tree
+547. Number of Provinces
 548. Split Array with Equal Sum
 555. Split Concatenated Strings
 556. Next Greater Element III
