@@ -440,6 +440,7 @@
 528. Random Pick with Weight
 529. Minesweeper
 530. Minimum Absolute Difference in BST
+531. Lonely Pixel I
 532. K-diff Pairs in an Array
 535. Encode and Decode TinyURL
 536. Construct Binary Tree from String
