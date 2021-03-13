@@ -551,6 +551,7 @@
 809. Expressive Words
 820. Short Encoding of Words
 821. Shortest Distance to a Character
+823. Binary Trees With Factors
 824. Goat Latin
 825. Friends Of Appropriate Ages
 827. Making A Large Island
