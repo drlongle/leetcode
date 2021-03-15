@@ -579,6 +579,7 @@
 863. All Nodes Distance K in Binary Tree
 865. Smallest Subtree with all the Deepest Nodes
 866. Prime Palindrome
+875. Koko Eating Bananas
 876. Middle of the Linked List
 877. Stone Game
 880. Decoded String at Index
