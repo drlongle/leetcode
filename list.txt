@@ -678,6 +678,7 @@
 1053. Previous Permutation With One Swap
 1055. Shortest Way to Form String
 1060. Missing Element in Sorted Array
+1062. Longest Repeating Substring
 1072. Flip Columns For Maximum Number of Equal Rows
 1078. Occurrences After Bigram
 1079. Letter Tile Possibilities
