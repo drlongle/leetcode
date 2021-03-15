@@ -167,6 +167,7 @@
 167. Two Sum II - Input array is sorted
 168. Excel Sheet Column Title
 169. Majority Element
+170. Two Sum III - Data structure design
 171. Excel Sheet Column Number
 172. Factorial Trailing Zeroes
 173. Binary Search Tree Iterator
