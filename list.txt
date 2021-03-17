@@ -263,6 +263,8 @@
 290. Word Pattern
 291. Word Pattern II
 292. Nim Game
+293. Flip Game
+294. Flip Game II
 295. Find Median from Data Stream
 297. Serialize and Deserialize Binary Tree
 298. Binary Tree Longest Consecutive Sequence
