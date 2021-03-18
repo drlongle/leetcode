@@ -236,6 +236,7 @@
 252. Meeting Rooms
 253. Meeting Rooms II
 255. Verify Preorder Sequence in Binary Search Tree
+256. Paint House
 257. Binary Tree Paths
 258. Add Digits
 260. Single Number III
