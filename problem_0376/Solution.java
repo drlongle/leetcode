@@ -57,8 +57,7 @@ public class Solution {
                 diff = diff > 0 ? 1 : -1;
                 if (diff != prevdiff)
                 {
-                    if (prevdiff != 0)
-                        ++result;
+                    ++result;
                     prevdiff = diff;
                 }
             }
@@ -74,4 +73,3 @@ public class Solution {
         System.out.println("Result: " + sol.wiggleMaxLength(nums));
     }
 }
-
