@@ -252,6 +252,7 @@
 273. Integer to English Words
 274. H-Index
 275. H-Index II
+276. Paint Fence
 277. Find the Celebrity
 278. First Bad Version
 279. Perfect Squares
