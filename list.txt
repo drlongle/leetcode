@@ -689,6 +689,7 @@
 1051. Height Checker
 1053. Previous Permutation With One Swap
 1055. Shortest Way to Form String
+1056. Confusing Number
 1060. Missing Element in Sorted Array
 1062. Longest Repeating Substring
 1072. Flip Columns For Maximum Number of Equal Rows
