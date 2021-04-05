@@ -1165,3 +1165,4 @@
 1769. Minimum Number of Operations to Move All Balls to Each Box
 1770. Maximum Score from Performing Multiplication Operations
 1771. Maximize Palindrome Length From Subsequences
+1808. Maximize Number of Nice Divisors
