@@ -235,6 +235,7 @@
 251. Flatten 2D Vector
 252. Meeting Rooms
 253. Meeting Rooms II
+254. Factor Combinations
 255. Verify Preorder Sequence in Binary Search Tree
 256. Paint House
 257. Binary Tree Paths
