@@ -1,10 +1,4 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*
 Problem 354. Russian Doll Envelopes
 Difficulty: Hard
 
@@ -46,10 +40,10 @@ struct Doll {
 
 class Solution {
 public:
-    int maxEnvelopes(vector<pair<int, int>>& envelopes) {
+    int maxEnvelopes(vector<vector<int>>& envelopes) {
         vector<Doll> dolls;
         for (auto& p: envelopes) {
-            dolls.emplace_back(p.first, p.second);
+            dolls.emplace_back(p[0], p[1]);
         }
         for (int i = 0; i < dolls.size(); ++i)
             for (int j = i+1; j < dolls.size(); ++j)
@@ -69,9 +63,6 @@ public:
     }
 };
 
-/*
- * 
- */
 int main(int argc, char** argv) {
     Solution sol;
     vector<pair<int, int>> dolls{{5,4},{6,4},{6,7},{2,3}};
