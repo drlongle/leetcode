@@ -527,6 +527,7 @@
 712. Minimum ASCII Delete Sum for Two Strings
 713. Subarray Product Less Than K
 714. Best Time to Buy and Sell Stock with Transaction Fee
+716. Max Stack
 718. Maximum Length of Repeated Subarray
 721. Accounts Merge
 723. Candy Crush
