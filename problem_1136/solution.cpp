@@ -100,9 +100,8 @@ public:
             res = max(res, t);
         }
         node.m_state = State::VISITED;
-        node.dist = 1 + res;
 
-        return node.dist;
+        return node.dist = 1 + res;
     }
 
     vector<Node> nodes;
