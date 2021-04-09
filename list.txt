@@ -490,6 +490,7 @@
 621. Task Scheduler
 622. Design Circular Queue
 623. Add One Row to Tree
+625. Minimum Factorization
 628. Maximum Product of Three Numbers
 636. Exclusive Time of Functions
 637. Average of Levels in Binary Tree
