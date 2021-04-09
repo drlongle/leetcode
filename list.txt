@@ -1077,6 +1077,7 @@
 1551. Minimum Operations to Make Array Equal
 1552. Magnetic Force Between Two Balls
 1553. Minimum Number of Days to Eat N Oranges
+1554. Strings Differ by One Character
 1556. Thousand Separator
 1557. Minimum Number of Vertices to Reach All Nodes
 1558. Minimum Numbers of Function Calls to Make Target Array
