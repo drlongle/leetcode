@@ -9,7 +9,7 @@ public:
                 i = (i - n / 2) * 2 + 1;
             res++;
         }
-        
+
         return res;
     }
 };
