@@ -841,6 +841,7 @@
 1261. Find Elements in a Contaminated Binary Tree
 1262. Greatest Sum Divisible by Three
 1263. Minimum Moves to Move a Box to Their Target Location
+1265. Print Immutable Linked List in Reverse
 1266. Minimum Time Visiting All Points
 1267. Count Servers that Communicate
 1268. Search Suggestions System
