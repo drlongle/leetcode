@@ -623,6 +623,7 @@
 923. 3Sum With Multiplicity
 933. Number of Recent Calls
 935. Knight Dialer
+936. Stamping The Sequence
 938. Range Sum of BST
 939. Minimum Area Rectangle
 941. Valid Mountain Array
