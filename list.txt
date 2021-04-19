@@ -523,6 +523,7 @@
 695. Max Area of Island
 700. Search in a Binary Search Tree
 701. Insert into a Binary Search Tree
+702. Search in a Sorted Array of Unknown Size
 704. Binary Search
 705. Design HashSet
 706. Design HashMap
