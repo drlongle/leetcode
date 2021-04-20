@@ -4,19 +4,22 @@ class Node(object):
         self.val = val
         self.children = children
 
+
 class Solution(object):
-    def preorder(self, root):
+    def postorder(self, root):
         """
         :type root: Node
         :rtype: List[int]
         """
         if root is None:
             return []
-        
-        stack, output = [root, ], []            
+
+        stack, output = [root, ], []
         while stack:
             root = stack.pop()
-            output.append(root.val)
-            stack.extend(root.children[::-1])
-                
-        return output
+            if root is not None:
+                output.append(root.val)
+            for c in root.children:
+                stack.append(c)
+
+        return output[::-1]

@@ -12,7 +12,7 @@ class Node {
 };
 
 class Solution {
-  public List<Integer> preorder(Node root) {
+  public List<Integer> postorder(Node root) {
     LinkedList<Node> stack = new LinkedList<>();
     LinkedList<Integer> output = new LinkedList<>();
     if (root == null) {
@@ -22,10 +22,11 @@ class Solution {
     stack.add(root);
     while (!stack.isEmpty()) {
       Node node = stack.pollLast();
-      output.add(node.val);
-      Collections.reverse(node.children);
+      output.addFirst(node.val);
       for (Node item : node.children) {
-        stack.add(item);
+        if (item != null) {
+          stack.add(item);
+        }
       }
     }
     return output;

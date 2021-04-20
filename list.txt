@@ -482,6 +482,7 @@
 581. Shortest Unsorted Continuous Subarray
 582. Kill Process
 589. N-ary Tree Preorder Traversal
+590. N-ary Tree Postorder Traversal
 593. Valid Square
 594. Longest Harmonious Subsequence
 600. Non-negative Integers without Consecutive Ones
