@@ -524,6 +524,7 @@
 692. Top K Frequent Words
 694. Number of Distinct Islands
 695. Max Area of Island
+696. Count Binary Substrings
 700. Search in a Binary Search Tree
 701. Insert into a Binary Search Tree
 702. Search in a Sorted Array of Unknown Size
