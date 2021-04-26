@@ -705,6 +705,7 @@
 1055. Shortest Way to Form String
 1056. Confusing Number
 1057. Campus Bikes
+1059. All Paths from Source Lead to Destination
 1060. Missing Element in Sorted Array
 1062. Longest Repeating Substring
 1072. Flip Columns For Maximum Number of Equal Rows
