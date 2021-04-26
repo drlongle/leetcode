@@ -1189,4 +1189,5 @@
 1827. Minimum Operations to Make the Array Increasing
 1828. Queries on Number of Points Inside a Circle
 1829. Maximum XOR for Each Query
+1832. Check if the Sentence Is Pangram
 1835. Find XOR Sum of All Pairs Bitwise AND
