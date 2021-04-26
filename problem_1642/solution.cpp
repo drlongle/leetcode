@@ -31,9 +31,9 @@ Input: heights = [14,3,19,3], bricks = 17, ladders = 0
 Output: 3
 
 Constraints:
-1 <= heights.length <= 105
-1 <= heights[i] <= 106
-0 <= bricks <= 109
+1 <= heights.length <= 10^5
+1 <= heights[i] <= 10^6
+0 <= bricks <= 10^9
 0 <= ladders <= heights.length
 */
 
