@@ -240,6 +240,7 @@
 256. Paint House
 257. Binary Tree Paths
 258. Add Digits
+259. 3Sum Smaller
 260. Single Number III
 261. Graph Valid Tree
 263. Ugly Number
