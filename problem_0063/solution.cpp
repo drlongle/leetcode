@@ -59,7 +59,7 @@ int Solution::uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid)
     if (!n) return 0;
     if (obstacleGrid[m-1][n-1]) return 0;
 
-    vector<vector<int>> nums = vector<vector<int>>(m, vector<int>(n, 0));
+    vector<vector<long long>> nums(m, vector<long long>(n, 0));
 
     nums[m-1][n-1] = 1;
 
