@@ -37,7 +37,7 @@ public:
         int s_size = high;
         if (high == -1) return {-1, -1};
         int begin = -1, end = -1;
-        int middle;
+        int middle = low;
         while(low < high)
         {
             if (nums[low] == target && nums[high] == target) return {low, high};
