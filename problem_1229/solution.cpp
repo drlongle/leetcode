@@ -63,7 +63,7 @@ public:
             if (res && res.value()[1] - res.value()[0] >= duration) {
                 res.value()[1] = res.value()[0] + duration;
                 return res.value();
-            } if (lambda(slots1[i1], slots2[i2]))
+            } if (slots1[i1][1] <= slots2[i2][1])
                 ++i1;
             else
                 ++i2;
