@@ -486,6 +486,7 @@
 575. Distribute Candies
 581. Shortest Unsorted Continuous Subarray
 582. Kill Process
+583. Delete Operation for Two Strings
 589. N-ary Tree Preorder Traversal
 590. N-ary Tree Postorder Traversal
 593. Valid Square
