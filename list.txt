@@ -1104,6 +1104,7 @@
 1561. Maximum Number of Coins You Can Get
 1562. Find Latest Group of Size M
 1563. Stone Game V
+1564. Put Boxes Into the Warehouse I
 1566. Detect Pattern of Length M Repeated K or More Times
 1567. Maximum Length of Subarray With Positive Product
 1568. Minimum Number of Days to Disconnect Island
