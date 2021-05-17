@@ -620,6 +620,7 @@
 901. Online Stock Span
 902. Numbers At Most N Given Digit Set
 905. Sort Array By Parity
+906. Super Palindromes
 907. Sum of Subarray Minimums
 908. Smallest Range I
 910. Smallest Range II
