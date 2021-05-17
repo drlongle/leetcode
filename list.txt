@@ -648,6 +648,7 @@
 958. Check Completeness of a Binary Tree
 966. Vowel Spellchecker
 967. Numbers With Same Consecutive Differences
+968. Binary Tree Cameras
 969. Pancake Sorting
 970. Powerful Integers
 971. Flip Binary Tree To Match Preorder Traversal
