@@ -1208,3 +1208,4 @@
 1835. Find XOR Sum of All Pairs Bitwise AND
 1844. Replace All Digits with Characters
 1845. Seat Reservation Manager
+1846. Maximum Element After Decreasing and Rearranging
