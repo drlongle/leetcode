@@ -296,6 +296,7 @@
 317. Shortest Distance from All Buildings
 318. Maximum Product of Word Lengths
 319. Bulb Switcher
+320. Generalized Abbreviation
 321. Create Maximum Number
 322. Coin Change
 323. Number of Connected Components in an Undirected Graph
