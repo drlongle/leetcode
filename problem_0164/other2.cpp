@@ -1,38 +1,28 @@
-int maximumGap(vector<int>& nums)
-{
-    if (nums.empty() || nums.size() < 2)
-        return 0;
+class Solution {
+public:
+    int maximumGap(vector<int>& nums) {
+        const int n = nums.size();
+        if(n < 2) return 0;
+        int ans = 0;
+        const auto& [minV, maxV] = minmax_element(nums.begin(), nums.end());
+        const int range = *maxV - *minV;
+        const int bucket_size = max(1, range/(n-1)); // minimum possible maximum gap, to prove it, refer to [1]
+        const int bucket_num = range/bucket_size + 1; // minimum bucket number to hold ALL the array items
+        vector<int> bucket_mins(bucket_num, INT_MAX);
+        vector<int> bucket_maxs(bucket_num, INT_MIN);
+        for(auto& num: nums){
+            int bucket_idx = (num - *minV)/bucket_size;
+            bucket_mins[bucket_idx] = min(bucket_mins[bucket_idx], num);
+            bucket_maxs[bucket_idx] = max(bucket_maxs[bucket_idx], num);
+        }
 
-    int maxVal = *max_element(nums.begin(), nums.end());
-
-    int exp = 1;                                 // 1, 10, 100, 1000 ...
-    int radix = 10;                              // base 10 system
-
-    vector<int> aux(nums.size());
-
-    /* LSD Radix Sort */
-    while (maxVal / exp > 0) {                   // Go through all digits from LSD to MSD
-        vector<int> count(radix, 0);
-
-        for (int i = 0; i < nums.size(); i++)    // Counting sort
-            count[(nums[i] / exp) % 10]++;
-
-        for (int i = 1; i < count.size(); i++)   // you could also use partial_sum()
-            count[i] += count[i - 1];
-
-        for (int i = nums.size() - 1; i >= 0; i--)
-            aux[--count[(nums[i] / exp) % 10]] = nums[i];
-
-        for (int i = 0; i < nums.size(); i++)
-            nums[i] = aux[i];
-
-        exp *= 10;
+        int pre_maxV = bucket_maxs[0];
+        for(int i = 1; i < bucket_num; i++){
+            if(bucket_mins[i]!=INT_MAX) { // ensure current bucket is non-empty
+                ans = max(ans, bucket_mins[i] - pre_maxV);
+                pre_maxV = bucket_maxs[i];
+            }
+        }
+        return ans;
     }
-
-    int maxGap = 0;
-
-    for (int i = 0; i < nums.size() - 1; i++)
-        maxGap = max(nums[i + 1] - nums[i], maxGap);
-
-    return maxGap;
-}
+};
