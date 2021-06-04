@@ -1218,3 +1218,4 @@
 1846. Maximum Element After Decreasing and Rearranging
 1876. Substrings of Size Three with Distinct Characters
 1877. Minimize Maximum Pair Sum in Array
+1878. Get Biggest Three Rhombus Sums in a Grid
