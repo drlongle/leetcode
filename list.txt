@@ -1222,3 +1222,4 @@
 1879. Minimum XOR Sum of Two Arrays
 1880. Check if Word Equals Summation of Two Words
 1881. Maximum Value after Insertion
+1882. Process Tasks Using Servers
