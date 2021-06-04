@@ -1217,3 +1217,4 @@
 1845. Seat Reservation Manager
 1846. Maximum Element After Decreasing and Rearranging
 1876. Substrings of Size Three with Distinct Characters
+1877. Minimize Maximum Pair Sum in Array
