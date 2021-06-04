@@ -1216,3 +1216,4 @@
 1844. Replace All Digits with Characters
 1845. Seat Reservation Manager
 1846. Maximum Element After Decreasing and Rearranging
+1876. Substrings of Size Three with Distinct Characters
