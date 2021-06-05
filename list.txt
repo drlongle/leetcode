@@ -337,6 +337,7 @@
 361. Bomb Enemy
 362. Design Hit Counter
 363. Max Sum of Rectangle No Larger Than K
+364. Nested List Weight Sum II
 365. Water and Jug Problem
 366. Find Leaves of Binary Tree
 367. Valid Perfect Square
@@ -557,6 +558,7 @@
 731. My Calendar II
 732. My Calendar III
 733. Flood Fill
+734. Sentence Similarity
 735. Asteroid Collision
 738. Monotone Increasing Digits
 739. Daily Temperatures
