@@ -575,6 +575,7 @@
 754. Reach a Number
 756. Pyramid Transition Matrix
 758. Bold Words in String
+760. Find Anagram Mappings
 762. Prime Number of Set Bits in Binary Representation
 763. Partition Labels
 764. Largest Plus Sign
