@@ -334,6 +334,7 @@
 355. Design Twitter
 357. Count Numbers with Unique Digits
 359. Logger Rate Limiter
+360. Sort Transformed Array
 361. Bomb Enemy
 362. Design Hit Counter
 363. Max Sum of Rectangle No Larger Than K
