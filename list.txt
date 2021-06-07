@@ -570,6 +570,7 @@
 742. Closest Leaf in a Binary Tree
 743. Network Delay Time
 745. Prefix and Suffix Search
+746. Min Cost Climbing Stairs
 750. Number Of Corner Rectangles
 752. Open the Lock
 754. Reach a Number
