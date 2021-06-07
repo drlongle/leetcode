@@ -502,6 +502,7 @@
 593. Valid Square
 594. Longest Harmonious Subsequence
 600. Non-negative Integers without Consecutive Ones
+604. Design Compressed String Iterator
 605. Can Place Flowers
 609. Find Duplicate File in System
 616. Add Bold Tag in String
