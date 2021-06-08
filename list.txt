@@ -451,6 +451,7 @@
 498. Diagonal Traverse
 500. Keyboard Row
 503. Next Greater Element II
+505. The Maze II
 507. Perfect Number
 508. Most Frequent Subtree Sum
 509. Fibonacci Number
