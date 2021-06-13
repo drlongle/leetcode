@@ -31,6 +31,7 @@
 #include <vector>
 
 #include "common/ListNode.h"
+#include "common/Node.h"
 #include "common/TreeNode.h"
 
 using namespace std;

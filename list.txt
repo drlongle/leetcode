@@ -1070,6 +1070,7 @@
 1487. Making File Names Unique
 1488. Avoid Flood in The City
 1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+1490. Clone N-ary Tree
 1491. Average Salary Excluding the Minimum and Maximum Salary
 1492. The kth Factor of n
 1493. Longest Subarray of 1's After Deleting One Element
