@@ -1193,6 +1193,7 @@
 1685. Sum of Absolute Differences in a Sorted Array
 1686. Stone Game VI
 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
+1690. Stone Game VII
 1694. Reformat Phone Number
 1695. Maximum Erasure Value
 1696. Jump Game VI
