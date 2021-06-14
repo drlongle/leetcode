@@ -1202,6 +1202,7 @@
 1698. Number of Distinct Substrings in a String
 1700. Number of Students Unable to Eat Lunch
 1704. Determine if String Halves Are Alike
+1710. Maximum Units on a Truck
 1716. Calculate Money in Leetcode Bank
 1720. Decode XORed Array
 1721. Swapping Nodes in a Linked List
