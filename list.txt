@@ -446,6 +446,7 @@
 484. Find Permutation
 486. Predict the Winner
 489. Robot Room Cleaner
+490. The Maze
 494. Target Sum
 495. Teemo Attacking
 497. Random Point in Non-overlapping Rectangles
