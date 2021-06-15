@@ -438,6 +438,7 @@
 464. Can I Win
 468. Validate IP Address
 470. Implement Rand10() Using Rand7()
+473. Matchsticks to Square
 474. Ones and Zeroes
 476. Number Complement
 477. Total Hamming Distance
