@@ -23,7 +23,7 @@ public:
                 }
             }
         }
-        
+
         return res;
     }
 

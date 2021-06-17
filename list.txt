@@ -595,6 +595,7 @@
 787. Cheapest Flights Within K Stops
 791. Custom Sort String
 794. Valid Tic-Tac-Toe State
+795. Number of Subarrays with Bounded Maximum
 797. All Paths From Source to Target
 799. Champagne Tower
 804. Unique Morse Code Words
