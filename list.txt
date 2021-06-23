@@ -600,6 +600,7 @@
 795. Number of Subarrays with Bounded Maximum
 797. All Paths From Source to Target
 799. Champagne Tower
+800. Similar RGB Color
 804. Unique Morse Code Words
 806. Number of Lines To Write String
 809. Expressive Words
