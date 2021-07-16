@@ -511,6 +511,7 @@
 604. Design Compressed String Iterator
 605. Can Place Flowers
 609. Find Duplicate File in System
+611. Valid Triangle Number
 616. Add Bold Tag in String
 617. Merge Two Binary Trees
 621. Task Scheduler
