@@ -51,7 +51,7 @@ public:
         for (size_t i = 0; i < m_nums.size(); ++i) {
             res[i] = m_nums[m_index[i]];
         }
-        next_permutation(begin(m_index), end(m_index));
+        random_shuffle(begin(m_index), end(m_index));
         
         return res;
     }
