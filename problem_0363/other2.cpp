@@ -1,3 +1,5 @@
+class Solution {
+public:
 int maxSumK(vector<int> &nums, int K) {
         set<int> s;
         int      ans = INT_MIN;
