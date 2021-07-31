@@ -1,6 +1,6 @@
 int trap(vector<int>& height)
 {
-    if(height == null)
+    if(height.empty())
         return 0;
     int ans = 0;
     int size = height.size();
