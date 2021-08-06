@@ -446,6 +446,7 @@
 478. Generate Random Point in a Circle
 480. Sliding Window Median
 484. Find Permutation
+485. Max Consecutive Ones
 486. Predict the Winner
 489. Robot Room Cleaner
 490. The Maze
