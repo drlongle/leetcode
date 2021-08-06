@@ -639,6 +639,7 @@
 866. Prime Palindrome
 869. Reordered Power of 2
 870. Advantage Shuffle
+871. Minimum Number of Refueling Stops
 875. Koko Eating Bananas
 876. Middle of the Linked List
 877. Stone Game
