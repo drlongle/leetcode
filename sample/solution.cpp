@@ -36,6 +36,15 @@
 
 using namespace std;
 
+using ll = long long;
+using pi = pair<int, int>;
+using vi = vector<int>;
+using vii = vector<vector<int>>;
+using vl = vector<ll>;
+using vll = vector<vector<ll>>;
+
+#define fisz(n) for(int i = 0; i < n; ++i)
+
 int main() {
     Solution sol;
 
