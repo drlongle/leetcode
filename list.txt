@@ -448,6 +448,7 @@
 484. Find Permutation
 485. Max Consecutive Ones
 486. Predict the Winner
+487. Max Consecutive Ones II
 489. Robot Room Cleaner
 490. The Maze
 494. Target Sum
@@ -687,6 +688,7 @@
 951. Flip Equivalent Binary Trees
 952. Largest Component Size by Common Factor
 953. Verifying an Alien Dictionary
+954. Array of Doubled Pairs
 957. Prison Cells After N Days
 958. Check Completeness of a Binary Tree
 966. Vowel Spellchecker
