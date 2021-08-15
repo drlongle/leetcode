@@ -43,7 +43,7 @@ using vii = vector<vector<int>>;
 using vl = vector<ll>;
 using vll = vector<vector<ll>>;
 
-#define fisz(n) for(int i = 0; i < n; ++i)
+#define for_loop(n) for(int i = 0; i < n; ++i)
 
 int main() {
     Solution sol;
