@@ -603,6 +603,7 @@
 767. Reorganize String
 771. Jewels and Stones
 775. Global and Local Inversions
+776. Split BST
 778. Swim in Rising Water
 783. Minimum Distance Between BST Nodes
 784. Letter Case Permutation
