@@ -763,6 +763,7 @@
 1055. Shortest Way to Form String
 1056. Confusing Number
 1057. Campus Bikes
+1058. Minimize Rounding Error to Meet Target
 1059. All Paths from Source Lead to Destination
 1060. Missing Element in Sorted Array
 1061. Lexicographically Smallest Equivalent String
