@@ -58,10 +58,9 @@ public:
                     count[i] = 0;
             }
             else
-                count[i] = (i == ssize-1 || s[i+1] == '0') ? 1 : count[i+1];
-            if (((s[i] == '1') || (s[i] == '2' && i+1 < ssize
-                && s[i+1] <= '6')) && s[i+1] > '0')
-                count[i] += (i == ssize-2) ? 1 : count[i+2]; 
+                count[i] = (i == ssize-1) ? 1 : count[i+1];
+            if (((s[i] == '1') || (s[i] == '2'&& s[i+1] <= '6')) && i+1 < ssize)
+                count[i] += (i == ssize-2) ? 1 : count[i+2];
         }
 
         return count[0];
@@ -72,6 +71,10 @@ int main()
 {
     Solution sol;
     string s;
+
+    // Expected: 3
+    s = "1201234";
+    cout << "Result: " << sol.numDecodings(s) << endl;
 
     // Expected: 2
     s = "12";
