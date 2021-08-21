@@ -282,6 +282,7 @@
 299. Bulls and Cows
 300. Longest Increasing Subsequence
 301. Remove Invalid Parentheses
+302. Smallest Rectangle Enclosing Black Pixels
 303. Range Sum Query - Immutable
 304. Range Sum Query 2D - Immutable
 306. Additive Number
