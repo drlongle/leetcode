@@ -285,6 +285,7 @@
 302. Smallest Rectangle Enclosing Black Pixels
 303. Range Sum Query - Immutable
 304. Range Sum Query 2D - Immutable
+305. Number of Islands II
 306. Additive Number
 307. Range Sum Query - Mutable
 309. Best Time to Buy and Sell Stock with Cooldown
