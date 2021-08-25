@@ -547,6 +547,7 @@
 652. Find Duplicate Subtrees
 653. Two Sum IV - Input is a BST
 654. Maximum Binary Tree
+656. Coin Path
 658. Find K Closest Elements
 659. Split Array into Consecutive Subsequences
 662. Maximum Width of Binary Tree
