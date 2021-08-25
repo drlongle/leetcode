@@ -782,6 +782,7 @@
 1079. Letter Tile Possibilities
 1080. Insufficient Nodes in Root to Leaf Paths
 1081. Smallest Subsequence of Distinct Characters
+1086. High Five
 1087. Brace Expansion
 1089. Duplicate Zeros
 1090. Largest Values From Labels
