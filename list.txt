@@ -777,6 +777,7 @@
 1061. Lexicographically Smallest Equivalent String
 1062. Longest Repeating Substring
 1064. Fixed Point
+1065. Index Pairs of a String
 1066. Campus Bikes II
 1072. Flip Columns For Maximum Number of Equal Rows
 1074. Number of Submatrices That Sum to Target
