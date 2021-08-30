@@ -776,6 +776,7 @@
 1060. Missing Element in Sorted Array
 1061. Lexicographically Smallest Equivalent String
 1062. Longest Repeating Substring
+1063. Number of Valid Subarrays
 1064. Fixed Point
 1065. Index Pairs of a String
 1066. Campus Bikes II
