@@ -504,6 +504,7 @@
 562. Longest Line of Consecutive One in Matrix
 563. Binary Tree Tilt
 564. Find the Closest Palindrome
+565. Array Nesting
 566. Reshape the Matrix
 567. Permutation in String
 572. Subtree of Another Tree
