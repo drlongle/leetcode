@@ -788,6 +788,7 @@
 1079. Letter Tile Possibilities
 1080. Insufficient Nodes in Root to Leaf Paths
 1081. Smallest Subsequence of Distinct Characters
+1085. Sum of Digits in the Minimum Number
 1086. High Five
 1087. Brace Expansion
 1088. Confusing Number II
