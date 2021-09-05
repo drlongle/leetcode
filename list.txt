@@ -507,6 +507,7 @@
 565. Array Nesting
 566. Reshape the Matrix
 567. Permutation in String
+568. Maximum Vacation Days
 572. Subtree of Another Tree
 573. Squirrel Simulation
 575. Distribute Candies
