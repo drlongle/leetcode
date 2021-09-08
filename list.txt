@@ -651,6 +651,7 @@
 844. Backspace String Compare
 845. Longest Mountain in Array
 846. Hand of Straights
+848. Shifting Letters
 849. Maximize Distance to Closest Person
 851. Loud and Rich
 856. Score of Parentheses
