@@ -106,7 +106,7 @@ inline int calc(char ch, int n1, int n2)
 }
 
 inline int string_to_int(string&s , int begin, int end) {
-    int result = 0;
+    long long result = 0;
     while (begin <= end && s[begin] == ' ') ++begin;
     while (begin <= end && s[end] == ' ') --end;
     while (begin <= end) {
