@@ -616,6 +616,7 @@
 764. Largest Plus Sign
 767. Reorganize String
 771. Jewels and Stones
+774. Minimize Max Distance to Gas Station
 775. Global and Local Inversions
 776. Split BST
 778. Swim in Rising Water
