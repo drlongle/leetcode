@@ -337,6 +337,7 @@
 355. Design Twitter
 356. Line Reflection
 357. Count Numbers with Unique Digits
+358. Rearrange String k Distance Apart
 359. Logger Rate Limiter
 360. Sort Transformed Array
 361. Bomb Enemy
