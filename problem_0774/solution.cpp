@@ -67,8 +67,6 @@ using vii = vector<vector<int>>;
 using vl = vector<ll>;
 using vll = vector<vector<ll>>;
 
-#define for_loop(n) for(int i = 0; i < n; ++i)
-
 class Solution {
 public:
     bool check(vector <int>& stations, int k, double distance) {

@@ -79,8 +79,6 @@ using vii = vector<vector<int>>;
 using vl = vector<ll>;
 using vll = vector<vector<ll>>;
 
-#define for_loop(n) for(int i = 0; i < n; ++i)
-
 class Solution {
 public:
     ListNode* deleteNodes(ListNode* head, int m, int n) {
