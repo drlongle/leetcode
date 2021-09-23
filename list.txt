@@ -569,6 +569,7 @@
 678. Valid Parenthesis String
 680. Valid Palindrome II
 681. Next Closest Time
+683. K Empty Slots
 684. Redundant Connection
 689. Maximum Sum of 3 Non-Overlapping Subarrays
 692. Top K Frequent Words
