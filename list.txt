@@ -592,6 +592,7 @@
 721. Accounts Merge
 723. Candy Crush
 726. Number of Atoms
+727. Minimum Window Subsequence
 729. My Calendar I
 731. My Calendar II
 732. My Calendar III
