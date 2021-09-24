@@ -1309,3 +1309,4 @@
 1880. Check if Word Equals Summation of Two Words
 1881. Maximum Value after Insertion
 1882. Process Tasks Using Servers
+1886. Determine Whether Matrix Can Be Obtained By Rotation
