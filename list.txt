@@ -1310,3 +1310,4 @@
 1881. Maximum Value after Insertion
 1882. Process Tasks Using Servers
 1886. Determine Whether Matrix Can Be Obtained By Rotation
+1887. Reduction Operations to Make the Array Elements Equal
