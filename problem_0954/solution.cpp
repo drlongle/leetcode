@@ -69,8 +69,6 @@ using vii = vector<vector<int>>;
 using vl = vector<ll>;
 using vll = vector<vector<ll>>;
 
-#define fisz(n) for(int i = 0; i < n; ++i)
-
 class Solution {
 public:
     bool canReorderDoubled(vector<int>& arr) {
