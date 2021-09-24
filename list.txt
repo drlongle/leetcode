@@ -556,6 +556,7 @@
 656. Coin Path
 658. Find K Closest Elements
 659. Split Array into Consecutive Subsequences
+660. Remove 9
 662. Maximum Width of Binary Tree
 663. Equal Tree Partition
 664. Strange Printer
