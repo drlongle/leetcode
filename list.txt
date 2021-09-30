@@ -1319,3 +1319,4 @@
 1893. Check if All the Integers in a Range Are Covered
 1894. Find the Student that Will Replace the Chalk
 1895. Largest Magic Square
+1897. Redistribute Characters to Make All Strings Equal
