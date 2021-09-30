@@ -1318,3 +1318,4 @@
 1888. Minimum Number of Flips to Make the Binary String Alternating
 1893. Check if All the Integers in a Range Are Covered
 1894. Find the Student that Will Replace the Chalk
+1895. Largest Magic Square
