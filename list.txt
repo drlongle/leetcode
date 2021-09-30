@@ -627,6 +627,7 @@
 775. Global and Local Inversions
 776. Split BST
 778. Swim in Rising Water
+782. Transform to Chessboard
 783. Minimum Distance Between BST Nodes
 784. Letter Case Permutation
 785. Is Graph Bipartite?
