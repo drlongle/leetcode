@@ -444,6 +444,7 @@
 468. Validate IP Address
 469. Convex Polygon
 470. Implement Rand10() Using Rand7()
+471. Encode String with Shortest Length
 473. Matchsticks to Square
 474. Ones and Zeroes
 476. Number Complement
