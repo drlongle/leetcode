@@ -98,11 +98,16 @@ public:
                     q.emplace(j, p.second + 1);
                 }
             }
-            for (int j: lookup[arr[i]]) {
-                if (j !=i && !visited[j]) {
-                    visited[j] = 1;
-                    q.emplace(j, p.second + 1);
+            auto it = lookup.find(arr[i]);
+            if (it != lookup.end())
+            {
+                for (int j: lookup[arr[i]]) {
+                    if (j !=i && !visited[j]) {
+                        visited[j] = 1;
+                        q.emplace(j, p.second + 1);
+                    }
                 }
+                lookup.erase(it);
             }
             q.pop();
         }
