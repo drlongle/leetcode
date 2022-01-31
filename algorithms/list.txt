@@ -1257,6 +1257,7 @@
 1660. Correct a Binary Tree
 1662. Check If Two String Arrays are Equivalent
 1663. Smallest String With A Given Numeric Value
+1672. Richest Customer Wealth
 1673. Find the Most Competitive Subsequence
 1675. Minimize Deviation in Array
 1676. Lowest Common Ancestor of a Binary Tree IV
