@@ -55,6 +55,12 @@ class Solution {
 public:
 
     string removeKdigits(string num, int k) {
+        string s = helper(num, k);
+        auto pos = s.find_first_not_of('0');
+        return (pos == string::npos) ? "0" : s.substr(pos);
+    }
+
+    string helper(string num, int k) {
         if (num.size() == k)
             return "0";
         if (!k)
@@ -63,10 +69,12 @@ public:
         auto pos = num.find('0');
         if (pos != string::npos && pos <= k) {
             k -= pos;
+            if (count_if(num.begin() + pos, num.end(), [] (char c) {return c != '0';}) < k)
+                return "0";
             pos = num.find_first_not_of('0', pos);
             if (pos == string::npos)
                 return "0";
-            return removeKdigits(num.substr(pos), k);
+            return helper(num.substr(pos), k);
         }
 
         string new_num;
@@ -89,7 +97,7 @@ public:
         
         new_num.pop_back();
 
-        return removeKdigits(new_num, k-1);
+        return helper(new_num, k-1);
     }
 };
 
