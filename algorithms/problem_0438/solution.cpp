@@ -78,12 +78,13 @@ public:
 
         int psize = static_cast<int>(p.size());
         int ssize = static_cast<int>(s.size());
-        int count = 0;
+        int count = 0, last_clear = -1;
         for (int i = 0; i < ssize; ++i) {
             char c = s[i];
             if (expected.find(c) == expected.end()) {
                 running.clear();
                 count = 0;
+                last_clear = i;
                 continue;
             }
             if (++running[c] == expected[c]) {
@@ -91,11 +92,13 @@ public:
                     res.emplace_back(i-psize+1);
             }
             if (i >= psize-1) {
-                c = s[i-psize+1];
-                if (expected.find(c) != expected.end() &&
-                    running.find(c) != running.end() && count > 0) {
-                    if (running[c]-- == expected[c])
-                        --count;
+              if (i - psize + 1 <= last_clear)
+                continue;
+              c = s[i - psize + 1];
+              if (expected.find(c) != expected.end() &&
+                  running.find(c) != running.end() && count > 0) {
+                if (running[c]-- == expected[c])
+                  --count;
                 }
             }
         }
