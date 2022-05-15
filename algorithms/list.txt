@@ -1329,4 +1329,5 @@
 1897. Redistribute Characters to Make All Strings Equal
 1898. Maximum Number of Removable Characters
 1899. Merge Triplets to Form Target Triplet
+2260. Minimum Consecutive Cards to Pick Up
 2261. K Divisible Elements Subarrays
