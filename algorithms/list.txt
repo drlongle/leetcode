@@ -1281,6 +1281,7 @@
 1716. Calculate Money in Leetcode Bank
 1720. Decode XORed Array
 1721. Swapping Nodes in a Linked List
+1739. Building Boxes
 1748. Sum of Unique Elements
 1749. Maximum Absolute Sum of Any Subarray
 1762. Buildings With an Ocean View
