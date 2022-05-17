@@ -571,6 +571,7 @@
 673. Number of Longest Increasing Subsequence
 677. Map Sum Pairs
 678. Valid Parenthesis String
+679. 24 Game
 680. Valid Palindrome II
 681. Next Closest Time
 682. Baseball Game
