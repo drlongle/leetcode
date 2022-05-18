@@ -577,6 +577,7 @@
 682. Baseball Game
 683. K Empty Slots
 684. Redundant Connection
+685. Redundant Connection II
 689. Maximum Sum of 3 Non-Overlapping Subarrays
 692. Top K Frequent Words
 694. Number of Distinct Islands
