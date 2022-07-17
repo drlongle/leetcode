@@ -465,6 +465,7 @@
 488. Zuma Game
 489. Robot Room Cleaner
 490. The Maze
+491. Increasing Subsequences
 493. Reverse Pairs
 494. Target Sum
 495. Teemo Attacking
