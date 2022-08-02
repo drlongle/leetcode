@@ -480,6 +480,7 @@
 509. Fibonacci Number
 510. Inorder Successor in BST II
 513. Find Bottom Left Tree Value
+514. Freedom Trail
 515. Find Largest Value in Each Tree Row
 516. Longest Palindromic Subsequence
 518. Coin Change 2
