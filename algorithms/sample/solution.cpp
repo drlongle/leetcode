@@ -20,6 +20,7 @@
 #include <numeric>
 #include <queue>
 #include <random>
+#include <ranges>
 #include <regex>
 #include <set>
 #include <sstream>

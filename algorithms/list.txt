@@ -483,6 +483,7 @@
 514. Freedom Trail
 515. Find Largest Value in Each Tree Row
 516. Longest Palindromic Subsequence
+517. Super Washing Machines
 518. Coin Change 2
 520. Detect Capital
 521. Longest Uncommon Subsequence I
