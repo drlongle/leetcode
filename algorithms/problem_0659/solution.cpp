@@ -68,14 +68,16 @@ public:
                 ++head, ++cnt;
             }
 
-            for (auto it = streaks.begin(); it != streaks.end(); --cnt) {
+            for (auto it = streaks.begin(); it != streaks.end();) {
                 if (curr != prev + 1 || cnt <= 0) {
                     if (prev - *it < 2)
                         return false;
                     else
                         it = streaks.erase(it);
-                } else
+                } else {
                     ++it;
+                    --cnt;
+                }
             }
 
             while (cnt-- > 0) {
@@ -107,6 +109,14 @@ int main() {
     
     // Output: False
     nums = {1,2,3,4,4,5};
+    cout << boolalpha << sol.isPossible(nums) << endl;
+
+    // Output: True
+    nums = {1, 2, 3, 5, 6, 7};
+    cout << boolalpha << sol.isPossible(nums) << endl;
+
+    // Output: False
+    nums = {1, 2, 3, 5, 5, 6, 7};
     cout << boolalpha << sol.isPossible(nums) << endl;
 
     return 0;
