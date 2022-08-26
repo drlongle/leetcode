@@ -513,6 +513,7 @@
 547. Number of Provinces
 548. Split Array with Equal Sum
 549. Binary Tree Longest Consecutive Sequence II
+551. Student Attendance Record I
 552. Student Attendance Record II
 553. Optimal Division
 554. Brick Wall
