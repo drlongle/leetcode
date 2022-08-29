@@ -581,6 +581,7 @@
 665. Non-decreasing Array
 666. Path Sum IV
 667. Beautiful Arrangement II
+668. Kth Smallest Number in Multiplication Table
 669. Trim a Binary Search Tree
 670. Maximum Swap
 673. Number of Longest Increasing Subsequence
