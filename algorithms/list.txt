@@ -584,6 +584,7 @@
 668. Kth Smallest Number in Multiplication Table
 669. Trim a Binary Search Tree
 670. Maximum Swap
+672. Bulb Switcher II
 673. Number of Longest Increasing Subsequence
 677. Map Sum Pairs
 678. Valid Parenthesis String
