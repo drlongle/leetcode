@@ -563,6 +563,7 @@
 635. Design Log Storage System
 636. Exclusive Time of Functions
 637. Average of Levels in Binary Tree
+638. Shopping Offers
 639. Decode Ways II
 644. Maximum Average Subarray II
 645. Set Mismatch
