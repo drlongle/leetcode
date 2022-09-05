@@ -1319,6 +1319,7 @@
 1770. Maximum Score from Performing Multiplication Operations
 1771. Maximize Palindrome Length From Subsequences
 1775. Equal Sum Arrays With Minimum Number of Operations
+1776. Car Fleet II
 1804. Implement Trie II (Prefix Tree)
 1805. Number of Different Integers in a String
 1806. Minimum Number of Operations to Reinitialize a Permutation
