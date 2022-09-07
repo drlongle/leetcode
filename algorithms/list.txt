@@ -545,6 +545,7 @@
 600. Non-negative Integers without Consecutive Ones
 604. Design Compressed String Iterator
 605. Can Place Flowers
+606. Construct String from Binary Tree
 609. Find Duplicate File in System
 611. Valid Triangle Number
 616. Add Bold Tag in String
