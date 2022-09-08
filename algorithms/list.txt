@@ -570,6 +570,7 @@
 645. Set Mismatch
 647. Palindromic Substrings
 648. Replace Words
+650. 2 Keys Keyboard
 651. 4 Keys Keyboard
 652. Find Duplicate Subtrees
 653. Two Sum IV - Input is a BST
