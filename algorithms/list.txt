@@ -1359,6 +1359,7 @@
 1898. Maximum Number of Removable Characters
 1899. Merge Triplets to Form Target Triplet
 1996. The Number of Weak Characters in the Game
+2023. Number of Pairs of Strings With Concatenation Equal to Target
 2259. Remove Digit From Number to Maximize Result
 2260. Minimum Consecutive Cards to Pick Up
 2261. K Divisible Elements Subarrays
