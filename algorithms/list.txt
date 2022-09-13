@@ -590,6 +590,7 @@
 670. Maximum Swap
 672. Bulb Switcher II
 673. Number of Longest Increasing Subsequence
+676. Implement Magic Dictionary
 677. Map Sum Pairs
 678. Valid Parenthesis String
 679. 24 Game
