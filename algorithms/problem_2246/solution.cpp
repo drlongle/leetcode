@@ -85,24 +85,17 @@ using vll = vector<vector<ll>>;
 
 class Solution {
   public:
-    struct Result {
-        char ch;
-        size_t cnt;
-        Result(char c) : ch(c), cnt(1) {}
-    };
-
     unordered_map<int, vector<int>> graph;
     size_t res = 0;
-    Result visit(int node, const string &s) {
+    size_t visit(int node, const string &s) {
         char ch = s[node];
-        Result r(ch);
+        size_t r = 1;
         priority_queue<int, vector<int>, greater<int>> pq;
         for (int c : graph[node]) {
             auto t = visit(c, s);
-            if (t.ch != ch) {
-                if (t.cnt >= r.cnt)
-                    r.cnt = t.cnt + 1;
-                pq.push(t.cnt);
+            if (s[c] != ch) {
+                r = max(r, t + 1);
+                pq.push(t);
                 if (pq.size() > 2)
                     pq.pop();
             }
@@ -115,7 +108,7 @@ class Solution {
             res = max(res, size_t(a + b + 1));
         }
 
-        res = max(res, r.cnt);
+        res = max(res, r);
         return r;
     }
 
