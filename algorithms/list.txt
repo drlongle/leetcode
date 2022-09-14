@@ -720,6 +720,7 @@
 900. RLE Iterator
 901. Online Stock Span
 902. Numbers At Most N Given Digit Set
+904. Fruit Into Baskets
 905. Sort Array By Parity
 906. Super Palindromes
 907. Sum of Subarray Minimums
