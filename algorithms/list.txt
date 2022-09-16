@@ -739,6 +739,7 @@
 923. 3Sum With Multiplicity
 924. Minimize Malware Spread
 925. Long Pressed Name
+928. Minimize Malware Spread II
 929. Unique Email Addresses
 933. Number of Recent Calls
 935. Knight Dialer
