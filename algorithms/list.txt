@@ -833,6 +833,7 @@
 1064. Fixed Point
 1065. Index Pairs of a String
 1066. Campus Bikes II
+1071. Greatest Common Divisor of Strings
 1072. Flip Columns For Maximum Number of Equal Rows
 1074. Number of Submatrices That Sum to Target
 1078. Occurrences After Bigram
