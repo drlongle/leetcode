@@ -669,6 +669,7 @@
 792. Number of Matching Subsequences
 794. Valid Tic-Tac-Toe State
 795. Number of Subarrays with Bounded Maximum
+796. Rotate String
 797. All Paths From Source to Target
 799. Champagne Tower
 800. Similar RGB Color
