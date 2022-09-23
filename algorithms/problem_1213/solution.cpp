@@ -2,8 +2,9 @@
 1213. Intersection of Three Sorted Arrays
 Easy
 
-Given three integer arrays arr1, arr2 and arr3 sorted in strictly increasing order,
-return a sorted array of only the integers that appeared in all three arrays.
+Given three integer arrays arr1, arr2 and arr3 sorted in strictly increasing
+order, return a sorted array of only the integers that appeared in all three
+arrays.
 
 Example 1:
 Input: arr1 = [1,2,3,4,5], arr2 = [1,2,5,7,9], arr3 = [1,3,4,5,8]
@@ -39,17 +40,18 @@ using namespace std;
 #define ull unsigned long long
 
 class Solution {
-public:
-    vector<int> arraysIntersection(vector<int>& arr1, vector<int>& arr2, vector<int>& arr3) {
+  public:
+    vector<int> arraysIntersection(vector<int> &arr1, vector<int> &arr2,
+                                   vector<int> &arr3) {
         vector<int> ans;
         map<int, int> count;
-        for (int i: arr1)
+        for (int i : arr1)
             ++count[i];
-        for (int i: arr2)
+        for (int i : arr2)
             ++count[i];
-        for (int i: arr3)
+        for (int i : arr3)
             ++count[i];
-        for (auto& p: count) {
+        for (auto &p : count) {
             if (p.second == 3)
                 ans.emplace_back(p.first);
         }
@@ -62,10 +64,10 @@ int main() {
     vector<int> arr1, arr2, arr3;
 
     // Output: {1,5}
-    arr1 = {1,2,3,4,5}, arr2 = {1,2,5,7,9}, arr3 = {1,3,4,5,8};
+    arr1 = {1, 2, 3, 4, 5}, arr2 = {1, 2, 5, 7, 9}, arr3 = {1, 3, 4, 5, 8};
 
     auto ans = sol.arraysIntersection(arr1, arr2, arr3);
     copy(begin(ans), end(ans), ostream_iterator<int>(cout, ", "));
-    
+
     return 0;
 }
