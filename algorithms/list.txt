@@ -666,6 +666,7 @@
 784. Letter Case Permutation
 785. Is Graph Bipartite?
 787. Cheapest Flights Within K Stops
+788. Rotated Digits
 791. Custom Sort String
 792. Number of Matching Subsequences
 794. Valid Tic-Tac-Toe State
