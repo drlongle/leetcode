@@ -57,8 +57,8 @@ using namespace std;
 class Solution {
 public:
     int maxSubArrayLen(vector<int>& nums, int k) {
-        unordered_map<int, int> table {{0, -1}};
-        int sum = 0, n = nums.size(), res = 0;
+        unordered_map<long long, long long> table {{0, -1}};
+        long long sum = 0, n = nums.size(), res = 0;
         for (int i = 0; i < n; ++i) {
             sum += nums[i];
             auto it = table.find(sum - k);
