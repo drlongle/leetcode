@@ -469,6 +469,7 @@
 493. Reverse Pairs
 494. Target Sum
 495. Teemo Attacking
+496. Next Greater Element I
 497. Random Point in Non-overlapping Rectangles
 498. Diagonal Traverse
 500. Keyboard Row
