@@ -655,6 +655,7 @@
 762. Prime Number of Set Bits in Binary Representation
 763. Partition Labels
 764. Largest Plus Sign
+766. Toeplitz Matrix
 767. Reorganize String
 771. Jewels and Stones
 774. Minimize Max Distance to Gas Station
