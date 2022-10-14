@@ -1382,6 +1382,7 @@
 2000. Reverse Prefix of Word
 2007. Find Original Array From Doubled Array
 2023. Number of Pairs of Strings With Concatenation Equal to Target
+2095. Delete the Middle Node of a Linked List
 2246. Longest Path With Different Adjacent Characters
 2259. Remove Digit From Number to Maximize Result
 2260. Minimum Consecutive Cards to Pick Up
