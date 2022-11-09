@@ -99,8 +99,6 @@ class Solution {
                 reverse(word.begin(), word.end());
                 ++counters[word];
             }
-
-            // cout<<word<< "-"<<res<<endl;
         }
 
         for (const auto &[k, v] : counters) {
