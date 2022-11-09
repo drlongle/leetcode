@@ -31,13 +31,13 @@
 #include <unordered_set>
 #include <vector>
 
-#include "common/FenwickTree.h"
-#include "common/ListNode.h"
-#include "common/Node.h"
-#include "common/SegmentTree.h"
-#include "common/TreeNode.h"
-#include "common/UnionFind.h"
-#include "common/bits.h"
+#include "../common/FenwickTree.h"
+#include "../common/ListNode.h"
+#include "../common/Node.h"
+#include "../common/SegmentTree.h"
+#include "../common/TreeNode.h"
+#include "../common/UnionFind.h"
+#include "../common/bits.h"
 
 using namespace std;
 
@@ -49,7 +49,5 @@ using vl = vector<ll>;
 using vll = vector<vector<ll>>;
 
 int main() {
-    Solution sol;
-
     return 0;
 }

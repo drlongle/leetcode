@@ -1,5 +1,6 @@
 CXX     := g++
-CXXFLAGS := -Wall -Wextra -pedantic -Wno-unused-parameter -fno-strict-aliasing -std=c++20 -g -fsanitize=address -fsanitize=undefined -I..
+CXXFLAGS := -Wall -Wextra -pedantic -Wno-unused-parameter -fno-strict-aliasing -std=c++20 -g -fsanitize=address -fsanitize=undefined
+SOURCES = solution.cpp
 
 all: solution
 
@@ -8,6 +9,9 @@ solution: solution.o
 
 .cpp.o:
 	${CXX} -c ${CXXFLAGS} $<
+
+check: $(SOURCES)
+	clang-tidy -checks=-*,clang-analyzer-*,-clang-analyzer-cplusplus* $(SOURCES)
 
 clean:
 	rm -f solution *.o a.out *~
