@@ -610,6 +610,7 @@
 695. Max Area of Island
 696. Count Binary Substrings
 698. Partition to K Equal Sum Subsets
+699. Falling Squares
 700. Search in a Binary Search Tree
 701. Insert into a Binary Search Tree
 702. Search in a Sorted Array of Unknown Size
