@@ -10,8 +10,11 @@ solution: solution.o
 .cpp.o:
 	${CXX} -c ${CXXFLAGS} $<
 
-check: $(SOURCES)
+tidy: $(SOURCES)
 	clang-tidy -checks=-*,clang-analyzer-*,-clang-analyzer-cplusplus* $(SOURCES)
+
+check: $(SOURCES)
+	cppcheck . --enable=all
 
 clean:
 	rm -f solution *.o a.out *~
