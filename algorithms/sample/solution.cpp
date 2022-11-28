@@ -49,5 +49,6 @@ using vl = vector<ll>;
 using vll = vector<vector<ll>>;
 
 int main() {
+    cout << "Hello world!" << endl;
     return 0;
 }
