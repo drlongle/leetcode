@@ -1,5 +1,5 @@
 CXX     := g++
-CXXFLAGS := -Wall -Wextra -pedantic -Wno-unused-parameter -fno-strict-aliasing -std=c++20 -g -fsanitize=address -fsanitize=undefined
+CXXFLAGS := -Wall -Wextra -pedantic -Wno-unused-parameter -Werror -Wreturn-type -fno-strict-aliasing -std=c++20 -g -fsanitize=address -fsanitize=undefined
 SOURCES = solution.cpp
 
 all: solution
