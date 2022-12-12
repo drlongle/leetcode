@@ -1381,6 +1381,7 @@
 1897. Redistribute Characters to Make All Strings Equal
 1898. Maximum Number of Removable Characters
 1899. Merge Triplets to Form Target Triplet
+1926. Nearest Exit from Entrance in Maze
 1996. The Number of Weak Characters in the Game
 2000. Reverse Prefix of Word
 2007. Find Original Array From Doubled Array
