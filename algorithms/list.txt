@@ -751,6 +751,7 @@
 925. Long Pressed Name
 928. Minimize Malware Spread II
 929. Unique Email Addresses
+931. Minimum Falling Path Sum
 933. Number of Recent Calls
 935. Knight Dialer
 936. Stamping The Sequence
