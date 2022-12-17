@@ -37,16 +37,16 @@ using namespace std;
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
-        stack<int> numbers;
+        stack<long long> numbers;
         for (const auto& t: tokens) {
             if (t != "+" && t != "-" && t != "*" && t != "/")
-                numbers.emplace(stoi(t));
+                numbers.emplace(stoll(t));
             else {
-                int a = numbers.top();
+                auto a = numbers.top();
                 numbers.pop();
-                int b = numbers.top();
+                auto b = numbers.top();
                 numbers.pop();
-                int result;
+                long long result;
                 if (t == "+")
                     result = a+b;
                 else if (t == "-")
@@ -69,11 +69,14 @@ int main()
 {
     Solution sol;
     vector<string> tokens;
-    int result;
   
     tokens = {"0","3","/"};
-    result = sol.evalRPN(tokens);
-    cout << "Result: " << result << endl;
+    cout << "Result: " << sol.evalRPN(tokens) << endl;
+
+    tokens = {"-128", "-128", "*", "-128", "*", "-128",
+              "*",    "8",    "*", "-1",   "*"};
+    cout << "Result: " << sol.evalRPN(tokens) << endl;
+
     return 0;
 }
 
