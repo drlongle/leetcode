@@ -1384,6 +1384,7 @@
 1898. Maximum Number of Removable Characters
 1899. Merge Triplets to Form Target Triplet
 1926. Nearest Exit from Entrance in Maze
+1962. Remove Stones to Minimize the Total
 1971. Find if Path Exists in Graph
 1996. The Number of Weak Characters in the Game
 2000. Reverse Prefix of Word
