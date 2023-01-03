@@ -759,6 +759,7 @@
 938. Range Sum of BST
 939. Minimum Area Rectangle
 941. Valid Mountain Array
+944. Delete Columns to Make Sorted
 946. Validate Stack Sequences
 947. Most Stones Removed with Same Row or Column
 948. Bag of Tokens
