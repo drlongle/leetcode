@@ -2,7 +2,8 @@
 564. Find the Closest Palindrome
 Hard
 
-Given an integer n, find the closest integer (not including itself), which is a palindrome.
+Given an integer n, find the closest integer (not including itself), which is a
+palindrome.
 
 The 'closest' is defined as absolute difference minimized between two integers.
 
@@ -11,8 +12,8 @@ Input: "123"
 Output: "121"
 
 Note:
-The input n is a positive integer represented by string, whose length will not exceed 18.
-If there is a tie, return the smaller one as answer.
+The input n is a positive integer represented by string, whose length will not
+exceed 18. If there is a tie, return the smaller one as answer.
 */
 
 #include <algorithm>
@@ -47,7 +48,7 @@ If there is a tie, return the smaller one as answer.
 using namespace std;
 
 class Solution {
-public:
+  public:
     string fix(string s) {
         int i, j, sz = s.size();
         if (sz % 2 == 0) {
@@ -61,7 +62,7 @@ public:
         bool increased = false;
         for (; i >= 0; --i, ++j) {
             if (s[j] > s[i]) {
-                if (j > i+1) {
+                if (j > i + 1) {
                     s[j] = s[i];
                     if (!increased)
                         need_next = true;
@@ -92,7 +93,7 @@ public:
         int carry = 1;
         while (carry > 0) {
             if (i < 0) {
-                s = string(sz+1, '0');
+                s = string(sz + 1, '0');
                 s[0] = s.back() = '1';
                 return s;
             } else {
@@ -120,16 +121,15 @@ public:
         int carry = 1;
         while (carry > 0) {
             if (i < 0) {
-                return string(sz-1, '9');
+                return string(sz - 1, '9');
             } else {
                 --s[i];
                 if (i == 0 && s[i] == '0') {
                     if (sz == 1)
                         return "0";
-                    return string(sz-1, '9');
-                }
-                else if (s[i] < '0') {
-                    s[i] = '0';
+                    return string(sz - 1, '9');
+                } else if (s[i] < '0') {
+                    s[i] = '9';
                 } else
                     carry = 0;
                 s[j] = s[i];
@@ -141,7 +141,7 @@ public:
     }
 
     bool is_palindrome(string s) {
-        for (int i = 0, j = s.size()-1; i < j; ++i, --j) {
+        for (int i = 0, j = s.size() - 1; i < j; ++i, --j) {
             if (s[i] != s[j])
                 return false;
         }
@@ -188,7 +188,8 @@ public:
             else
                 dp.insert(dp.begin(), '0');
         }
-        cout << "next: " << n << ", dn: " << dn << ", prev: " << p << ", dp: " << dp << endl;
+        // cout << "next: " << n << ", dn: " << dn << ", prev: " << p << ", dp:
+        // " << dp << endl;
 
         return dp <= dn ? p : n;
     }
@@ -228,6 +229,10 @@ int main() {
 
     // Output: 9
     s = "11";
+    cout << sol.nearestPalindromic(s) << endl;
+
+    // Output: "8998"
+    s = "9009";
     cout << sol.nearestPalindromic(s) << endl;
 
     return 0;
