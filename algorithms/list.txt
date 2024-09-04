@@ -719,6 +719,7 @@
 870. Advantage Shuffle
 871. Minimum Number of Refueling Stops
 872. Leaf-Similar Trees
+874. Walking Robot Simulation
 875. Koko Eating Bananas
 876. Middle of the Linked List
 877. Stone Game
