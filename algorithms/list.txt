@@ -694,6 +694,7 @@
 830. Positions of Large Groups
 832. Flipping an Image
 833. Find And Replace in String
+834. Sum of Distances in Tree
 835. Image Overlap
 836. Rectangle Overlap
 837. New 21 Game
