@@ -649,6 +649,7 @@
 746. Min Cost Climbing Stairs
 750. Number Of Corner Rectangles
 752. Open the Lock
+753. Cracking the Safe
 754. Reach a Number
 755. Pour Water
 756. Pyramid Transition Matrix
