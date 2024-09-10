@@ -1,5 +1,5 @@
 CXX     := g++
-CXXFLAGS := -Wall -Wextra -Wno-unused-parameter -fno-strict-aliasing -std=c++17 -g -fsanitize=address
+CXXFLAGS := -Wall -Wextra -Wno-unused-parameter -fno-strict-aliasing -std=c++20 -g -fsanitize=address
 
 all: solution
 
