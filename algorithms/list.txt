@@ -1421,3 +1421,4 @@
 2997. Minimum Number of Operations to Make Array XOR Equal to K
 3000. Maximum Area of Longest Diagonal Rectangle
 3217. Delete Nodes From Linked List Present in Array
+3280. Convert Date to Binary
