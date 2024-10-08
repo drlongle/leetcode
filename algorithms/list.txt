@@ -1399,6 +1399,7 @@
 1926. Nearest Exit from Entrance in Maze
 1945. Sum of Digits of String After Convert
 1962. Remove Stones to Minimize the Total
+1963. Minimum Number of Swaps to Make the String Balanced
 1971. Find if Path Exists in Graph
 1996. The Number of Weak Characters in the Game
 2000. Reverse Prefix of Word
