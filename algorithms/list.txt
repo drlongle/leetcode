@@ -778,6 +778,7 @@
 954. Array of Doubled Pairs
 957. Prison Cells After N Days
 958. Check Completeness of a Binary Tree
+962. Maximum Width Ramp
 966. Vowel Spellchecker
 967. Numbers With Same Consecutive Differences
 968. Binary Tree Cameras
