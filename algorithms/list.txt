@@ -1398,6 +1398,7 @@
 1899. Merge Triplets to Form Target Triplet
 1905. Count Sub Islands
 1926. Nearest Exit from Entrance in Maze
+1942. The Number of the Smallest Unoccupied Chair
 1945. Sum of Digits of String After Convert
 1962. Remove Stones to Minimize the Total
 1963. Minimum Number of Swaps to Make the String Balanced
