@@ -1423,6 +1423,7 @@
 2279. Maximum Bags With Full Capacity of Rocks
 2326. Spiral Matrix IV
 2389. Longest Subsequence With Limited Sum
+2406. Divide Intervals Into Minimum Number of Groups
 2419. Longest Subarray With Maximum Bitwise AND
 2491. Divide Players Into Teams of Equal Skill
 2696. Minimum String Length After Removing Substrings
