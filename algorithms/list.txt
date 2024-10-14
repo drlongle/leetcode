@@ -1426,6 +1426,7 @@
 2406. Divide Intervals Into Minimum Number of Groups
 2419. Longest Subarray With Maximum Bitwise AND
 2491. Divide Players Into Teams of Equal Skill
+2530. Maximal Score After Applying K Operations
 2696. Minimum String Length After Removing Substrings
 2699. Modify Graph Edge Weights
 2807. Insert Greatest Common Divisors in Linked List
