@@ -1,0 +1,116 @@
+/*
+2490. Circular Sentence
+Easy
+
+A sentence is a list of words that are separated by a single space with no
+leading or trailing spaces.
+
+For example, "Hello World", "HELLO", "hello world hello world" are all
+sentences. Words consist of only uppercase and lowercase English letters.
+Uppercase and lowercase English letters are considered different.
+
+A sentence is circular if:
+
+The last character of a word is equal to the first character of the next word.
+The last character of the last word is equal to the first character of the first
+word. For example, "leetcode exercises sound delightful", "eetcode", "leetcode
+eats soul" are all circular sentences. However, "Leetcode is cool", "happy
+Leetcode", "Leetcode" and "I like Leetcode" are not circular sentences.
+
+Given a string sentence, return true if it is circular. Otherwise, return false.
+
+Example 1:
+Input: sentence = "leetcode exercises sound delightful"
+Output: true
+Explanation: The words in sentence are ["leetcode", "exercises", "sound",
+"delightful"].
+- leetcode's last character is equal to exercises's first character.
+- exercises's last character is equal to sound's first character.
+- sound's last character is equal to delightful's first character.
+- delightful's last character is equal to leetcode's first character.
+The sentence is circular.
+
+Example 2:
+Input: sentence = "eetcode"
+Output: true
+Explanation: The words in sentence are ["eetcode"].
+- eetcode's last character is equal to eetcode's first character.
+The sentence is circular.
+
+Example 3:
+Input: sentence = "Leetcode is cool"
+Output: false
+Explanation: The words in sentence are ["Leetcode", "is", "cool"].
+- Leetcode's last character is not equal to is's first character.
+The sentence is not circular.
+
+Constraints:
+1 <= sentence.length <= 500
+sentence consist of only lowercase and uppercase English letters and spaces.
+The words in sentence are separated by a single space.
+There are no leading or trailing spaces.
+*/
+
+#include <algorithm>
+#include <atomic>
+#include <bit>
+#include <bitset>
+#include <cassert>
+#include <climits>
+#include <cmath>
+#include <condition_variable>
+#include <functional>
+#include <future>
+#include <iomanip>
+#include <iostream>
+#include <iterator>
+#include <list>
+#include <map>
+#include <memory>
+#include <numeric>
+#include <queue>
+#include <random>
+#include <ranges>
+#include <regex>
+#include <set>
+#include <sstream>
+#include <stack>
+#include <string_view>
+#include <thread>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+
+#include "../common/FenwickTree.h"
+#include "../common/ListNode.h"
+#include "../common/Node.h"
+#include "../common/SegmentTree.h"
+#include "../common/TreeNode.h"
+#include "../common/UnionFind.h"
+#include "../common/bits.h"
+
+using namespace std;
+
+using ll = long long;
+using pi = pair<int, int>;
+using vi = vector<int>;
+using vii = vector<vector<int>>;
+using vl = vector<ll>;
+using vll = vector<vector<ll>>;
+
+class Solution {
+  public:
+    bool isCircularSentence(string sentence) {
+        istringstream iss(sentence);
+        string prev, curr;
+        while (getline(iss, curr, ' ')) {
+            if (!prev.empty() && prev.back() != curr.front()) {
+                return false;
+            }
+            prev = std::move(curr);
+        }
+        return sentence.front() == sentence.back();
+    }
+};
+
+int main() { return 0; }
