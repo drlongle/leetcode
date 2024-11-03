@@ -86,7 +86,7 @@ class Solution {
             if (s == t)
                 return true;
         }
-        return false;
+        return s == goal;
     }
 };
 
