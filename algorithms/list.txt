@@ -1422,6 +1422,7 @@
 2259. Remove Digit From Number to Maximize Result
 2260. Minimum Consecutive Cards to Pick Up
 2261. K Divisible Elements Subarrays
+2275. Largest Combination With Bitwise AND Greater Than Zero
 2279. Maximum Bags With Full Capacity of Rocks
 2326. Spiral Matrix IV
 2389. Longest Subsequence With Limited Sum
@@ -1439,6 +1440,7 @@
 2938. Separate Black and White Balls
 2997. Minimum Number of Operations to Make Array XOR Equal to K
 3000. Maximum Area of Longest Diagonal Rectangle
+3011. Find if Array Can Be Sorted
 3163. String Compression III
 3217. Delete Nodes From Linked List Present in Array
 3280. Convert Date to Binary
