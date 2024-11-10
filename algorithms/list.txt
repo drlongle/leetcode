@@ -1441,6 +1441,7 @@
 2997. Minimum Number of Operations to Make Array XOR Equal to K
 3000. Maximum Area of Longest Diagonal Rectangle
 3011. Find if Array Can Be Sorted
+3097. Shortest Subarray With OR at Least K II
 3163. String Compression III
 3217. Delete Nodes From Linked List Present in Array
 3280. Convert Date to Binary
