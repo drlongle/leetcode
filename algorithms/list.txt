@@ -1412,6 +1412,7 @@
 2023. Number of Pairs of Strings With Concatenation Equal to Target
 2028. Find Missing Observations
 2044. Count Number of Maximum Bitwise-OR Subsets
+2070. Most Beautiful Item for Each Query
 2095. Delete the Middle Node of a Linked List
 2131. Longest Palindrome by Concatenating Two Letter Words
 2136. Earliest Possible Day of Full Bloom
