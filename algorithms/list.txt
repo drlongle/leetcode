@@ -1432,6 +1432,7 @@
 2490. Circular Sentence
 2491. Divide Players Into Teams of Equal Skill
 2530. Maximal Score After Applying K Operations
+2563. Count the Number of Fair Pairs
 2583. Kth Largest Sum in a Binary Tree
 2641. Cousins in Binary Tree II
 2696. Minimum String Length After Removing Substrings
