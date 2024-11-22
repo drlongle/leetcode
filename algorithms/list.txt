@@ -1422,6 +1422,7 @@
 2225. Find Players With Zero or One Losses
 2246. Longest Path With Different Adjacent Characters
 2256. Minimum Average Difference
+2257. Count Unguarded Cells in the Grid
 2259. Remove Digit From Number to Maximize Result
 2260. Minimum Consecutive Cards to Pick Up
 2261. K Divisible Elements Subarrays
