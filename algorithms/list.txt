@@ -1438,6 +1438,7 @@
 2491. Divide Players Into Teams of Equal Skill
 2516. Take K of Each Character From Left and Right
 2530. Maximal Score After Applying K Operations
+2558. Take Gifts From the Richest Pile
 2563. Count the Number of Fair Pairs
 2583. Kth Largest Sum in a Binary Tree
 2641. Cousins in Binary Tree II
