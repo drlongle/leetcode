@@ -1454,6 +1454,7 @@
 3163. String Compression III
 3217. Delete Nodes From Linked List Present in Array
 3254. Find the Power of K-Size Subarrays I
+3264. Final Array State After K Multiplication Operations I
 3280. Convert Date to Binary
 3281. Maximize Score of Numbers in Ranges
 3282. Reach End of Array With Max Score
