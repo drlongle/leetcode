@@ -1453,6 +1453,7 @@
 3011. Find if Array Can Be Sorted
 3097. Shortest Subarray With OR at Least K II
 3163. String Compression III
+3191. Minimum Operations to Make Binary Array Elements Equal to One I
 3217. Delete Nodes From Linked List Present in Array
 3254. Find the Power of K-Size Subarrays I
 3264. Final Array State After K Multiplication Operations I
