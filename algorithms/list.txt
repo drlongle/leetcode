@@ -1407,6 +1407,7 @@
 1962. Remove Stones to Minimize the Total
 1963. Minimum Number of Swaps to Make the String Balanced
 1971. Find if Path Exists in Graph
+1976. Number of Ways to Arrive at Destination
 1996. The Number of Weak Characters in the Game
 2000. Reverse Prefix of Word
 2007. Find Original Array From Doubled Array
