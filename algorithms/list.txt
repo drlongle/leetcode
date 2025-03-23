@@ -1444,6 +1444,7 @@
 2563. Count the Number of Fair Pairs
 2583. Kth Largest Sum in a Binary Tree
 2641. Cousins in Binary Tree II
+2685. Count the Number of Complete Components
 2696. Minimum String Length After Removing Substrings
 2699. Modify Graph Edge Weights
 2807. Insert Greatest Common Divisors in Linked List
