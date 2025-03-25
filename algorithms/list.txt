@@ -1464,3 +1464,4 @@
 3280. Convert Date to Binary
 3281. Maximize Score of Numbers in Ranges
 3282. Reach End of Array With Max Score
+3394. Check if Grid can be Cut into Sections
