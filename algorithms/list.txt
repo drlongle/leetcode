@@ -1420,6 +1420,7 @@
 2115. Find All Possible Recipes from Given Supplies
 2131. Longest Palindrome by Concatenating Two Letter Words
 2136. Earliest Possible Day of Full Bloom
+2140. Solving Questions With Brainpower
 2220. Minimum Bit Flips to Convert Number
 2225. Find Players With Zero or One Losses
 2246. Longest Path With Different Adjacent Characters
@@ -1446,6 +1447,7 @@
 2696. Minimum String Length After Removing Substrings
 2699. Modify Graph Edge Weights
 2807. Insert Greatest Common Divisors in Linked List
+2873. Maximum Value of an Ordered Triplet I
 2914. Minimum Number of Changes to Make Binary String Beautiful
 2938. Separate Black and White Balls
 2997. Minimum Number of Operations to Make Array XOR Equal to K
