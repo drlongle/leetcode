@@ -1407,6 +1407,7 @@
 1962. Remove Stones to Minimize the Total
 1963. Minimum Number of Swaps to Make the String Balanced
 1971. Find if Path Exists in Graph
+1976. Number of Ways to Arrive at Destination
 1996. The Number of Weak Characters in the Game
 2000. Reverse Prefix of Word
 2007. Find Original Array From Doubled Array
@@ -1414,6 +1415,7 @@
 2022. Convert 1D Array Into 2D Array
 2023. Number of Pairs of Strings With Concatenation Equal to Target
 2028. Find Missing Observations
+2033. Minimum Operations to Make a Uni-Value Grid
 2044. Count Number of Maximum Bitwise-OR Subsets
 2070. Most Beautiful Item for Each Query
 2095. Delete the Middle Node of a Linked List
@@ -1444,8 +1446,10 @@
 2563. Count the Number of Fair Pairs
 2583. Kth Largest Sum in a Binary Tree
 2641. Cousins in Binary Tree II
+2685. Count the Number of Complete Components
 2696. Minimum String Length After Removing Substrings
 2699. Modify Graph Edge Weights
+2780. Minimum Index of a Valid Split
 2807. Insert Greatest Common Divisors in Linked List
 2873. Maximum Value of an Ordered Triplet I
 2914. Minimum Number of Changes to Make Binary String Beautiful
@@ -1456,6 +1460,7 @@
 3011. Find if Array Can Be Sorted
 3097. Shortest Subarray With OR at Least K II
 3163. String Compression III
+3169. Count Days Without Meetings
 3191. Minimum Operations to Make Binary Array Elements Equal to One I
 3217. Delete Nodes From Linked List Present in Array
 3254. Find the Power of K-Size Subarrays I
@@ -1463,3 +1468,4 @@
 3280. Convert Date to Binary
 3281. Maximize Score of Numbers in Ranges
 3282. Reach End of Array With Max Score
+3394. Check if Grid can be Cut into Sections
