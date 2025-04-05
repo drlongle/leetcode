@@ -1380,6 +1380,7 @@
 1846. Maximum Element After Decreasing and Rearranging
 1847. Closest Room
 1861. Rotating the Box
+1863. Sum of All Subset XOR Totals
 1865. Finding Pairs With a Certain Sum
 1876. Substrings of Size Three with Distinct Characters
 1877. Minimize Maximum Pair Sum in Array
@@ -1452,6 +1453,7 @@
 2780. Minimum Index of a Valid Split
 2807. Insert Greatest Common Divisors in Linked List
 2873. Maximum Value of an Ordered Triplet I
+2874. Maximum Value of an Ordered Triplet II
 2914. Minimum Number of Changes to Make Binary String Beautiful
 2938. Separate Black and White Balls
 2997. Minimum Number of Operations to Make Array XOR Equal to K
