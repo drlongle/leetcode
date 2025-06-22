@@ -1450,6 +1450,7 @@
 2685. Count the Number of Complete Components
 2696. Minimum String Length After Removing Substrings
 2699. Modify Graph Edge Weights
+2708. Maximum Strength of a Group
 2780. Minimum Index of a Valid Split
 2807. Insert Greatest Common Divisors in Linked List
 2873. Maximum Value of an Ordered Triplet I
