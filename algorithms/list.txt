@@ -1458,6 +1458,7 @@
 2938. Separate Black and White Balls
 2997. Minimum Number of Operations to Make Array XOR Equal to K
 3000. Maximum Area of Longest Diagonal Rectangle
+3034. Number of Subarrays That Match a Pattern I
 3066. Minimum Operations to Exceed Threshold Value II
 3085. Minimum Deletions to Make String K-Special
 3011. Find if Array Can Be Sorted
