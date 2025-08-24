@@ -630,6 +630,7 @@
 716. Max Stack
 717. 1-bit and 2-bit Characters
 718. Maximum Length of Repeated Subarray
+720. Longest Word in Dictionary
 721. Accounts Merge
 723. Candy Crush
 725. Split Linked List in Parts
