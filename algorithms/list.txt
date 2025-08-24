@@ -1428,6 +1428,7 @@
 2140. Solving Questions With Brainpower
 2220. Minimum Bit Flips to Convert Number
 2225. Find Players With Zero or One Losses
+2232. Minimize Result by Adding Parentheses to Expression
 2246. Longest Path With Different Adjacent Characters
 2256. Minimum Average Difference
 2257. Count Unguarded Cells in the Grid
