@@ -1482,3 +1482,4 @@
 3282. Reach End of Array With Max Score
 3325. Count Substrings With K-Frequency Characters I
 3394. Check if Grid can be Cut into Sections
+3659. Partition Array Into K-Distinct Groups
