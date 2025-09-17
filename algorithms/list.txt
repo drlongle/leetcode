@@ -1440,6 +1440,7 @@
 2275. Largest Combination With Bitwise AND Greater Than Zero
 2279. Maximum Bags With Full Capacity of Rocks
 2326. Spiral Matrix IV
+2374. Node With Highest Edge Score
 2389. Longest Subsequence With Limited Sum
 2406. Divide Intervals Into Minimum Number of Groups
 2419. Longest Subarray With Maximum Bitwise AND
